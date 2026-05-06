@@ -62,6 +62,36 @@ class TuneInStation:
             "title": self.title,
         }
 
+    def to_release(self):
+        """Return a mediavocab ``Release`` for this TuneIn station.
+
+        The Work is a radio station (``MediaType.RADIO``); the Release
+        carries the actual stream URL, codec hint, and bitrate.
+        ``StreamMode.CONTINUOUS`` reflects that radio is live linear
+        broadcast, not seekable on-demand audio.
+        """
+        from mediavocab import MediaType, Release, StreamMode, Work
+
+        external_ids = {}
+        if self.raw.get("url"):
+            external_ids["tunein_url"] = self.raw["url"]
+
+        work = Work(
+            title=self.title,
+            media_type=MediaType.RADIO,
+            external_ids=external_ids,
+            extra={"description": self.description} if self.description else {},
+        )
+        return Release(
+            work=work,
+            uri=self.stream or "",
+            image=self.image or "",
+            codec=self.media_type or "",
+            bitrate=str(self.bit_rate) if self.bit_rate else "",
+            stream_mode=StreamMode.CONTINUOUS,
+            external_ids=external_ids,
+        )
+
 
 class TuneIn:
     search_url = "https://opml.radiotime.com/Search.ashx"

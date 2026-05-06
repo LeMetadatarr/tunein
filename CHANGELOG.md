@@ -4,6 +4,15 @@
 
 [Full Changelog](https://github.com/TigreGotico/tunein/compare/V0.0.4a3...HEAD)
 
+**mediavocab integration:**
+
+- `mediavocab>=0.1.0` added to `requirements.txt`.
+- New `TuneInStation.to_release()` method returning a `mediavocab.Release`
+  with `MediaType.RADIO` + `StreamMode.CONTINUOUS` (per spec §4.8). The
+  TuneIn discovery URL goes to `external_ids["tunein_url"]`; codec /
+  bitrate / cover art are carried on the Release.
+- New offline test suite (`test/unittests/test_converter.py`, 7 cases).
+
 **Merged pull requests:**
 
 - chore: Configure Renovate [\#8](https://github.com/TigreGotico/tunein/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
