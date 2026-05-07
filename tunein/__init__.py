@@ -62,25 +62,59 @@ class TuneInStation:
             "title": self.title,
         }
 
+    @property
+    def station_id(self) -> str:
+        """Return the canonical TuneIn station id (e.g. ``s12345``).
+
+        Parsed from the OPML ``Tune.ashx?id=...`` URL when present;
+        falls back to an explicit ``station_id`` in the raw payload.
+        """
+        sid = self.raw.get("station_id")
+        if sid:
+            return str(sid)
+        url = self.raw.get("url") or ""
+        if "id=" in url:
+            try:
+                from urllib.parse import parse_qs, urlparse
+                qs = parse_qs(urlparse(url).query)
+                if qs.get("id"):
+                    return str(qs["id"][0])
+            except Exception:
+                pass
+        return ""
+
     def to_release(self):
         """Return a mediavocab ``Release`` for this TuneIn station.
 
-        The Work is a radio station (``MediaType.RADIO``); the Release
-        carries the actual stream URL, codec hint, and bitrate.
-        ``StreamMode.CONTINUOUS`` reflects that radio is live linear
-        broadcast, not seekable on-demand audio.
+        Per mediavocab axiom 8 (station identity), a TuneIn channel is a
+        ``Work`` with ``MediaType.RADIO`` and the playable stream URL is
+        a ``Release`` with ``StreamMode.CONTINUOUS`` (live linear
+        broadcast, not seekable on-demand audio).
         """
         from mediavocab import MediaType, Release, StreamMode, Work
 
-        external_ids = {}
+        external_ids: dict[str, str] = {}
         if self.raw.get("url"):
-            external_ids["tunein_url"] = self.raw["url"]
+            external_ids["tunein_url"] = str(self.raw["url"])
+        sid = self.station_id
+        if sid:
+            external_ids["tunein_station_id"] = sid
+
+        extra: dict[str, str] = {}
+        if self.description:
+            extra["description"] = self.description
+        # TuneIn's "current_track" is a now-playing label (no timestamps,
+        # so it can't be promoted to a Programme); keep it in extra.
+        if self.raw.get("current_track"):
+            extra["current_track"] = str(self.raw["current_track"])
 
         work = Work(
             title=self.title,
             media_type=MediaType.RADIO,
-            external_ids=external_ids,
-            extra={"description": self.description} if self.description else {},
+            country=str(self.raw.get("country") or ""),
+            language=str(self.raw.get("language") or ""),
+            external_ids=dict(external_ids),
+            extra=extra,
         )
         return Release(
             work=work,
@@ -89,7 +123,7 @@ class TuneInStation:
             codec=self.media_type or "",
             bitrate=str(self.bit_rate) if self.bit_rate else "",
             stream_mode=StreamMode.CONTINUOUS,
-            external_ids=external_ids,
+            external_ids=dict(external_ids),
         )
 
 
@@ -165,5 +199,7 @@ class TuneIn:
                         "description": entry.get("subtext"),
                         "image": entry.get("image"),
                         "query": query,
+                        "current_track": entry.get("current_track"),
+                        "station_id": entry.get("guide_id") or entry.get("preset_id"),
                     }
                 )

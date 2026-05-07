@@ -63,3 +63,37 @@ def test_to_release_handles_missing_fields():
     assert rel.codec == ""
     assert rel.bitrate == ""
     assert rel.image == ""
+
+
+def test_to_release_station_id_parsed_from_url():
+    s = _station(url="http://opml.radiotime.com/Tune.ashx?id=s12345")
+    rel = s.to_release()
+    assert rel.work.external_ids.get("tunein_station_id") == "s12345"
+    assert rel.external_ids.get("tunein_station_id") == "s12345"
+
+
+def test_to_release_explicit_station_id_wins():
+    s = _station(station_id="s99999",
+                 url="http://opml.radiotime.com/Tune.ashx?id=s12345")
+    rel = s.to_release()
+    assert rel.work.external_ids.get("tunein_station_id") == "s99999"
+
+
+def test_to_release_country_and_language_when_known():
+    s = _station(country="GB", language="en")
+    rel = s.to_release()
+    assert rel.work.country == "GB"
+    assert rel.work.language == "en"
+
+
+def test_to_release_current_track_in_extra():
+    s = _station(current_track="Some Song - Some Artist")
+    rel = s.to_release()
+    assert rel.work.extra.get("current_track") == "Some Song - Some Artist"
+
+
+def test_to_release_external_ids_are_strings():
+    rel = _station().to_release()
+    for k, v in rel.work.external_ids.items():
+        assert isinstance(k, str)
+        assert isinstance(v, str)
