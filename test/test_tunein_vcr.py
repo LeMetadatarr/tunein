@@ -31,7 +31,7 @@ def test_search_yields_typed_stations():
     results = TuneIn.search("kuow")
     assert isinstance(results, list)
     assert len(results) > 0
-    station = results[0]
+    station = _first(results)
     assert isinstance(station, TuneInStation)
     assert station.title
     assert station.stream, "expected resolved stream URL"
@@ -52,8 +52,9 @@ def test_featured_yields_typed_stations():
     stations = TuneIn.featured()
     assert isinstance(stations, list)
     assert len(stations) > 0
-    assert isinstance(stations[0], TuneInStation)
-    assert stations[0].title
+    first_station = _first(stations)
+    assert isinstance(first_station, TuneInStation)
+    assert first_station.title
 
 
 # --- TuneIn.get_stream_urls (Tune.ashx) ---------------------------------

@@ -75,11 +75,6 @@ class TestDefaultSession(unittest.TestCase):
         fake_session_instance = MagicMock(name="curl_cffi_session")
 
         class FakeSession:
-            def __init__(self, impersonate=None):
-                self.impersonate = impersonate
-                # delegate identity check below
-                fake_session_instance.impersonate = impersonate
-
             def __new__(cls, *a, **kw):
                 fake_session_instance.impersonate = kw.get("impersonate")
                 return fake_session_instance

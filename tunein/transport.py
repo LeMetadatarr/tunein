@@ -30,7 +30,7 @@ def default_session():
         try:
             from curl_cffi import requests as curl_requests  # type: ignore
             return curl_requests.Session(impersonate="chrome")
-        except Exception:
+        except ImportError:
             pass
     import requests
     return requests.Session()

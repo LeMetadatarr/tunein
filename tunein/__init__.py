@@ -423,20 +423,26 @@ class TuneIn:
             url_str = urlunparse(
                 _url._replace(scheme=scheme, query=_url.query + "&render=json")
             )
-            res = sess.get(url_str)
+            res = sess.get(url_str, timeout=10)
             try:
                 res.raise_for_status()
                 break
             except requests.exceptions.RequestException:
                 continue
         else:
-            return "Failed to get stream url"
+            return []
 
-        stations = res.json().get("body", {})
+        stations = res.json().get("body") or []
+        if not isinstance(stations, list):
+            return []
 
         for station in stations:
             if station.get("url", "").endswith(".pls"):
-                res = sess.get(station["url"])
+                try:
+                    res = sess.get(station["url"], timeout=10)
+                    res.raise_for_status()
+                except requests.exceptions.RequestException:
+                    continue
                 file1 = [line for line in res.text.split("\n") if line.startswith("File1=")]
                 if file1:
                     station["url"] = file1[0].split("File1=")[1]
@@ -448,8 +454,10 @@ class TuneIn:
         sess = _get_session(session)
         res = sess.post(
             cls.featured_url,
-            data={**cls.stnd_query, **{"c": "local"}}
+            data={**cls.stnd_query, **{"c": "local"}},
+            timeout=10,
         )
+        res.raise_for_status()
         stations = res.json().get("body", [{}])[0].get("children", [])
         return list(cls._get_stations(stations, enrich=enrich, session=sess))
 
@@ -464,8 +472,10 @@ class TuneIn:
         sess = _get_session(session)
         res = sess.post(
             cls.search_url,
-            data={**cls.stnd_query, **{"query": query}}
+            data={**cls.stnd_query, **{"query": query}},
+            timeout=10,
         )
+        res.raise_for_status()
         stations = res.json().get("body", [])
         return list(cls._get_stations(stations, query, enrich=enrich, session=sess))
 

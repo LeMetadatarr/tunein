@@ -237,7 +237,7 @@ class TestGetStreamUrls:
         bad.raise_for_status.side_effect = requests.exceptions.RequestException("bad")
         with patch("tunein.requests.get", return_value=bad):
             out = TuneIn.get_stream_urls("http://opml?id=s1")
-        assert out == "Failed to get stream url"
+        assert out == []
 
     def test_pls_fallback_extracts_file1(self):
         # First call: returns body with .pls station; second call fetches pls.
