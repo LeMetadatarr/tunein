@@ -1,0 +1,4610 @@
+interactions:
+- request:
+    body: formats=mp3%2Caac%2Cogg%2Chtml%2Chls&render=json&c=local
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/x-www-form-urlencoded
+    method: POST
+    uri: http://opml.radiotime.com/Browse.ashx
+  response:
+    body:
+      string: " { \"head\": {\t\"title\": \"Local Radio\",\n\t\"status\": \"200\"},
+        \"body\": [\n { \"element\" : \"outline\",\n\"text\" : \"Stations\",\n\"key\"
+        : \"stations\", \n\"children\": [\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Antena Minho 106.0 (Sports Talk & News)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s25767&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"160\",\n\"reliability\" : \"83\",\n\"guide_id\" : \"s25767\",\n\"subtext\"
+        : \"Manuela Barros\",\n\"genre_id\" : \"g2723\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p270973\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s25767q.png\",\n\"current_track\"
+        : \"Manuela Barros\",\n\"now_playing_id\" : \"s25767\",\n\"preset_id\" : \"s25767\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Beat
+        PT (Dance & Electronic)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s263406&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"98\",\n\"guide_id\" : \"s263406\",\n\"subtext\"
+        : \"The best dance music mix\",\n\"genre_id\" : \"g59\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s263406q.png\",\n\"now_playing_id\"
+        : \"s263406\",\n\"preset_id\" : \"s263406\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Costa Verde R\xE1dio Portugal (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s294589&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"97\",\n\"guide_id\" : \"s294589\",\n\"subtext\"
+        : \"\U0001F449A Sua Radio Portuguesa na Internet, Sempre em Portugu\xEAs,
+        Como V\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\" : \"station\",\n\"image\"
+        : \"http://cdn-profiles.tunein.com/s294589/images/logoq.png?t=152162\",\n\"now_playing_id\"
+        : \"s294589\",\n\"preset_id\" : \"s294589\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Cybernet Radio (Dance & Electronic)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s333737&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s333737\",\n\"subtext\"
+        : \"A musica que te toca, ela toca aqui. Cybernet radio, a numero um. A radio
+        com inteligencia artificia\",\n\"genre_id\" : \"g59\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s333737/images/logoq.jpg?t=2\",\n\"now_playing_id\"
+        : \"s333737\",\n\"preset_id\" : \"s333737\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Dance FM 105.8 (Rock)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s81858&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"28\",\n\"guide_id\" : \"s81858\",\n\"subtext\"
+        : \"Todos os dias m\xFAsicas novas!\",\n\"genre_id\" : \"g19\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s81858/images/logoq.png?t=1\",\n\"now_playing_id\"
+        : \"s81858\",\n\"preset_id\" : \"s81858\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Engenharia R\xE1dio (College Radio)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s107477&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s107477\",\n\"subtext\"
+        : \"A Engenharia R\xE1dio (ER) \xE9...\",\n\"genre_id\" : \"g6\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s107477q.png\",\n\"now_playing_id\"
+        : \"s107477\",\n\"preset_id\" : \"s107477\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Esmeralda Radio\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s336091&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s336091\",\n\"subtext\"
+        : \"All Dance Music\",\n\"formats\" : \"mp3\",\n\"item\" : \"station\",\n\"image\"
+        : \"http://cdn-profiles.tunein.com/s336091/images/logoq.jpg?t=1\",\n\"now_playing_id\"
+        : \"s336091\",\n\"preset_id\" : \"s336091\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Fama R\xE1dio Portugal 105 (80's)\",\n\"URL\" :
+        \"http://opml.radiotime.com/Tune.ashx?id=s334583&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s334583\",\n\"subtext\"
+        : \"A Melhor Sele\xE7\xE3o de Todas\",\n\"genre_id\" : \"g42\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s334583/images/logoq.png?t=2\",\n\"now_playing_id\"
+        : \"s334583\",\n\"preset_id\" : \"s334583\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"FestEventos - Este \xE9 o Teu Momento (Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s278383&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s278383\",\n\"subtext\"
+        : \"Este \xE9 o Teu Momento\",\n\"genre_id\" : \"g1\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s278383q.png\",\n\"now_playing_id\"
+        : \"s278383\",\n\"preset_id\" : \"s278383\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Geice FM 90.8 (80's)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s84208&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"320\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84208\",\n\"subtext\"
+        : \"Music Box\",\n\"genre_id\" : \"g42\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p763027\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s84208/images/logoq.jpg?t=161850\",\n\"current_track\"
+        : \"Music Box\",\n\"now_playing_id\" : \"s84208\",\n\"preset_id\" : \"s84208\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Golo
+        FM 94.8 (Portuguese Talk)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s231300&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"97\",\n\"guide_id\" : \"s231300\",\n\"subtext\"
+        : \"A Primeira R\xE1dio Desporto\",\n\"genre_id\" : \"g368\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s231300/images/logoq.jpg?t=1659715641000\",\n\"now_playing_id\"
+        : \"s231300\",\n\"preset_id\" : \"s231300\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Paivense FM 99.5 (Variety)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s172138&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"96\",\n\"reliability\" : \"90\",\n\"guide_id\" : \"s172138\",\n\"subtext\"
+        : \"PAIVENSE FM A SUA R\xC1DIO.\",\n\"genre_id\" : \"g88\",\n\"formats\" :
+        \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s172138q.png\",\n\"now_playing_id\"
+        : \"s172138\",\n\"preset_id\" : \"s172138\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"PT Radio (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s206204&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s206204\",\n\"subtext\"
+        : \"Musica Portuguesa 24/7\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s206204/images/logoq.png?t=2\",\n\"now_playing_id\"
+        : \"s206204\",\n\"preset_id\" : \"s206204\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio 4 Continentes (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s296419&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s296419\",\n\"subtext\"
+        : \"boa musica e anima\xE7ao juntos de nossos amigos\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s296419/images/logoq.png?t=1\",\n\"now_playing_id\"
+        : \"s296419\",\n\"preset_id\" : \"s296419\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Afurada (Variety)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s244826&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"97\",\n\"guide_id\" : \"s244826\",\n\"subtext\"
+        : \"Associa\xE7\xE3o Recreativa Mocidade\",\n\"genre_id\" : \"g88\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s244826/images/logoq.jpg?t=157858\",\n\"now_playing_id\"
+        : \"s244826\",\n\"preset_id\" : \"s244826\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Agita (Portuguese Music)\",\n\"URL\" :
+        \"http://opml.radiotime.com/Tune.ashx?id=s224651&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s224651\",\n\"subtext\"
+        : \"Vem dar som \xE0 tua vida!\",\n\"genre_id\" : \"g158\",\n\"formats\" :
+        \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s224651/images/logoq.jpg?t=1655544684000\",\n\"now_playing_id\"
+        : \"s224651\",\n\"preset_id\" : \"s224651\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Alpendorada (Portuguese Talk)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s192283&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"97\",\n\"guide_id\" : \"s192283\",\n\"subtext\"
+        : \"R\xE1dio Alpendorada A preferida dos emigrantes\",\n\"genre_id\" : \"g368\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s192283/images/logoq.jpg?t=1732807865000\",\n\"now_playing_id\"
+        : \"s192283\",\n\"preset_id\" : \"s192283\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Alto Douro (World Music)\",\n\"URL\" :
+        \"http://opml.radiotime.com/Tune.ashx?id=s302523&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s302523\",\n\"subtext\"
+        : \"A Sua R\xE1dio do Cora\xE7\xE3o\",\n\"genre_id\" : \"g22\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s0q.png\",\n\"now_playing_id\"
+        : \"s302523\",\n\"preset_id\" : \"s302523\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Alto Minho 97.0 (Top 40 & Pop Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s48688&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"320\",\n\"reliability\" : \"94\",\n\"guide_id\" : \"s48688\",\n\"subtext\"
+        : \"Musica como tu!\",\n\"genre_id\" : \"g61\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s48688/images/logoq.jpg?t=161850\",\n\"now_playing_id\"
+        : \"s48688\",\n\"preset_id\" : \"s48688\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Barca 99.6 (Local Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s48695&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s48695\",\n\"subtext\"
+        : \"Tardes da FM\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p137710\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s48695q.png\",\n\"current_track\"
+        : \"Tardes da FM\",\n\"now_playing_id\" : \"s48695\",\n\"preset_id\" : \"s48695\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
+        Barcelos 91.9 (Sports Talk & News)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s82123&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s82123\",\n\"subtext\"
+        : \"Barcelos ao Vivo\",\n\"genre_id\" : \"g2723\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p449223\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s82123q.png\",\n\"current_track\"
+        : \"Barcelos ao Vivo\",\n\"now_playing_id\" : \"s82123\",\n\"preset_id\" :
+        \"s82123\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"Radio Breca (Arts & Culture)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s227870&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"320\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s227870\",\n\"subtext\"
+        : \"We are R\xE1dio Breca from Portugal\",\n\"genre_id\" : \"g2737\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s227870/images/logoq.png?t=156476\",\n\"now_playing_id\"
+        : \"s227870\",\n\"preset_id\" : \"s227870\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Caima FM 97.1 (90's)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s48711&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s48711\",\n\"subtext\"
+        : \"Sem Fronteiras\",\n\"genre_id\" : \"g2677\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p268420\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s48711/images/logoq.jpg?t=1667349628000\",\n\"current_track\"
+        : \"Sem Fronteiras\",\n\"now_playing_id\" : \"s48711\",\n\"preset_id\" : \"s48711\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
+        Cidade Hoje 94.0 (Brazilian Popular)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s82196&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s82196\",\n\"subtext\"
+        : \"R\xE1dio e Jornal\",\n\"genre_id\" : \"g3165\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s82196q.png\",\n\"now_playing_id\"
+        : \"s82196\",\n\"preset_id\" : \"s82196\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Clube Da Feira 104.7 (Variety)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s82199&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s82199\",\n\"subtext\"
+        : \"Tardes da RCF\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p423863\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s82199q.png\",\n\"current_track\"
+        : \"Tardes da RCF\",\n\"now_playing_id\" : \"s82199\",\n\"preset_id\" : \"s82199\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
+        Clube de Lamego 97.0 (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s1515&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s1515\",\n\"subtext\"
+        : \"Discos Pedidos\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3,aac\",\n\"show_id\"
+        : \"p273361\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s1515/images/logoq.png?t=1649273326000\",\n\"current_track\"
+        : \"Discos Pedidos\",\n\"now_playing_id\" : \"s1515\",\n\"preset_id\" : \"s1515\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
+        Clube de Pa\xE7os de Ferreira 101.8 FM | (Portuguese Music)\",\n\"URL\" :
+        \"http://opml.radiotime.com/Tune.ashx?id=s84095&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84095\",\n\"subtext\"
+        : \"A Mais Ouvida do Vale do Sousa\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s84095/images/logoq.png?t=164779\",\n\"now_playing_id\"
+        : \"s84095\",\n\"preset_id\" : \"s84095\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Clube Penafiel 91.8 (Adult Hits)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s84110&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84110\",\n\"subtext\"
+        : \"Sess\xE3o da Tarde\",\n\"genre_id\" : \"g3\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p269830\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84110q.png\",\n\"current_track\"
+        : \"Sess\xE3o da Tarde\",\n\"now_playing_id\" : \"s84110\",\n\"preset_id\"
+        : \"s84110\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"Radio Clube Santa Marta (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s154438&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"93\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s154438\",\n\"subtext\"
+        : \"24 horas Consigo\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"aac\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s154438/images/logoq.png?t=156681\",\n\"now_playing_id\"
+        : \"s154438\",\n\"preset_id\" : \"s154438\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Costa Verde (World Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s304688&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s304688\",\n\"subtext\"
+        : \"A M\xDASICA QUE TOCA PARA TODOS OS GOSTOS\",\n\"genre_id\" : \"g22\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s304688/images/logoq.png?t=162766\",\n\"now_playing_id\"
+        : \"s304688\",\n\"preset_id\" : \"s304688\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Dois Cora\xE7\xF5es Uma Hist\xF3ria (World
+        Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s233736&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"96\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s233736\",\n\"subtext\"
+        : \"Portuguese\",\n\"genre_id\" : \"g22\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s233736/images/logoq.jpg?t=158878\",\n\"now_playing_id\"
+        : \"s233736\",\n\"preset_id\" : \"s233736\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Douro Nacional - Lamego (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s202961&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s202961\",\n\"subtext\"
+        : \"De Lamego para o Mundo...R\xE1dio Douro Nacional!\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s202961/images/logoq.jpg?t=1743635587000\",\n\"now_playing_id\"
+        : \"s202961\",\n\"preset_id\" : \"s202961\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Feiticeira do Amor (60's Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s272907&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s272907\",\n\"subtext\"
+        : \"Musica\",\n\"genre_id\" : \"g407\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s272907/images/logoq.jpg?t=1\",\n\"now_playing_id\"
+        : \"s272907\",\n\"preset_id\" : \"s272907\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Festival 94.8 (Adult Hits)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s84111&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s84111\",\n\"subtext\"
+        : \"A r\xE1dio do grande porto\",\n\"genre_id\" : \"g3\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84111q.png\",\n\"now_playing_id\"
+        : \"s84111\",\n\"preset_id\" : \"s84111\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Funda\xE7\xE3o 95.8 (Variety)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s107275&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"64\",\n\"reliability\" : \"80\",\n\"guide_id\" : \"s107275\",\n\"subtext\"
+        : \"Mais Tarde\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p1089997\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s107275q.png\",\n\"current_track\"
+        : \"Mais Tarde\",\n\"now_playing_id\" : \"s107275\",\n\"preset_id\" : \"s107275\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
+        Gondomar Mix (Music Podcasts)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s189282&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s189282\",\n\"subtext\"
+        : \"A sua Radio 24 Horas Sempre Com boa musica\",\n\"genre_id\" : \"g3414\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s189282/images/logoq.png?t=152345\",\n\"now_playing_id\"
+        : \"s189282\",\n\"preset_id\" : \"s189282\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Graciosa 107.9 (Top 40 & Pop Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s16047&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s16047\",\n\"subtext\"
+        : \"Portuguese\",\n\"genre_id\" : \"g61\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s16047q.png\",\n\"now_playing_id\"
+        : \"s16047\",\n\"preset_id\" : \"s16047\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Horizonte Algarve 96.9-106.8 (Top 40 & Pop
+        Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s1653&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"93\",\n\"guide_id\" : \"s1653\",\n\"subtext\"
+        : \"Desde Tavira para todo o Mundo !\",\n\"genre_id\" : \"g61\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s1653/images/logoq.jpg?t=1663085725000\",\n\"now_playing_id\"
+        : \"s1653\",\n\"preset_id\" : \"s1653\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio JM (Variety)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s281342&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s281342\",\n\"subtext\"
+        : \"Companhia JM\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p1101294\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s281342/images/logoq.png?t=162508\",\n\"current_track\"
+        : \"Companhia JM\",\n\"now_playing_id\" : \"s281342\",\n\"preset_id\" : \"s281342\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
+        Junior (Classic Hits)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s329927&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s329927\",\n\"subtext\"
+        : \"Radio Junior a sua WebRadio 24 Horas realizada a pensar em SI\",\n\"genre_id\"
+        : \"g2755\",\n\"formats\" : \"mp3\",\n\"item\" : \"station\",\n\"image\" :
+        \"http://cdn-profiles.tunein.com/s329927/images/logoq.png?t=1\",\n\"now_playing_id\"
+        : \"s329927\",\n\"preset_id\" : \"s329927\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Limite 89.0 (World Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s84216&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84216\",\n\"subtext\"
+        : \"Portuguese\",\n\"genre_id\" : \"g22\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s84216/images/logoq.png\",\n\"now_playing_id\"
+        : \"s84216\",\n\"preset_id\" : \"s84216\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Lousada (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s277284&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s277284\",\n\"subtext\"
+        : \"R\xE1dio Lousada apoia a musica Local e Nacional\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s277284q.png\",\n\"now_playing_id\"
+        : \"s277284\",\n\"preset_id\" : \"s277284\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Lumena 107.1 (Adult Hits)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s48706&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"85\",\n\"guide_id\" : \"s48706\",\n\"subtext\"
+        : \"Sempre Mais Radio\",\n\"genre_id\" : \"g3\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s48706q.png\",\n\"now_playing_id\"
+        : \"s48706\",\n\"preset_id\" : \"s48706\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Manchete (Portuguese Music)\",\n\"URL\" :
+        \"http://opml.radiotime.com/Tune.ashx?id=s288245&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s288245\",\n\"subtext\"
+        : \"Nas ondas da net, entre Portugal e o Mundo\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"mp3,aac\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s288245/images/logoq.png?t=160252\",\n\"now_playing_id\"
+        : \"s288245\",\n\"preset_id\" : \"s288245\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Marcoense 93.3 (World Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s107264&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s107264\",\n\"subtext\"
+        : \"Turma Dos Repetentes\",\n\"genre_id\" : \"g22\",\n\"formats\" : \"mp3,html\",\n\"show_id\"
+        : \"p428856\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s107264q.png\",\n\"current_track\"
+        : \"Turma Dos Repetentes\",\n\"now_playing_id\" : \"s107264\",\n\"preset_id\"
+        : \"s107264\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"R\xE1dio Melodias de Amor (Ambient Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s262906&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s262906\",\n\"subtext\"
+        : \"A radio que toca em seu cora\xE7\xE3o\",\n\"genre_id\" : \"g2804\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s0q.png\",\n\"now_playing_id\"
+        : \"s262906\",\n\"preset_id\" : \"s262906\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Noar 107.8 (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s107133&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"90\",\n\"guide_id\" : \"s107133\",\n\"subtext\"
+        : \"A R\xE1dio da nossa gente, sempre!\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s107133/images/logoq.png?t=156140\",\n\"now_playing_id\"
+        : \"s107133\",\n\"preset_id\" : \"s107133\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Nova 98.9 (Soul)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s9317&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"80\",\n\"guide_id\" : \"s9317\",\n\"subtext\"
+        : \"Night & Day\",\n\"genre_id\" : \"g18\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p405724\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s9317q.png\",\n\"current_track\"
+        : \"Night & Day\",\n\"now_playing_id\" : \"s9317\",\n\"preset_id\" : \"s9317\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
+        Nova Era 100.1 (Top 40 & Pop Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s25161&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s25161\",\n\"subtext\"
+        : \"Daniel Oliveira\",\n\"genre_id\" : \"g61\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p920231\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s25161q.png\",\n\"current_track\"
+        : \"Daniel Oliveira\",\n\"now_playing_id\" : \"s25161\",\n\"preset_id\" :
+        \"s25161\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"R\xE1dio Nove3cinco (Top 40 & Pop Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s83746&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s83746\",\n\"subtext\"
+        : \"In\xE8s Cordeiro e Hugo Sim\xF5es\",\n\"genre_id\" : \"g61\",\n\"formats\"
+        : \"mp3\",\n\"show_id\" : \"p1041845\",\n\"item\" : \"station\",\n\"image\"
+        : \"http://cdn-profiles.tunein.com/s83746/images/logoq.png?t=636415\",\n\"current_track\"
+        : \"In\xE8s Cordeiro e Hugo Sim\xF5es\",\n\"now_playing_id\" : \"s83746\",\n\"preset_id\"
+        : \"s83746\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"R\xE1dio Onda Lusa (Adult Hits)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s226260&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s226260\",\n\"subtext\"
+        : \"REAVIVAR OS VOSSOS SENTIDOS\",\n\"genre_id\" : \"g3\",\n\"formats\" :
+        \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s226260q.png\",\n\"now_playing_id\"
+        : \"s226260\",\n\"preset_id\" : \"s226260\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Onda Viva 96.1 (World News)\",\n\"URL\" :
+        \"http://opml.radiotime.com/Tune.ashx?id=s84142&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s84142\",\n\"subtext\"
+        : \"Nova Dimens\xE3o\",\n\"genre_id\" : \"g3125\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p260232\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84142q.png\",\n\"current_track\"
+        : \"Nova Dimens\xE3o\",\n\"now_playing_id\" : \"s84142\",\n\"preset_id\" :
+        \"s84142\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"Radio Ondas Cabreira (World Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s259792&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s259792\",\n\"subtext\"
+        : \"A Sua Melhor Companhia\",\n\"genre_id\" : \"g22\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s259792/images/logoq.png?t=157662\",\n\"now_playing_id\"
+        : \"s259792\",\n\"preset_id\" : \"s259792\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Ondas Do Lima 95.0 (Public Radio)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s48681&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s48681\",\n\"subtext\"
+        : \"Mais Vale Tarde\",\n\"genre_id\" : \"g266\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p137061\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s48681q.png\",\n\"current_track\"
+        : \"Mais Vale Tarde\",\n\"now_playing_id\" : \"s48681\",\n\"preset_id\" :
+        \"s48681\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"Radio ovos moles (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s200707&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"89\",\n\"guide_id\" : \"s200707\",\n\"subtext\"
+        : \"De Aveiro para o mundo inteiro\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s200707/images/logoq.png?t=157174\",\n\"now_playing_id\"
+        : \"s200707\",\n\"preset_id\" : \"s200707\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Pico 100.2 (Local Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s81795&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s81795\",\n\"subtext\"
+        : \"Backstage\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p423453\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s81795q.png\",\n\"current_track\"
+        : \"Backstage\",\n\"now_playing_id\" : \"s81795\",\n\"preset_id\" : \"s81795\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
+        Popular Afifense 87.6 (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s84209&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84209\",\n\"subtext\"
+        : \"Tardes D' Afifense\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p262365\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84209q.png\",\n\"current_track\"
+        : \"Tardes D' Afifense\",\n\"now_playing_id\" : \"s84209\",\n\"preset_id\"
+        : \"s84209\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"R\xE1dio Portuense (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s226263&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s226263\",\n\"subtext\"
+        : \"A Voz da Invicta\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s226263/images/logoq.jpg?t=159016\",\n\"now_playing_id\"
+        : \"s226263\",\n\"preset_id\" : \"s226263\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Ritmos (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s281679&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"96\",\n\"guide_id\" : \"s281679\",\n\"subtext\"
+        : \"Sintonia Perfeita\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s281679/images/logoq.jpg\",\n\"now_playing_id\"
+        : \"s281679\",\n\"preset_id\" : \"s281679\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Santiago 98.0 (Local Music)\",\n\"URL\" :
+        \"http://opml.radiotime.com/Tune.ashx?id=s16346&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"127\",\n\"reliability\" : \"98\",\n\"guide_id\" : \"s16346\",\n\"subtext\"
+        : \"A tarde \xE9 nossa\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"aac\",\n\"show_id\"
+        : \"p257842\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s16346q.png\",\n\"current_track\"
+        : \"A tarde \xE9 nossa\",\n\"now_playing_id\" : \"s16346\",\n\"preset_id\"
+        : \"s16346\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"R\xE1dio Toca a Dan\xE7ar (Brazilian Popular)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s219263&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s219263\",\n\"subtext\"
+        : \"A r\xE1dio de m\xFAsica de dan\xE7a\",\n\"genre_id\" : \"g3165\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s219263/images/logoq.png?t=159042\",\n\"now_playing_id\"
+        : \"s219263\",\n\"preset_id\" : \"s219263\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Universo PT (World Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s268930&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s268930\",\n\"subtext\"
+        : \"anima\xE7ao alegria e boa musica\",\n\"genre_id\" : \"g22\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s0q.png\",\n\"now_playing_id\"
+        : \"s268930\",\n\"preset_id\" : \"s268930\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Valdevez 100.8 (Local Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s84205&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84205\",\n\"subtext\"
+        : \"CRAVO E CANELA\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p4639723\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84205q.png\",\n\"current_track\"
+        : \"CRAVO E CANELA\",\n\"now_playing_id\" : \"s84205\",\n\"preset_id\" : \"s84205\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
+        Viva Portugal Albergaria (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s235749&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"98\",\n\"guide_id\" : \"s235749\",\n\"subtext\"
+        : \"A boa m\xFAsica passa aqui na sua r\xE1dio\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s235749/images/logoq.png?t=1\",\n\"now_playing_id\"
+        : \"s235749\",\n\"preset_id\" : \"s235749\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Voz Da Ria 90.2 (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s7600&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"92\",\n\"guide_id\" : \"s7600\",\n\"subtext\"
+        : \"Notici\xE1rio RVR\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p147239\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s7600q.png\",\n\"current_track\"
+        : \"Notici\xE1rio RVR\",\n\"now_playing_id\" : \"s7600\",\n\"preset_id\" :
+        \"s7600\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"R\xE1dio Voz De Basto 100.6 (Adult Hits)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s107337&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"24\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s107337\",\n\"subtext\"
+        : \"De Cabeceiras de Basto para todo o Mundo\",\n\"genre_id\" : \"g3\",\n\"formats\"
+        : \"html\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s107337q.png\",\n\"now_playing_id\"
+        : \"s107337\",\n\"preset_id\" : \"s107337\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Voz De Esmoriz 93.1 (Media & Entertainment
+        Podcasts)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s1469&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"320\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s1469\",\n\"subtext\"
+        : \"Em Rodagem\",\n\"genre_id\" : \"g3416\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p272500\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s1469q.png\",\n\"current_track\"
+        : \"Em Rodagem\",\n\"now_playing_id\" : \"s1469\",\n\"preset_id\" : \"s1469\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
+        Voz do Mar\xE3o 96.3 (Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s337359&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s337359\",\n\"subtext\"
+        : \"Emissora de r\xE1dio em Vila Real\",\n\"genre_id\" : \"g1\",\n\"formats\"
+        : \"html\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s337359/images/logoq.png?t=1\",\n\"now_playing_id\"
+        : \"s337359\",\n\"preset_id\" : \"s337359\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Voz do Neiva 98.7 (Folk Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s185030&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"24\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s185030\",\n\"subtext\"
+        : \"Portuguese\",\n\"genre_id\" : \"g79\",\n\"formats\" : \"html\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s185030q.png\",\n\"now_playing_id\"
+        : \"s185030\",\n\"preset_id\" : \"s185030\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"RADIO VOZ DO NORTE (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s301110&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"92\",\n\"guide_id\" : \"s301110\",\n\"subtext\"
+        : \"DE PORTUGAL PARA O MUNDO\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s301110/images/logoq.jpg?t=160824\",\n\"now_playing_id\"
+        : \"s301110\",\n\"preset_id\" : \"s301110\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio XL FM (Adult Hits)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s296338&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"78\",\n\"guide_id\" : \"s296338\",\n\"subtext\"
+        : \"A melhor Musica de todos os tempos.\",\n\"genre_id\" : \"g3\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s296338/images/logoq.jpg?t=159967\",\n\"now_playing_id\"
+        : \"s296338\",\n\"preset_id\" : \"s296338\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"RadioTop60Olh\xE3o (World Music)\",\n\"URL\" :
+        \"http://opml.radiotime.com/Tune.ashx?id=s270082&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s270082\",\n\"subtext\"
+        : \"A r\xE1dio est\xE1 presente na...\",\n\"genre_id\" : \"g22\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s0q.png\",\n\"now_playing_id\"
+        : \"s270082\",\n\"preset_id\" : \"s270082\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"RTP Acores TV\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s242987&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"32\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s242987\",\n\"subtext\"
+        : \"Portuguese\",\n\"formats\" : \"html\",\n\"item\" : \"station\",\n\"image\"
+        : \"http://cdn-radiotime-logos.tunein.com/s0q.png\",\n\"now_playing_id\" :
+        \"s242987\",\n\"preset_id\" : \"s242987\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"RUM - R\xE1dio Universit\xE1ria do Minho 97.5 (Indie
+        Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s3095&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"192\",\n\"reliability\" : \"97\",\n\"guide_id\" : \"s3095\",\n\"subtext\"
+        : \"Sara Pereira\",\n\"genre_id\" : \"g2748\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p867106\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s3095q.png\",\n\"current_track\"
+        : \"Sara Pereira\",\n\"now_playing_id\" : \"s3095\",\n\"preset_id\" : \"s3095\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Top
+        FM - Portugal 106.6 (Top 40 & Pop Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s129939&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s129939\",\n\"subtext\"
+        : \"A tua vida, a tua m\xFAsica\",\n\"genre_id\" : \"g61\",\n\"formats\" :
+        \"mp3,aac\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s129939/images/logoq.png?t=1705496717000\",\n\"now_playing_id\"
+        : \"s129939\",\n\"preset_id\" : \"s129939\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Universidade FM 104.3 (News)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s16496&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s16496\",\n\"subtext\"
+        : \"always in the air\",\n\"genre_id\" : \"g255\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s16496/images/logoq.jpg?t=152390\",\n\"now_playing_id\"
+        : \"s16496\",\n\"preset_id\" : \"s16496\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"VFM 94.6 (Pop Country)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s107023&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"96\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s107023\",\n\"subtext\"
+        : \"Mais Perto de Si\",\n\"genre_id\" : \"g4137\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s107023/images/logoq.jpg?t=162628\",\n\"now_playing_id\"
+        : \"s107023\",\n\"preset_id\" : \"s107023\" }\n] }\n] }"
+    headers:
+      CF-RAY:
+      - 9f815e2d5f7bf437-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:15 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '37732'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:15
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '14'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s25767&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://centova.radios.pt:9464\",\n\"reliability\":
+        83,\n\"bitrate\": 160,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61281309\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e2ebceb4e84-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:15 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '366'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:15
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '17'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s263406&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://rs2.ptservidor.com/proxy/incrivei?mp=/stream\",\n\"reliability\":
+        98,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e181286187\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e301e81e32c-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:16 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '390'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:16
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s294589&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sonic1.transmissaodigital.com:7031/\",\n\"reliability\":
+        97,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e159904882\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e317e815816-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:16 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '381'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:16
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '14'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s333737&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://s2.free-shoutcast.com/stream/18130\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e594686979\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://s2.free-shoutcast.com/stream/18130\",\n\"reliability\":
+        100,\n\"bitrate\": 97,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e594686980\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e32ddafa10f-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:16 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '718'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:16
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s81858&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://stream.zeno.fm/d20bmvrs4a0uv\",\n\"reliability\":
+        28,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e470960269\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e66a90fe32c-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:24 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '374'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:24
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '7'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s107477&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://www.engenhariaradio.pt:8080/live\",\n\"reliability\":
+        100,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e36914139\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e680cd5cbbe-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:25 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '377'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '6'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s336091&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://cast.redewt.net:9827/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e611144373\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e697e270b12-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:25 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '374'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '13'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s334583&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://eu10.fastcast4u.com/famaradio\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e600309351\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e6ac9b9b17c-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:25 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '376'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s278383&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://webradio.festeventos.pt:9998/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e76021598\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e6c0a17f55c-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:25 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '380'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s84208&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://ec2.yesstreaming.net:3275/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 320,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e176907539\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://ec2.yesstreaming.net:3265/stream\",\n\"reliability\":
+        92,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e176907540\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e6d5c79f91f-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:25 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '714'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '16'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s231300&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com:10915/stream\",\n\"reliability\":
+        97,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e499133744\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e6eba90b835-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:26 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '376'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:26
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '11'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s172138&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://paivense.no-ip.info:8080/\",\n\"reliability\":
+        90,\n\"bitrate\": 96,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e110891877\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e70294e547f-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:26 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '369'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:26
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '6'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s206204&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://c3.radioboss.fm:8106/stream\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e186770167\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://c3.radioboss.fm:18106/stream\",\n\"reliability\":
+        29,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e176277851\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e7169bac554-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:26 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '704'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:26
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s296419&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://s2.ndvendas.com:7188/\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e412629856\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://144.76.58.102:9438/;\",\n\"reliability\":
+        10,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e116537223\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e72abfa58fc-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:26 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '689'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:26
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '11'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s244826&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com/9988/stream;\",\n\"reliability\":
+        97,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e176968233\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e73efb3692c-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:27 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '376'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:27
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s224651&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://listen.radioking.com/radio/505570/stream/563098\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e206217676\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://api.radioking.io/radio/505570/listen.m3u\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e206217681\",\n\"playlist_type\": \"m3u\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }] }"
+    headers:
+      CF-RAY:
+      - 9f815e752d3a4610-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:27 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '763'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:27
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '16'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s192283&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://audio.serv.pt/9316/stream\",\n\"reliability\":
+        97,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e173044883\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://audio.serv.pt/9316/stream\",\n\"reliability\":
+        87,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485618163\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e770c04979a-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:27 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '698'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:27
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '18'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s302523&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://fluoz.zeno.fm/btxha34m1wzuv/source\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e184423196\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://fluoz.zeno.fm/btxha34m1wzuv/source\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e479735741\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e786f93e3bd-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:27 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '718'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:27
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s48688&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://ec2.yesstreaming.net:3705/stream\",\n\"reliability\":
+        94,\n\"bitrate\": 320,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e176908606\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://ec2.yesstreaming.net:3715/stream\",\n\"reliability\":
+        10,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e176908607\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e7b181f0325-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:28 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '713'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:28
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '7'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s48695&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radiobarca\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61114973\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radiobarca\",\n\"reliability\":
+        81,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e479810824\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e7c693dcbb8-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:28 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '697'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:28
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s82123&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radiobarcelos\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61059791\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radiobarcelos\",\n\"reliability\":
+        88,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485641870\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e7dcfc7c6ea-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:28 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '703'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:28
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '7'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s227870&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://radiobreca.com/live\",\n\"reliability\": 100,\n\"bitrate\":
+        320,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e632626567\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e7f19c31a82-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:28 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '366'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:28
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '18'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s48711&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://caimafm.ovh/caimafm\",\n\"reliability\": 100,\n\"bitrate\":
+        128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e261749908\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"https://caimafm.ovh/caimafm.m3u\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e263138273\",\n\"playlist_type\": \"m3u\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }] }"
+    headers:
+      CF-RAY:
+      - 9f815e81fa4131f1-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:29 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '718'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:29
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s82196&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radiocidadehoje\",\n\"reliability\":
+        98,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61059786\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radiocidadehoje\",\n\"reliability\":
+        100,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e479737104\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e83595b52b5-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:29 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '708'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:29
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '11'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s82199&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/clubedafeira\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61059799\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/clubedafeira\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485637510\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e84ab0e7cec-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:29 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '703'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:29
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s1515&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://109.71.41.6:8110/\",\n\"reliability\": 100,\n\"bitrate\":
+        128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e392088935\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"http://62.210.99.19:7044/\",\n\"reliability\":
+        95,\n\"bitrate\": 32,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e392089172\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://62.210.99.19:7044/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 32,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e392135935\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e862a2bcc43-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:29 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1008'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:29
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s84095&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://server3.webradios.com.br:19442/9442\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e621024190\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e878837b17c-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:30 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '382'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:30
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s84110&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radioclubedepenafiel\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61113950\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radioclubedepenafiel\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e476432458\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e88e8bb040e-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:30 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '719'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:30
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '6'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s154438&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://185.32.188.17:8005/stream\",\n\"reliability\":
+        99,\n\"bitrate\": 93,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e112130414\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e8a6ac3cc54-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:30 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '369'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:30
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s304688&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://s1.stmxp.net:8128/;\",\n\"reliability\": 100,\n\"bitrate\":
+        128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e185273514\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e8bd8732b3a-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:30 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '365'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:30
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s233736&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sonic1.transmissaodigital.com:7001/;\",\n\"reliability\":
+        100,\n\"bitrate\": 96,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e137095593\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e8e09530061-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:31 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '382'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:31
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s202961&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com:10930\",\n\"reliability\":
+        95,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e357111289\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://sp0.redeaudio.com/9796/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e357111291\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://95.217.75.38:9796/\",\n\"reliability\":
+        10,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e116032054\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e8feb1b48ab-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:31 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1022'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:31
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s272907&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sbox1.sonybox.top:9004/\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e627075796\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e91ed38df91-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:31 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '370'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:31
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '12'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s84111&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://centova.radios.pt/proxy/520?mp=/stream\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e128774871\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e932b58d92d-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:32 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '384'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:32
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '14'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s107275&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://46.105.172.166:8044/\",\n\"reliability\": 80,\n\"bitrate\":
+        64,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e31008092\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e948dd9ec92-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:32 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '363'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:32
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '18'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s189282&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com:10860/\",\n\"reliability\":
+        100,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e400873517\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://95.217.75.38:9964/\",\n\"reliability\":
+        10,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e116043119\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e95cb0b4892-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:32 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '691'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:32
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '24'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s16047&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://176.9.43.216:8134/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e131970061\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eb09db44894-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:36 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '370'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:36
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '7'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s1653&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radiohorizontealgarve\",\n\"reliability\":
+        93,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61059763\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radiohorizontealgarve\",\n\"reliability\":
+        90,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485637223\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eb1faacf529-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:36 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '719'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:36
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '14'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s281342&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://radios3.justweb.pt/8014/stream.\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e658271668\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eb35c98b275-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:37 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '378'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:37
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s329927&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://webradio.marcioliveiragroup.com:8002/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e578736513\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eb4ac5fa0ad-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:37 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '389'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:37
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s84216&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radiolimite\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61116093\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radiolimite\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485616749\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eb60e0931f1-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:37 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '701'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:37
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s277284&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com/9932/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e499820107\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815ee9ca3e780f-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:45 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '376'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:45
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s48706&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://rs2.ptservidor.com:8047/stream\",\n\"reliability\":
+        85,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e502436759\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eeb1bd50665-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:46 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '375'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:46
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '11'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s288245&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://radios.justweb.pt/8008/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e163941809\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://radios.justweb.pt:7003/\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e164571107\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://cdn.painelstreaming.com.br:27162/stream\",\n\"reliability\":
+        10,\n\"bitrate\": 128,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e173900949\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eeca933e3b8-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:46 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1045'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:46
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s107264&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://137.74.160.250:8000/\",\n\"reliability\": 92,\n\"bitrate\":
+        128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e78493047\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"https://www.mixcloud.com/manuel-joaquim2/eclipse-metalico-2019-05-26-parte-i/\",\n\"reliability\":
+        100,\n\"bitrate\": 32,\n\"media_type\": \"html\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e107497476\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eedeea30b12-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:46 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '737'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:46
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '30'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s262906&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://server.vendaslotus.pt:7042/\",\n\"reliability\":
+        100,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e164576152\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815eef5cfe4813-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:46 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '374'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:46
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s107133&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://radios.justweb.pt:7016/\",\n\"reliability\":
+        90,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e175710447\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815ef0add60d76-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:47 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '369'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '6'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s9317&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://centova.radios.pt:9528\",\n\"reliability\":
+        80,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e79944899\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815ef21f1894ad-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:47 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '366'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s25161&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/novaera\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e115687128\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://centova.radios.pt/proxy/478?mp=/stream\",\n\"reliability\":
+        98,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e115687129\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://centova.radios.pt/proxy/478?mp=/stream\",\n\"reliability\":
+        30,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e129106112\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815ef35b18e3b5-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:47 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1048'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s83746&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://centova.radio.com.pt/proxy/522?mp=/stream\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e176555839\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815ef4a959cbce-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:47 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '387'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '12'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s226260&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://s2.stmxp.net:7008/\",\n\"reliability\": 100,\n\"bitrate\":
+        128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e502152810\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"http://rs2.ptservidor.com:8089/live\",\n\"reliability\":
+        10,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485034047\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815ef5e972e3b8-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:47 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '694'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s84142&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radioondaviva\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61113945\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radioondaviva\",\n\"reliability\":
+        90,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485660301\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815ef75935ec99-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:48 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '703'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s259792&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://ssl.stmxp.net:7012/;\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e161437578\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815ef8eaf10349-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:48 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '367'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s48681&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radioondasdolima\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61115337\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radioondasdolima\",\n\"reliability\":
+        88,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e487217212\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815efa2b94f437-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:48 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '709'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '7'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s200707&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com/9330/;\",\n\"reliability\":
+        89,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e163127071\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815efb7ab9aa05-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:48 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '370'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '14'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s81795&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/pico\",\n\"reliability\": 100,\n\"bitrate\":
+        128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e61059806\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/pico\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e479737070\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815efcf9790665-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:48 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '687'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s84209&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radiopopularafifense\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61115326\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radiopopularafifense\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e487185759\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815efeac9c587c-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:49 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '719'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:49
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s226263&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com/8160/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e199319167\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f001ef1a986-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:49 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '376'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:49
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s281679&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://cast2.hoost.com.br:20063/stream\",\n\"reliability\":
+        96,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e192153368\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f016eda6dc0-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:49 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '377'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:49
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s16346&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://eu6.fastcast4u.com/proxy/dzuigafo?mp=/stream\",\n\"reliability\":
+        98,\n\"bitrate\": 127,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e131201562\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://eu6.fastcast4u.com:5002/stream\",\n\"reliability\":
+        82,\n\"bitrate\": 126,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e195662611\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://eu6.fastcast4u.com/proxy/dzuigafo?mp=/santiagoaac\",\n\"reliability\":
+        96,\n\"bitrate\": 63,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e131201563\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://eu6.fastcast4u.com:5002/santiagoaac\",\n\"reliability\":
+        83,\n\"bitrate\": 63,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e195662635\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f02c894f53d-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:49 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1409'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:49
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s219263&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com/9974/stream\",\n\"reliability\":
+        99,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e140436455\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f042fbc03cb-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:50 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '375'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:50
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '6'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s268930&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://s1.stmxp.net:8078/\",\n\"reliability\": 100,\n\"bitrate\":
+        128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e173690940\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"https://s1.stmxp.net:8078/\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485650166\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f05acc1e8a1-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:50 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '686'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:50
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s84205&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/radiovaldevez\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61114984\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/radiovaldevez\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485614607\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f072981035e-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:50 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '705'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:50
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s235749&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com/9920/stream\",\n\"reliability\":
+        98,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e158339381\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f088e3c0c00-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:50 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '375'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:50
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '7'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s7600&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/vozdaria\",\n\"reliability\":
+        92,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e61059800\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/vozdaria\",\n\"reliability\":
+        90,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e487217096\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f0a2ca5d665-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:51 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '693'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:51
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '14'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s107337&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://www.rvbasto.com/\",\n\"reliability\": 100,\n\"bitrate\":
+        24,\n\"media_type\": \"html\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e2574727\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"https://www.rvbasto.com/\",\n\"reliability\":
+        100,\n\"bitrate\": 24,\n\"media_type\": \"html\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485641651\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f0b6bc4e3cd-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:51 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '680'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:51
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s1469&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://radio.latremendarg.com:8016/pegasso\",\n\"reliability\":
+        100,\n\"bitrate\": 320,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e564895873\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://server01.heplayer.com:7079/;\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e526291041\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://server01.heplayer.com:7079/\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e526239878\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f0cde6bdb84-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:51 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1045'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:51
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s337359&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://radios.justweb.pt/8016/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"html\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e618046557\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f0ea927f528-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:51 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '377'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:51
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '11'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s185030&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://www.vozdoneiva.net/emissao.php\",\n\"reliability\":
+        100,\n\"bitrate\": 24,\n\"media_type\": \"html\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e11121006\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f101eafcbea-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:52 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '375'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '6'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s301110&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com:10997/\",\n\"reliability\":
+        92,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e168751968\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f11793be3c8-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:52 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '370'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s296338&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://radios.justweb.pt:7000/\",\n\"reliability\":
+        78,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e162785054\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f12cac84813-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:52 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '369'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '11'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s270082&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://sp0.redeaudio.com:10976/\",\n\"reliability\":
+        100,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e167326979\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f145b3a41f6-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:52 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '371'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '11'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s242987&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://www.rtp.pt/play/direto/rtpacores\",\n\"reliability\":
+        100,\n\"bitrate\": 32,\n\"media_type\": \"html\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e60272390\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://www.rtp.pt/play/direto/rtpacores\",\n\"reliability\":
+        100,\n\"bitrate\": 32,\n\"media_type\": \"html\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e487224805\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f15ae7ec534-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:52 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '713'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s3095&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://link.radios.pt/rum\",\n\"reliability\": 97,\n\"bitrate\":
+        192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e61059789\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"https://link.radios.pt/rum\",\n\"reliability\":
+        92,\n\"bitrate\": 192,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e479669329\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f170a75ba1f-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:53 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '683'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:53
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '10'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s129939&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://5.9.71.122:8420\",\n\"reliability\": 92,\n\"bitrate\":
+        128,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
+        \"e216700804\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
+        true }, { \"element\" : \"audio\", \n\"url\": \"https://topfm-radiohorizonte.radioca.st/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e523095711\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://212.83.138.48:8420/\",\n\"reliability\":
+        10,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e94958490\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f19ff9df40c-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:53 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1022'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:53
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s16496&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://centova.radios.pt:8405/stream\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e92653968\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f1b8f36750d-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:53 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '374'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:53
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '14'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s107023&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://cast.redewt.net:9141/live\",\n\"reliability\":
+        100,\n\"bitrate\": 96,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e182656071\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://46.105.172.166:8093/live\",\n\"reliability\":
+        10,\n\"bitrate\": 96,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e182656072\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815f1d3b3513a4-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:54 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '695'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=<CF_BM>
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:54
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '11'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - <REDACTED>
+      x-tunein-trace-id:
+      - <REDACTED>
+    status:
+      code: 200
+      message: OK
+version: 1

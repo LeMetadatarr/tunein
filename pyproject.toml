@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tunein"
+dynamic = ["version"]
+description = "TuneIn radio api"
+dependencies = [
+    "requests",
+    "mediavocab>=0.1.0",
+]
+license = {text = "Apache-2.0"}
+authors = [{name = "JarbasAI", email = "jarbasai@mailfence.com"}]
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["TuneIn", "internet radio"]
+
+[project.urls]
+Homepage = "https://github.com/OpenJarbas/tunein"
+
+[project.scripts]
+tunein = "tunein.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest", "vcrpy", "pytest-vcr"]
+stealth = ["curl-cffi"]
+
+[tool.setuptools.dynamic]
+version = {attr = "tunein.version.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
