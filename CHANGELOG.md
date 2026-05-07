@@ -1,41 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/TigreGotico/tunein/tree/HEAD)
+## [0.1.0a1](https://github.com/TigreGotico/tunein/tree/0.1.0a1) (2026-05-07)
 
-[Full Changelog](https://github.com/TigreGotico/tunein/compare/V0.0.4a3...HEAD)
-
-**mediavocab integration:**
-
-- `mediavocab>=0.1.0` added to `requirements.txt`.
-- New `TuneInStation.to_release()` method returning a `mediavocab.Release`
-  with `MediaType.RADIO` + `StreamMode.CONTINUOUS` (per spec §4.8). The
-  TuneIn discovery URL goes to `external_ids["tunein_url"]`; codec /
-  bitrate / cover art are carried on the Release.
-- New offline test suite (`test/unittests/test_converter.py`, 7 cases).
-
-### Added (richer Release fields)
-
-- **Genres** — TuneIn category strings are mapped into `Work.content_genres` with alias normalisation.
-- **Country** — populated from the TuneIn station profile so consumers can filter by region.
-- **Language** — surfaced on the `Work` from the station's broadcast-language field.
-- **`aka`** — call-signs and alternative names (e.g. `KEXP 90.3 FM`) are emitted as `aka` aliases on the `Work` for fuzzy matching.
-
-### Changed
-
-- `to_release()` aligned with mediavocab 0.3 API surface.
-- **Multi-stream Release shape confirmed** — TuneIn's multi-URL stream lists round-trip cleanly through mediavocab's `Release.urls` without losing variants.
-
-### Optional enrichment
-
-- New **opt-in `enrich=True`** flag on the converter / search API: when enabled, the client makes the extra TuneIn detail call needed to fill country/language/aka. Default is `False` so the cheap path stays cheap.
-
-### CI / packaging
-
-- Migrated packaging from `setup.py` to `pyproject.toml`.
-- Added the standard set of GitHub Actions workflows (build, lint, release, etc.).
+[Full Changelog](https://github.com/TigreGotico/tunein/compare/V0.0.4a3...0.1.0a1)
 
 **Merged pull requests:**
 
+- feat: TuneInStation.to\_release + mediavocab dep [\#15](https://github.com/TigreGotico/tunein/pull/15) ([JarbasAl](https://github.com/JarbasAl))
 - chore: Configure Renovate [\#8](https://github.com/TigreGotico/tunein/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [V0.0.4a3](https://github.com/TigreGotico/tunein/tree/V0.0.4a3) (2024-05-28)
