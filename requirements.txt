@@ -1,2 +1,0 @@
-requests
-mediavocab>=0.1.0

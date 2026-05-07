@@ -4,8 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tunein"
-dynamic = ["version", "dependencies"]
+dynamic = ["version"]
 description = "TuneIn radio api"
+dependencies = [
+    "requests",
+    "mediavocab>=0.1.0",
+]
 license = {text = "Apache-2.0"}
 authors = [{name = "JarbasAI", email = "jarbasai@mailfence.com"}]
 readme = "README.md"
@@ -23,7 +27,6 @@ test = ["pytest", "vcrpy", "pytest-vcr"]
 
 [tool.setuptools.dynamic]
 version = {attr = "tunein.version.__version__"}
-dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools.packages.find]
 where = ["."]
