@@ -2,6 +2,27 @@ from urllib.parse import urlparse, urlunparse, parse_qs
 
 import requests
 from tunein.parse import fuzzy_match
+from tunein.transport import default_session
+
+
+def _get_session(session=None):
+    """Return ``session`` when injected, else the :mod:`requests` module
+    itself.
+
+    The :mod:`requests` module exposes top-level ``get``/``post``
+    helpers with the same signatures as ``Session.get``/``post``, so it
+    is duck-type compatible. Returning the module (rather than building
+    a default :class:`~requests.Session`) preserves the historical
+    behaviour where callers can patch ``tunein.requests.get`` or
+    ``tunein.requests.post`` to intercept HTTP traffic in tests.
+
+    Callers that explicitly want a stealth/curl_cffi session should
+    inject one (or call :func:`tunein.transport.default_session`
+    themselves).
+    """
+    if session is not None:
+        return session
+    return requests
 
 
 # --- TuneIn genre_name -> mediavocab GENRE_* constant -------------------
@@ -122,8 +143,9 @@ def _language_to_iso(label: str) -> str:
 
 
 class TuneInStation:
-    def __init__(self, raw):
+    def __init__(self, raw, session=None):
         self.raw = raw
+        self._session = session
 
     @property
     def title(self):
@@ -211,7 +233,8 @@ class TuneInStation:
         if not sid:
             return self
         try:
-            res = requests.get(
+            sess = _get_session(self._session)
+            res = sess.get(
                 "http://opml.radiotime.com/Describe.ashx",
                 params={"id": sid, "render": "json"},
                 timeout=10,
@@ -359,14 +382,48 @@ class TuneIn:
     describe_url = "http://opml.radiotime.com/Describe.ashx"
     stnd_query = {"formats": "mp3,aac,ogg,html,hls", "render": "json"}
 
-    @staticmethod
-    def get_stream_urls(url):
+    def __init__(self, session=None):
+        """Optional ``session`` is any object exposing ``get``/``post``
+        in the :mod:`requests` ``Session`` style. If omitted, a default
+        session (see :func:`tunein.transport.default_session`) is built
+        lazily and reused.
+        """
+        self._session = session
+
+    @property
+    def session(self):
+        """Return the injected session, or build a default lazily.
+
+        The default honours ``TUNEIN_TRANSPORT=curl_cffi`` (see
+        :func:`tunein.transport.default_session`).
+        """
+        if self._session is None:
+            self._session = default_session()
+        return self._session
+
+    # ------------------------------------------------------------------
+    # Instance wrappers — pass the injected session through to the
+    # underlying classmethods so callers can do
+    # ``TuneIn(session=s).search("jazz")`` and have ``s`` reused.
+    # ------------------------------------------------------------------
+    def search_stations(self, query, enrich: bool = False):
+        return type(self).search(query, enrich=enrich, session=self.session)
+
+    def featured_stations(self, enrich: bool = False):
+        return type(self).featured(enrich=enrich, session=self.session)
+
+    def stream_urls(self, url):
+        return type(self).get_stream_urls(url, session=self.session)
+
+    @classmethod
+    def get_stream_urls(cls, url, session=None):
+        sess = _get_session(session)
         _url = urlparse(url)
         for scheme in ("http", "https"):
             url_str = urlunparse(
                 _url._replace(scheme=scheme, query=_url.query + "&render=json")
             )
-            res = requests.get(url_str)
+            res = sess.get(url_str)
             try:
                 res.raise_for_status()
                 break
@@ -379,39 +436,42 @@ class TuneIn:
 
         for station in stations:
             if station.get("url", "").endswith(".pls"):
-                res = requests.get(station["url"])
+                res = sess.get(station["url"])
                 file1 = [line for line in res.text.split("\n") if line.startswith("File1=")]
                 if file1:
                     station["url"] = file1[0].split("File1=")[1]
 
         return stations
 
-    @staticmethod
-    def featured(enrich: bool = False):
-        res = requests.post(
-            TuneIn.featured_url,
-            data={**TuneIn.stnd_query, **{"c": "local"}}
+    @classmethod
+    def featured(cls, enrich: bool = False, session=None):
+        sess = _get_session(session)
+        res = sess.post(
+            cls.featured_url,
+            data={**cls.stnd_query, **{"c": "local"}}
         )
         stations = res.json().get("body", [{}])[0].get("children", [])
-        return list(TuneIn._get_stations(stations, enrich=enrich))
+        return list(cls._get_stations(stations, enrich=enrich, session=sess))
 
-    @staticmethod
-    def search(query, enrich: bool = False):
+    @classmethod
+    def search(cls, query, enrich: bool = False, session=None):
         """Search TuneIn.
 
         ``enrich=True`` issues an extra ``Describe.ashx`` call per
         station to populate genre, language, country/location and other
         rich metadata. Off by default to keep the fast path cheap.
         """
-        res = requests.post(
-            TuneIn.search_url,
-            data={**TuneIn.stnd_query, **{"query": query}}
+        sess = _get_session(session)
+        res = sess.post(
+            cls.search_url,
+            data={**cls.stnd_query, **{"query": query}}
         )
         stations = res.json().get("body", [])
-        return list(TuneIn._get_stations(stations, query, enrich=enrich))
+        return list(cls._get_stations(stations, query, enrich=enrich, session=sess))
 
-    @staticmethod
-    def _get_stations(stations, query: str = "", enrich: bool = False):
+    @classmethod
+    def _get_stations(cls, stations, query: str = "", enrich: bool = False, session=None):
+        sess = _get_session(session)
         for entry in stations:
             if (
                 entry.get("key") == "unavailable"
@@ -419,15 +479,15 @@ class TuneIn:
                 or entry.get("item") != "station"
             ):
                 continue
-            streams = TuneIn.get_stream_urls(entry["URL"])
+            streams = cls.get_stream_urls(entry["URL"], session=sess)
             # Preload Describe.ashx once per station (not per stream).
             details: dict = {}
             if enrich:
                 sid = entry.get("guide_id") or entry.get("preset_id")
                 if sid:
                     try:
-                        r = requests.get(
-                            TuneIn.describe_url,
+                        r = sess.get(
+                            cls.describe_url,
                             params={"id": sid, "render": "json"},
                             timeout=10,
                         )
@@ -464,4 +524,4 @@ class TuneIn:
                 ):
                     if details.get(k) and not raw.get(k):
                         raw[k] = details[k]
-                yield TuneInStation(raw)
+                yield TuneInStation(raw, session=sess)

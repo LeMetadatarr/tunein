@@ -24,6 +24,7 @@ tunein = "tunein.cli:main"
 
 [project.optional-dependencies]
 test = ["pytest", "vcrpy", "pytest-vcr"]
+stealth = ["curl-cffi"]
 
 [tool.setuptools.dynamic]
 version = {attr = "tunein.version.__version__"}

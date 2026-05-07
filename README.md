@@ -86,3 +86,31 @@ start/end timestamps, and `Programme` requires an ISO-validated
 future TuneIn endpoint exposes a real schedule feed, it can be lifted
 into `Programme(work=show_ref, channel=station_ref, starts_at=...)`
 without changing the existing surface.
+
+## Pluggable HTTP transport
+
+By default the client uses :mod:`requests`. For stealthier scraping
+(TLS fingerprint matching a real browser via
+[curl_cffi](https://github.com/lexiforest/curl_cffi)), install the
+`stealth` extra and set the `TUNEIN_TRANSPORT` env var:
+
+```bash
+pip install tunein[stealth]
+export TUNEIN_TRANSPORT=curl_cffi
+```
+
+You can also inject any session-shaped object explicitly:
+
+```python
+from tunein import TuneIn
+import requests
+
+s = requests.Session()
+s.headers["User-Agent"] = "my-bot/1.0"
+client = TuneIn(session=s)
+results = client.search_stations("BBC Radio 4")
+```
+
+`TuneIn.search`, `TuneIn.featured`, and `TuneIn.get_stream_urls` also
+accept a `session=` keyword for one-shot calls without instantiating
+the client.
