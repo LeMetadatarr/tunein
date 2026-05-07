@@ -1,23 +1,23 @@
 # TuneIn
 
-Unofficial python api for TuneIn, with first-class
+Unofficial Python client for the TuneIn OPML API with first-class
 [mediavocab](https://github.com/JarbasAl/mediavocab) integration.
 
-## Usage
-
-### From the command line
-
-`tunein` ships a basic CLI for searching. Output is available in both
-`json` and table formats; the default is the table layout.
+## Install
 
 ```bash
-tunein search "Radio paradise"
-tunein search "Radio paradise" --format json
+pip install tunein
 ```
 
-CLI help is available with `tunein --help`.
+Stealth transport (TLS fingerprint matching a real browser via
+[curl_cffi](https://github.com/lexiforest/curl_cffi)):
 
-### From Python
+```bash
+pip install tunein[stealth]
+export TUNEIN_TRANSPORT=curl_cffi
+```
+
+## Quick Start
 
 ```python
 from tunein import TuneIn
@@ -26,91 +26,129 @@ for station in TuneIn.search("BBC Radio 4"):
     print(station.title, station.stream, station.bit_rate)
 ```
 
-### mediavocab integration
+```bash
+tunein search "BBC Radio 4"
+tunein search "BBC Radio 4" --format json
+```
 
-`TuneInStation.to_release()` emits a canonical `mediavocab.Release` so
-downstream consumers (OCP, recommendation engines, catalogue importers)
-can ingest TuneIn data without bespoke glue code.
+## Public API
 
-Per mediavocab axiom 8 (station identity), each TuneIn channel is
-modelled as a `Work` with `MediaType.RADIO`, and the playable stream
-URL is a `Release` with `StreamMode.CONTINUOUS` (live linear
-broadcast — not seekable on-demand audio).
+### `TuneIn`
+
+| Method | Description |
+|---|---|
+| `TuneIn.search(query, enrich=False, session=None)` | Search stations by keyword |
+| `TuneIn.featured(enrich=False, session=None)` | Local/featured stations |
+| `TuneIn.get_stream_urls(url, session=None)` | Resolve a Tune.ashx URL to playable stream entries |
+| `TuneIn(session=s).search_stations(query)` | Instance wrapper — reuses injected session |
+| `TuneIn(session=s).featured_stations()` | Instance wrapper |
+| `TuneIn(session=s).stream_urls(url)` | Instance wrapper |
+
+`enrich=True` fires an extra `Describe.ashx` call per station to populate
+genre, language, country, call-sign, slogan, and frequency. Off by default.
+
+### `TuneInStation`
+
+| Property / Method | Description |
+|---|---|
+| `.title` | Station display name |
+| `.artist` | Broadcaster name |
+| `.description` | Subtitle / tagline from search payload |
+| `.stream` | Playable stream URL (resolved) |
+| `.bit_rate` | Bitrate reported by TuneIn |
+| `.media_type` | Codec string (`mp3`, `aac`, `ogg`, …) |
+| `.image` | Logo URL |
+| `.station_id` | Canonical TuneIn id (e.g. `s12345`) |
+| `.match(phrase)` | Fuzzy title score 0–100 |
+| `.dict` | Dict snapshot of the above |
+| `.enrich()` | Fetch `Describe.ashx` and merge extra metadata in-place; returns `self` |
+| `.to_release()` | Return a `mediavocab.Release` |
+
+## Stream URL Resolution
+
+`TuneIn.get_stream_urls(url)` resolves a `Tune.ashx` redirect URL:
+
+1. Fetches `Tune.ashx?render=json` over HTTP then HTTPS.
+2. For each stream entry ending in `.pls`, parses `File1=` and replaces
+   the entry URL with the real direct stream.
+3. `.m3u` playlist URLs and direct streams are returned as-is.
+
+Each entry in the returned list is a dict with keys `url`, `bitrate`,
+`media_type`. `TuneIn._get_stations` calls this once per search/browse
+result and fans out — one `TuneInStation` per stream variant.
+
+Source: `TuneIn.get_stream_urls` — `tunein/__init__.py:419`
+
+## mediavocab Integration
 
 ```python
 from tunein import TuneIn
 
-# Fast path — search payload only.
-for release in (s.to_release() for s in TuneIn.search("BBC Radio 4")):
-    print(release.uri, release.codec, release.bitrate)
-
-# Rich path — opt in to the per-station Describe.ashx call to populate
-# genre, language, country, call-sign, slogan, etc.
 for station in TuneIn.search("BBC Radio 4", enrich=True):
     release = station.to_release()
-    print(release.work.title)            # "BBC Radio 4"
-    print(release.work.country)          # "GB"  (parsed from "London, UK")
-    print(release.work.language)         # "en"  (mapped from "English")
-    print(release.work.content_genres)   # ["news"]  (mapped to GENRE_NEWS)
-    print(release.work.aka)              # ["BBC R4"]   (call-sign)
-    print(release.codec, release.bitrate)  # "aac", "128"
-    print(release.audio_channels)        # "stereo"
+    print(release.uri)                    # stream URL
+    print(release.work.title)             # "BBC Radio 4"
+    print(release.work.media_type)        # MediaType.RADIO
+    print(release.stream_mode)            # StreamMode.CONTINUOUS
+    print(release.work.country)           # "GB"
+    print(release.work.language)          # "en"
+    print(release.work.content_genres)    # ["news"]
+    print(release.work.aka)               # call-sign / alternate name
 ```
 
-TuneIn's `Tune.ashx` endpoint returns multiple stream URLs per station
-(different bitrates, mirrors, and protocols — HLS, MP3, AAC). Each
-stream becomes its own `Release` so consumers can pick the best fit at
-playback time.
+`TuneInStation.to_release()` — `tunein/__init__.py:276`
 
-The full set of mediavocab external ids emitted is:
+- Each station is a `Work` with `MediaType.RADIO`.
+- Each stream URL becomes a `Release` with `StreamMode.CONTINUOUS`
+  (live linear broadcast, not seekable).
+- Multiple stream variants (bitrates, codecs) each produce their own
+  `Release`; call `to_release()` on every item returned by `search()`.
 
-| key                  | source                                    |
-| -------------------- | ----------------------------------------- |
-| `tunein_station_id`  | `guide_id` / `preset_id`                  |
-| `tunein_url`         | OPML `Tune.ashx` URL                      |
-| `tunein_web_url`     | Public `tunein.com/station/?stationId=…`  |
-| `tunein_logo_url`    | Station logo URL                          |
+External ids emitted on both `work` and `release`:
 
-Enriched stations also carry `slogan`, `location`, `frequency`, `band`,
-`twitter_id`, and `content_classification` under `work.extra`. The
-now-playing label (when present) is preserved in
-`work.extra["current_track"]`.
+| Key | Source |
+|---|---|
+| `tunein_station_id` | `guide_id` / `preset_id` |
+| `tunein_url` | OPML `Tune.ashx` URL |
+| `tunein_web_url` | Public `tunein.com` station page |
+| `tunein_logo_url` | Station logo URL |
 
-#### Why no `Programme` / `Schedule`?
-
-mediavocab 0.3 introduced `Programme` and `Schedule` for EPG data. The
-TuneIn search/browse endpoints expose a *now-playing* label but no
-start/end timestamps, and `Programme` requires an ISO-validated
-`starts_at`. This client therefore preserves the now-playing string in
-`work.extra["current_track"]` rather than fabricating a timestamp. If a
-future TuneIn endpoint exposes a real schedule feed, it can be lifted
-into `Programme(work=show_ref, channel=station_ref, starts_at=...)`
-without changing the existing surface.
-
-## Pluggable HTTP transport
-
-By default the client uses :mod:`requests`. For stealthier scraping
-(TLS fingerprint matching a real browser via
-[curl_cffi](https://github.com/lexiforest/curl_cffi)), install the
-`stealth` extra and set the `TUNEIN_TRANSPORT` env var:
-
-```bash
-pip install tunein[stealth]
-export TUNEIN_TRANSPORT=curl_cffi
-```
-
-You can also inject any session-shaped object explicitly:
+## Pluggable Session / `TUNEIN_TRANSPORT`
 
 ```python
-from tunein import TuneIn
 import requests
+from tunein import TuneIn
 
 s = requests.Session()
 s.headers["User-Agent"] = "my-bot/1.0"
 client = TuneIn(session=s)
-results = client.search_stations("BBC Radio 4")
+results = client.search_stations("jazz")
 ```
 
-`TuneIn.search`, `TuneIn.featured`, and `TuneIn.get_stream_urls` also
-accept a `session=` keyword for one-shot calls without instantiating
-the client.
+`default_session()` — `tunein/transport.py:22` — checks
+`TUNEIN_TRANSPORT` at call time:
+
+- `TUNEIN_TRANSPORT=curl_cffi` → `curl_cffi.requests.Session(impersonate="chrome")`
+- anything else → `requests.Session()`
+
+The class methods `search`, `featured`, and `get_stream_urls` each accept
+`session=` directly for one-shot use without instantiating the class.
+
+## CLI
+
+```
+tunein search <query> [--format {table,json}]
+```
+
+Table output renders station title as an OSC-8 hyperlink to the stream URL.
+Exit code 1 when no results are found.
+
+Source: `tunein/cli.py`, `tunein/subcommands/search.py`
+
+## Docs
+
+See [`/docs/`](docs/) for full reference.
+
+## License
+
+Apache 2.0
