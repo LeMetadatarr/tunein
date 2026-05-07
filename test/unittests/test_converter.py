@@ -97,3 +97,113 @@ def test_to_release_external_ids_are_strings():
     for k, v in rel.work.external_ids.items():
         assert isinstance(k, str)
         assert isinstance(v, str)
+
+
+def test_to_release_default_audio_channels_stereo():
+    rel = _station().to_release()
+    assert rel.audio_channels == "stereo"
+
+
+def test_to_release_audio_channels_override():
+    s = _station(audio_channels="mono")
+    rel = s.to_release()
+    assert rel.audio_channels == "mono"
+
+
+def test_to_release_logo_url_in_external_ids():
+    rel = _station().to_release()
+    assert rel.work.external_ids.get("tunein_logo_url") == \
+        "https://example.com/r4.png"
+
+
+def test_to_release_genre_mapping_news():
+    s = _station(genre_name="News")
+    rel = s.to_release()
+    from mediavocab.taxonomy.genre import GENRE_NEWS
+    assert GENRE_NEWS in rel.work.content_genres
+
+
+def test_to_release_genre_mapping_jazz():
+    s = _station(genre_name="Jazz")
+    rel = s.to_release()
+    from mediavocab.taxonomy.genre import GENRE_JAZZ
+    assert GENRE_JAZZ in rel.work.content_genres
+
+
+def test_to_release_genre_unknown_label_preserved():
+    s = _station(genre_name="Polka Hour")
+    rel = s.to_release()
+    assert "Polka Hour" in rel.work.content_genres
+
+
+def test_to_release_country_from_location_uk():
+    s = _station(location="London, UK")
+    rel = s.to_release()
+    assert rel.work.country == "GB"
+
+
+def test_to_release_country_from_us_state_code():
+    s = _station(location="Seattle, WA")
+    rel = s.to_release()
+    assert rel.work.country == "US"
+
+
+def test_to_release_explicit_country_wins_over_location():
+    s = _station(country="FR", location="London, UK")
+    rel = s.to_release()
+    assert rel.work.country == "FR"
+
+
+def test_to_release_language_iso_mapping():
+    s = _station(language="English")
+    rel = s.to_release()
+    assert rel.work.language == "en"
+    # audio_language defaults to the work language when not given.
+    assert rel.audio_language == "en"
+
+
+def test_to_release_aka_from_call_sign_and_name():
+    s = _station(call_sign="BBC R4", name="BBC Radio 4 FM")
+    rel = s.to_release()
+    # title = "BBC Radio 4"; both call_sign and name differ.
+    assert "BBC R4" in rel.work.aka
+    assert "BBC Radio 4 FM" in rel.work.aka
+
+
+def test_to_release_extra_carries_slogan_and_location():
+    s = _station(slogan="Inquisitive speech radio",
+                 location="London, UK", frequency="93.5", band="FM")
+    rel = s.to_release()
+    assert rel.work.extra.get("slogan") == "Inquisitive speech radio"
+    assert rel.work.extra.get("location") == "London, UK"
+    assert rel.work.extra.get("frequency") == "93.5"
+    assert rel.work.extra.get("band") == "FM"
+
+
+def test_to_release_tv_media_type_when_seeded():
+    from mediavocab import MediaType
+    s = _station(media_type_kind="tv")
+    rel = s.to_release()
+    assert rel.work.media_type == MediaType.TV
+
+
+def test_to_release_audio_language_explicit():
+    s = _station(language="English", audio_language="es")
+    rel = s.to_release()
+    assert rel.audio_language == "es"
+
+
+def test_to_release_region_and_regions_available():
+    s = _station(region="EU", regions_available=["GB", "IE"])
+    rel = s.to_release()
+    assert rel.region == "EU"
+    assert rel.regions_available == ["GB", "IE"]
+
+
+def test_to_release_tunein_web_url_separate_from_opml_url():
+    s = _station(url="http://opml.radiotime.com/Tune.ashx?id=s25419",
+                 tunein_url="http://tunein.com/station/?stationId=25419")
+    rel = s.to_release()
+    assert rel.work.external_ids["tunein_url"].startswith("http://opml")
+    assert rel.work.external_ids["tunein_web_url"] == \
+        "http://tunein.com/station/?stationId=25419"

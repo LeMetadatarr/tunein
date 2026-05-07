@@ -1,7 +1,124 @@
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urlparse, urlunparse, parse_qs
 
 import requests
 from tunein.parse import fuzzy_match
+
+
+# --- TuneIn genre_name -> mediavocab GENRE_* constant -------------------
+# TuneIn's `genre_name` field (from Describe.ashx) is a free-form string,
+# but the values cluster around a small set of recognisable buckets. Map
+# the common ones to mediavocab taxonomy constants; anything unknown is
+# preserved verbatim so downstream consumers can still see the raw label.
+def _map_tunein_genre(label: str) -> str:
+    """Return a ``mediavocab.taxonomy.genre.GENRE_*`` value when the
+    TuneIn label is recognisable; otherwise return the raw label.
+    """
+    if not label:
+        return ""
+    try:
+        from mediavocab.taxonomy import genre as G
+    except Exception:
+        return label
+
+    norm = label.strip().lower()
+    table = {
+        "news": G.GENRE_NEWS,
+        "news/talk": G.GENRE_NEWS,
+        "talk": G.GENRE_TALK_SHOW,
+        "talk show": G.GENRE_TALK_SHOW,
+        "talk radio": G.GENRE_TALK_SHOW,
+        "sports": G.GENRE_SPORTS,
+        "sport": G.GENRE_SPORTS,
+        "comedy": G.GENRE_COMEDY,
+        "classical": G.GENRE_CLASSICAL,
+        "classical music": G.GENRE_CLASSICAL,
+        "jazz": G.GENRE_JAZZ,
+        "blues": G.GENRE_BLUES,
+        "rock": G.GENRE_ROCK,
+        "indie": G.GENRE_INDIE,
+        "metal": G.GENRE_METAL,
+        "punk": G.GENRE_PUNK,
+        "pop": G.GENRE_POP,
+        "country": G.GENRE_COUNTRY,
+        "folk": G.GENRE_FOLK,
+        "electronic": G.GENRE_ELECTRONIC,
+        "electronica": G.GENRE_ELECTRONIC,
+        "dance": G.GENRE_ELECTRONIC,
+        "house": G.GENRE_HOUSE,
+        "techno": G.GENRE_TECHNO,
+        "trance": G.GENRE_TRANCE,
+        "dubstep": G.GENRE_DUBSTEP,
+        "drum and bass": G.GENRE_DRUM_AND_BASS,
+        "hip hop": G.GENRE_HIP_HOP,
+        "hip-hop": G.GENRE_HIP_HOP,
+        "rap": G.GENRE_HIP_HOP,
+        "r&b": G.GENRE_RNB,
+        "rnb": G.GENRE_RNB,
+        "soul": G.GENRE_SOUL,
+        "funk": G.GENRE_FUNK,
+        "disco": G.GENRE_DISCO,
+        "reggae": G.GENRE_REGGAE,
+        "latin": G.GENRE_LATIN,
+        "ambient": G.GENRE_AMBIENT,
+        "religious": "religious",  # no mediavocab constant; keep raw
+    }
+    return table.get(norm, label)
+
+
+# --- ISO-3166 country derivation from TuneIn location strings -----------
+# TuneIn's `location` is "City, Country" where Country is often a US
+# state ("Seattle, WA") or a country name ("London, UK"). Map the most
+# common tails to ISO-3166-1 alpha-2 codes; otherwise return the raw
+# trailing token so the caller still has *something*.
+_LOCATION_TAIL_TO_ISO = {
+    "uk": "GB", "u.k.": "GB", "united kingdom": "GB", "england": "GB",
+    "scotland": "GB", "wales": "GB", "northern ireland": "GB",
+    "usa": "US", "u.s.a.": "US", "united states": "US",
+    "ireland": "IE", "france": "FR", "germany": "DE", "spain": "ES",
+    "portugal": "PT", "italy": "IT", "netherlands": "NL", "belgium": "BE",
+    "canada": "CA", "australia": "AU", "new zealand": "NZ",
+    "brazil": "BR", "brasil": "BR", "argentina": "AR", "mexico": "MX",
+    "japan": "JP", "china": "CN", "india": "IN", "russia": "RU",
+    "sweden": "SE", "norway": "NO", "denmark": "DK", "finland": "FI",
+    "poland": "PL", "greece": "GR", "turkey": "TR", "switzerland": "CH",
+    "austria": "AT",
+}
+# US state codes -> US (TuneIn returns "Seattle, WA" style locations).
+_US_STATES = {
+    "al", "ak", "az", "ar", "ca", "co", "ct", "de", "fl", "ga", "hi",
+    "id", "il", "in", "ia", "ks", "ky", "la", "me", "md", "ma", "mi",
+    "mn", "ms", "mo", "mt", "ne", "nv", "nh", "nj", "nm", "ny", "nc",
+    "nd", "oh", "ok", "or", "pa", "ri", "sc", "sd", "tn", "tx", "ut",
+    "vt", "va", "wa", "wv", "wi", "wy", "dc",
+}
+
+
+def _country_from_location(location: str) -> str:
+    if not location:
+        return ""
+    tail = location.rsplit(",", 1)[-1].strip().lower()
+    if not tail:
+        return ""
+    if tail in _US_STATES:
+        return "US"
+    return _LOCATION_TAIL_TO_ISO.get(tail, "")
+
+
+# --- Language name -> ISO-639-1 ----------------------------------------
+_LANGUAGE_TO_ISO = {
+    "english": "en", "spanish": "es", "french": "fr", "german": "de",
+    "italian": "it", "portuguese": "pt", "dutch": "nl", "russian": "ru",
+    "japanese": "ja", "chinese": "zh", "korean": "ko", "arabic": "ar",
+    "hindi": "hi", "swedish": "sv", "norwegian": "no", "danish": "da",
+    "finnish": "fi", "polish": "pl", "greek": "el", "turkish": "tr",
+    "catalan": "ca", "galician": "gl", "basque": "eu",
+}
+
+
+def _language_to_iso(label: str) -> str:
+    if not label:
+        return ""
+    return _LANGUAGE_TO_ISO.get(label.strip().lower(), label)
 
 
 class TuneInStation:
@@ -75,13 +192,63 @@ class TuneInStation:
         url = self.raw.get("url") or ""
         if "id=" in url:
             try:
-                from urllib.parse import parse_qs, urlparse
                 qs = parse_qs(urlparse(url).query)
                 if qs.get("id"):
                     return str(qs["id"][0])
             except Exception:
                 pass
         return ""
+
+    def enrich(self) -> "TuneInStation":
+        """Fetch ``Describe.ashx`` for the station and merge richer
+        metadata (genre, language, location, call-sign, slogan,
+        is_music, has_schedule, tunein_url) into ``self.raw``.
+
+        Returns ``self`` so callers can chain. Any HTTP failure is
+        swallowed — enrichment is best-effort.
+        """
+        sid = self.station_id
+        if not sid:
+            return self
+        try:
+            res = requests.get(
+                "http://opml.radiotime.com/Describe.ashx",
+                params={"id": sid, "render": "json"},
+                timeout=10,
+            )
+            res.raise_for_status()
+            body = res.json().get("body") or []
+            if not body:
+                return self
+            details = body[0]
+        except Exception:
+            return self
+
+        # Merge — never clobber values the search payload already gave us.
+        merge_keys = (
+            "name", "call_sign", "slogan", "frequency", "band",
+            "location", "language", "genre_name", "genre_id",
+            "is_music", "has_schedule", "tunein_url", "logo",
+            "content_classification", "twitter_id", "description",
+        )
+        for k in merge_keys:
+            if k in details and self.raw.get(k) in (None, ""):
+                self.raw[k] = details[k]
+        return self
+
+    def _resolve_media_type(self):
+        """Pick the right ``MediaType`` for this station.
+
+        TuneIn's search/browse endpoints filter by ``type=audio`` so
+        results are radio. If a future caller seeds ``raw["media_type_kind"]``
+        with ``"tv"`` (e.g. an IPTV browse), honour it.
+        """
+        from mediavocab import MediaType
+
+        kind = (self.raw.get("media_type_kind") or "").lower()
+        if kind == "tv":
+            return MediaType.TV
+        return MediaType.RADIO
 
     def to_release(self):
         """Return a mediavocab ``Release`` for this TuneIn station.
@@ -91,11 +258,17 @@ class TuneInStation:
         a ``Release`` with ``StreamMode.CONTINUOUS`` (live linear
         broadcast, not seekable on-demand audio).
         """
-        from mediavocab import MediaType, Release, StreamMode, Work
+        from mediavocab import Release, StreamMode, Work
 
         external_ids: dict[str, str] = {}
         if self.raw.get("url"):
             external_ids["tunein_url"] = str(self.raw["url"])
+        # Describe.ashx exposes a public web URL distinct from the OPML
+        # tune URL; preserve it under a separate key when available.
+        if self.raw.get("tunein_url"):
+            external_ids["tunein_web_url"] = str(self.raw["tunein_url"])
+        if self.image:
+            external_ids["tunein_logo_url"] = str(self.image)
         sid = self.station_id
         if sid:
             external_ids["tunein_station_id"] = sid
@@ -107,29 +280,83 @@ class TuneInStation:
         # so it can't be promoted to a Programme); keep it in extra.
         if self.raw.get("current_track"):
             extra["current_track"] = str(self.raw["current_track"])
+        for k in ("slogan", "frequency", "band", "twitter_id",
+                  "content_classification"):
+            if self.raw.get(k):
+                extra[k] = str(self.raw[k])
+        if self.raw.get("location"):
+            extra["location"] = str(self.raw["location"])
+
+        # --- Work fields ----------------------------------------------
+        # `aka` — when both display title and call_sign are present and
+        # differ, lift the alternate.
+        aka: list[str] = []
+        call_sign = (self.raw.get("call_sign") or "").strip()
+        name = (self.raw.get("name") or "").strip()
+        for alt in (call_sign, name):
+            if alt and alt != self.title and alt not in aka:
+                aka.append(alt)
+
+        # `content_genres` — map TuneIn genre_name to mediavocab constants.
+        content_genres: list[str] = []
+        gname = (self.raw.get("genre_name") or "").strip()
+        if gname:
+            content_genres.append(_map_tunein_genre(gname))
+
+        # `country` — prefer explicit raw country, fall back to parsing
+        # the location string.
+        country = str(self.raw.get("country") or "")
+        if not country:
+            country = _country_from_location(self.raw.get("location") or "")
+
+        # `language` — accept ISO codes verbatim, map English-language
+        # names to ISO-639-1.
+        lang_raw = str(self.raw.get("language") or "")
+        language = _language_to_iso(lang_raw) if lang_raw else ""
 
         work = Work(
             title=self.title,
-            media_type=MediaType.RADIO,
-            country=str(self.raw.get("country") or ""),
-            language=str(self.raw.get("language") or ""),
+            media_type=self._resolve_media_type(),
+            country=country,
+            language=language,
+            content_genres=content_genres,
+            aka=aka,
             external_ids=dict(external_ids),
             extra=extra,
         )
-        return Release(
+
+        # --- Release fields -------------------------------------------
+        # Stations are stereo by convention; explicit overrides win.
+        audio_channels = str(self.raw.get("audio_channels") or "stereo")
+        audio_language = (
+            str(self.raw.get("audio_language") or "") or language
+        )
+
+        release_kwargs = dict(
             work=work,
             uri=self.stream or "",
             image=self.image or "",
             codec=self.media_type or "",
             bitrate=str(self.bit_rate) if self.bit_rate else "",
+            audio_channels=audio_channels,
+            audio_language=audio_language,
             stream_mode=StreamMode.CONTINUOUS,
             external_ids=dict(external_ids),
         )
+        # Optional rights / regional fields when TuneIn declares them.
+        if self.raw.get("region"):
+            release_kwargs["region"] = str(self.raw["region"])
+        if self.raw.get("regions_available"):
+            release_kwargs["regions_available"] = list(
+                self.raw["regions_available"]
+            )
+        return Release(**release_kwargs)
 
 
 class TuneIn:
     search_url = "https://opml.radiotime.com/Search.ashx"
     featured_url = "http://opml.radiotime.com/Browse.ashx"  # local stations
+    describe_url = "http://opml.radiotime.com/Describe.ashx"
     stnd_query = {"formats": "mp3,aac,ogg,html,hls", "render": "json"}
 
     @staticmethod
@@ -160,25 +387,31 @@ class TuneIn:
         return stations
 
     @staticmethod
-    def featured():
+    def featured(enrich: bool = False):
         res = requests.post(
             TuneIn.featured_url,
             data={**TuneIn.stnd_query, **{"c": "local"}}
         )
         stations = res.json().get("body", [{}])[0].get("children", [])
-        return list(TuneIn._get_stations(stations))
+        return list(TuneIn._get_stations(stations, enrich=enrich))
 
     @staticmethod
-    def search(query):
+    def search(query, enrich: bool = False):
+        """Search TuneIn.
+
+        ``enrich=True`` issues an extra ``Describe.ashx`` call per
+        station to populate genre, language, country/location and other
+        rich metadata. Off by default to keep the fast path cheap.
+        """
         res = requests.post(
             TuneIn.search_url,
             data={**TuneIn.stnd_query, **{"query": query}}
         )
         stations = res.json().get("body", [])
-        return list(TuneIn._get_stations(stations, query))
+        return list(TuneIn._get_stations(stations, query, enrich=enrich))
 
     @staticmethod
-    def _get_stations(stations: requests.Response, query: str = ""):
+    def _get_stations(stations, query: str = "", enrich: bool = False):
         for entry in stations:
             if (
                 entry.get("key") == "unavailable"
@@ -187,19 +420,48 @@ class TuneIn:
             ):
                 continue
             streams = TuneIn.get_stream_urls(entry["URL"])
+            # Preload Describe.ashx once per station (not per stream).
+            details: dict = {}
+            if enrich:
+                sid = entry.get("guide_id") or entry.get("preset_id")
+                if sid:
+                    try:
+                        r = requests.get(
+                            TuneIn.describe_url,
+                            params={"id": sid, "render": "json"},
+                            timeout=10,
+                        )
+                        r.raise_for_status()
+                        body = r.json().get("body") or []
+                        if body:
+                            details = body[0]
+                    except Exception:
+                        details = {}
             for stream in streams:
-                yield TuneInStation(
-                    {
-                        "stream": stream["url"],
-                        "bitrate": stream["bitrate"],
-                        "media_type": stream["media_type"],
-                        "url": entry["URL"],
-                        "title": entry.get("current_track") or entry.get("text"),
-                        "artist": entry.get("text"),
-                        "description": entry.get("subtext"),
-                        "image": entry.get("image"),
-                        "query": query,
-                        "current_track": entry.get("current_track"),
-                        "station_id": entry.get("guide_id") or entry.get("preset_id"),
-                    }
-                )
+                raw = {
+                    "stream": stream["url"],
+                    "bitrate": stream["bitrate"],
+                    "media_type": stream["media_type"],
+                    "url": entry["URL"],
+                    "title": entry.get("current_track") or entry.get("text"),
+                    "artist": entry.get("text"),
+                    "description": entry.get("subtext"),
+                    "image": entry.get("image"),
+                    "query": query,
+                    "current_track": entry.get("current_track"),
+                    "station_id": entry.get("guide_id") or entry.get("preset_id"),
+                    "genre_id": entry.get("genre_id"),
+                    "formats": entry.get("formats"),
+                    "reliability": entry.get("reliability"),
+                }
+                # Merge enriched details (Describe.ashx) without clobbering
+                # values already present from the search payload.
+                for k in (
+                    "name", "call_sign", "slogan", "frequency", "band",
+                    "location", "language", "genre_name", "genre_id",
+                    "is_music", "has_schedule", "tunein_url",
+                    "content_classification", "twitter_id",
+                ):
+                    if details.get(k) and not raw.get(k):
+                        raw[k] = details[k]
+                yield TuneInStation(raw)

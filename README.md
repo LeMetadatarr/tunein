@@ -40,21 +40,41 @@ broadcast — not seekable on-demand audio).
 ```python
 from tunein import TuneIn
 
-station = next(iter(TuneIn.search("BBC Radio 4")))
-release = station.to_release()
+# Fast path — search payload only.
+for release in (s.to_release() for s in TuneIn.search("BBC Radio 4")):
+    print(release.uri, release.codec, release.bitrate)
 
-release.work.title          # "BBC Radio 4"
-release.work.media_type     # MediaType.RADIO
-release.stream_mode         # StreamMode.CONTINUOUS
-release.uri                 # the actual mp3/aac/hls stream URL
-release.codec               # "aac" / "mp3" / "hls" / ...
-release.bitrate             # "128"
-release.work.external_ids   # {"tunein_url": "...", "tunein_station_id": "s12345"}
+# Rich path — opt in to the per-station Describe.ashx call to populate
+# genre, language, country, call-sign, slogan, etc.
+for station in TuneIn.search("BBC Radio 4", enrich=True):
+    release = station.to_release()
+    print(release.work.title)            # "BBC Radio 4"
+    print(release.work.country)          # "GB"  (parsed from "London, UK")
+    print(release.work.language)         # "en"  (mapped from "English")
+    print(release.work.content_genres)   # ["news"]  (mapped to GENRE_NEWS)
+    print(release.work.aka)              # ["BBC R4"]   (call-sign)
+    print(release.codec, release.bitrate)  # "aac", "128"
+    print(release.audio_channels)        # "stereo"
 ```
 
-The `tunein_station_id` is parsed from the OPML `Tune.ashx?id=...` URL
-and is the canonical, stable handle for the channel. Now-playing
-metadata (when present) is preserved in `work.extra["current_track"]`.
+TuneIn's `Tune.ashx` endpoint returns multiple stream URLs per station
+(different bitrates, mirrors, and protocols — HLS, MP3, AAC). Each
+stream becomes its own `Release` so consumers can pick the best fit at
+playback time.
+
+The full set of mediavocab external ids emitted is:
+
+| key                  | source                                    |
+| -------------------- | ----------------------------------------- |
+| `tunein_station_id`  | `guide_id` / `preset_id`                  |
+| `tunein_url`         | OPML `Tune.ashx` URL                      |
+| `tunein_web_url`     | Public `tunein.com/station/?stationId=…`  |
+| `tunein_logo_url`    | Station logo URL                          |
+
+Enriched stations also carry `slogan`, `location`, `frequency`, `band`,
+`twitter_id`, and `content_classification` under `work.extra`. The
+now-playing label (when present) is preserved in
+`work.extra["current_track"]`.
 
 #### Why no `Programme` / `Schedule`?
 
