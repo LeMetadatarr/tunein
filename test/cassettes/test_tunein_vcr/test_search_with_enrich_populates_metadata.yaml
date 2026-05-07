@@ -1,0 +1,1144 @@
+interactions:
+- request:
+    body: formats=mp3%2Caac%2Cogg%2Chtml%2Chls&render=json&query=kuow
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '59'
+      Content-Type:
+      - application/x-www-form-urlencoded
+    method: POST
+    uri: https://opml.radiotime.com/Search.ashx
+  response:
+    body:
+      string: " { \"head\": {\t\"title\": \"Search Results: kuow\",\n\t\"status\":
+        \"200\"}, \"body\": [\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"KUOW-FM\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s35932&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"96\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s35932\",\n\"subtext\"
+        : \"Seattle's NPR News Station\",\n\"genre_id\" : \"g3124\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s35932/images/logoq.jpg?t=636269\",\n\"now_playing_id\"
+        : \"s35932\",\n\"preset_id\" : \"s35932\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"link\",\n\"text\" : \"KUOW Newsroom\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p1835162&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p1835162\",\n\"subtext\" : \"Catch up on the local headlines of the day...\",\n\"genre_id\"
+        : \"g3407\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1835162/images/logoq.png?t=1\",\n\"current_track\"
+        : \"Catch up on the local headlines of the day...\",\n\"preset_id\" : \"p1835162\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"KUOW
+        Shorts\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p1675496&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p1675496\",\n\"subtext\" : \"Discover original short-run audio series...\",\n\"genre_id\"
+        : \"g3416\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1675496/images/logoq.png?t=11\",\n\"current_track\"
+        : \"Discover original short-run audio series...\",\n\"preset_id\" : \"p1675496\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"Second
+        Wave\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p1023058&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p1023058\",\n\"subtext\" : \"Second Wave, a new podcast from KUOW and
+        PRX,...\",\n\"genre_id\" : \"g3402\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\"
+        : \"http://cdn-profiles.tunein.com/p1023058/images/logoq.png?t=636390\",\n\"current_track\"
+        : \"Second Wave, a new podcast from KUOW and PRX,...\",\n\"preset_id\" : \"p1023058\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"Seattle
+        Now\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p1296490\",\n\"subtext\" : \"Seattle Now is KUOW's flagship daily news...\",\n\"genre_id\"
+        : \"g3407\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"Seattle Now is KUOW's flagship daily news...\",\n\"preset_id\" : \"p1296490\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"EarthFix\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p3227389&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p3227389\",\n\"subtext\" : \"Stories from the EarthFix team at OPB, KUOW,...\",\n\"genre_id\"
+        : \"g3430\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p3227389/images/logoq.png?t=1\",\n\"current_track\"
+        : \"Stories from the EarthFix team at OPB, KUOW,...\",\n\"preset_id\" : \"p3227389\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"Second
+        Wave\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p1161413&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p1161413\",\n\"subtext\" : \"Second Wave, a new podcast from KUOW and
+        PRX,...\",\n\"genre_id\" : \"g3412\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\"
+        : \"http://cdn-profiles.tunein.com/p1161413/images/logoq.png?t=2\",\n\"current_track\"
+        : \"Second Wave, a new podcast from KUOW and PRX,...\",\n\"preset_id\" : \"p1161413\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"What
+        we know about the science of consciousness\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t472045814&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472045814\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"989\",\n\"subtext\"
+        : \"14 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"14 May 2025\",\n\"now_playing_id\" : \"t472045814\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"Ghost Herd\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p3494754&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p3494754\",\n\"subtext\" : \"A true story of family, fraud, land and power...\",\n\"genre_id\"
+        : \"g27\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p3494754/images/logoq.png?t=2\",\n\"current_track\"
+        : \"A true story of family, fraud, land and power...\",\n\"preset_id\" : \"p3494754\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"An
+        imam, a zen priest, and an atheist talked in a KUOW studio\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t470496311&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470496311\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"2132\",\n\"subtext\"
+        : \"8 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"8 May 2025\",\n\"now_playing_id\" : \"t470496311\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Why Seattle's City Council
+        is considering changing their ethics code\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t470592560&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470592560\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"789\",\n\"subtext\"
+        : \"8 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"8 May 2025\",\n\"now_playing_id\" : \"t470592560\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Soundside's Weekend Warmup
+        - Mother's Day! May 8th-11th\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t470592561&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470592561\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"454\",\n\"subtext\"
+        : \"8 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"8 May 2025\",\n\"now_playing_id\" : \"t470592561\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Soundside's \\\"Weekend
+        Warmup\\\" - May 15-18\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t472209098&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472209098\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"291\",\n\"subtext\"
+        : \"15 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"15 May 2025\",\n\"now_playing_id\" : \"t472209098\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Hear it Again: Pulitzer
+        Prize winning author Tessa Hulls on her graphic novel 'Feeding Ghosts'\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t470401772&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470401772\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"1171\",\n\"subtext\"
+        : \"7 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"7 May 2025\",\n\"now_playing_id\" : \"t470401772\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"The end of Bartell Drugs
+        and the rise of pharmacy deserts\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t472039456&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472039456\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"1020\",\n\"subtext\"
+        : \"14 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"14 May 2025\",\n\"now_playing_id\" : \"t472039456\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Filmmaker Joey Clift talks
+        about the inspiration behind the animated short POW!\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t472209099&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472209099\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"1076\",\n\"subtext\"
+        : \"15 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"15 May 2025\",\n\"now_playing_id\" : \"t472209099\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"WA lags behind other states
+        in green energy growth\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t472045812&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472045812\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"1073\",\n\"subtext\"
+        : \"14 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"14 May 2025\",\n\"now_playing_id\" : \"t472045812\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Should Catholic priests
+        in Washington State be forced to break the confessional seal?\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t471745040&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t471745040\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"1264\",\n\"subtext\"
+        : \"13 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"13 May 2025\",\n\"now_playing_id\" : \"t471745040\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Amid concerns about the
+        \u2018manosphere\u2019, here\u2019s what three experts think about raising
+        boys in 2025\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t471349961&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t471349961\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"3041\",\n\"subtext\"
+        : \"12 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"12 May 2025\",\n\"now_playing_id\" : \"t471349961\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"What will it take to curb
+        overcrowding at WA's youth prisons?\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t471788295&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t471788295\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"1330\",\n\"subtext\"
+        : \"14 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"14 May 2025\",\n\"now_playing_id\" : \"t471788295\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Thursday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t472234512&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472234512\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"413\",\n\"subtext\"
+        : \"15 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"15 May 2025\",\n\"now_playing_id\" : \"t472234512\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Wednesday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t470405460&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470405460\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"745\",\n\"subtext\"
+        : \"8 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"8 May 2025\",\n\"now_playing_id\" : \"t470405460\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Monday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t478881311&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t478881311\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"497\",\n\"subtext\"
+        : \"16 Jun 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"16 Jun 2025\",\n\"now_playing_id\" : \"t478881311\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Thursday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t470625312&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470625312\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"635\",\n\"subtext\"
+        : \"9 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"9 May 2025\",\n\"now_playing_id\" : \"t470625312\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Friday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t470894399&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470894399\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"701\",\n\"subtext\"
+        : \"10 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"10 May 2025\",\n\"now_playing_id\" : \"t470894399\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Wednesday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t472047652&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472047652\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"543\",\n\"subtext\"
+        : \"15 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"15 May 2025\",\n\"now_playing_id\" : \"t472047652\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Thursday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t486153848&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t486153848\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"446\",\n\"subtext\"
+        : \"24 Jul 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"24 Jul 2025\",\n\"now_playing_id\" : \"t486153848\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Wednesday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t487311458&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t487311458\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"488\",\n\"subtext\"
+        : \"30 Jul 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"30 Jul 2025\",\n\"now_playing_id\" : \"t487311458\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Friday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t487815960&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t487815960\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"429\",\n\"subtext\"
+        : \"2 Aug 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"2 Aug 2025\",\n\"now_playing_id\" : \"t487815960\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Friday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t472440258&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472440258\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"684\",\n\"subtext\"
+        : \"16 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"16 May 2025\",\n\"now_playing_id\" : \"t472440258\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Monday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t471361319&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t471361319\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"525\",\n\"subtext\"
+        : \"12 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"12 May 2025\",\n\"now_playing_id\" : \"t471361319\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Federal funding uncertainty?
+        Budget gap? New KC Exec has a plan for that.\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t470397469&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470397469\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"1414\",\n\"subtext\"
+        : \"7 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"7 May 2025\",\n\"now_playing_id\" : \"t470397469\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Friday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t481087573&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t481087573\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"467\",\n\"subtext\"
+        : \"27 Jun 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"27 Jun 2025\",\n\"now_playing_id\" : \"t481087573\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Tuesday Evening Headlines\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t471752576&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t471752576\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"767\",\n\"subtext\"
+        : \"13 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"13 May 2025\",\n\"now_playing_id\" : \"t471752576\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Saturday Special: Brothers
+        in ICE Detention face uncertain future, Snohomish firefighters take Covid
+        vaccine fight to federal court, and blended college classes at the Washington
+        State Penitentiary\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t472514406&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t472514406\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"797\",\n\"subtext\"
+        : \"17 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"17 May 2025\",\n\"now_playing_id\" : \"t472514406\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Saturday Special: How
+        ICE used a ruse to arrest a longtime Spokane resident\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t470981603&sid=p1296490&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470981603\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"726\",\n\"subtext\"
+        : \"10 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1296490/images/logoq.png?t=158214\",\n\"current_track\"
+        : \"10 May 2025\",\n\"now_playing_id\" : \"t470981603\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"The Uncertain Artist Podcast\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p3912867&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p3912867\",\n\"subtext\" : \"Welcome to The Uncertain Artist, where we...\",\n\"genre_id\"
+        : \"g3430\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p3912867/images/logoq.png?t=2\",\n\"current_track\"
+        : \"Welcome to The Uncertain Artist, where we...\",\n\"preset_id\" : \"p3912867\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"825:
+        Celebrating 30 Years: Live from Seattle\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=t470766273&sid=p434&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470766273\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"2996\",\n\"subtext\"
+        : \"10 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p434/images/logoq.png?t=3\",\n\"current_track\"
+        : \"10 May 2025\",\n\"now_playing_id\" : \"t470766273\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Remembering Kevin Diers\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=t470592559&sid=p1610992&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"t470592559\",\n\"stream_type\" : \"download\",\n\"topic_duration\" : \"274\",\n\"subtext\"
+        : \"8 May 2025\",\n\"item\" : \"topic\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1610992/images/logoq.png?t=1\",\n\"current_track\"
+        : \"8 May 2025\",\n\"now_playing_id\" : \"t470592559\" },\n { \"element\"
+        : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"Cow Corner\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p376025&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p376025\",\n\"subtext\" : \"Peter Newlinds and Dan Lonergan combine forces...\",\n\"genre_id\"
+        : \"g2793\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/p376025q.png\",\n\"current_track\"
+        : \"Peter Newlinds and Dan Lonergan combine forces...\",\n\"preset_id\" :
+        \"p376025\" },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\"
+        : \"Cow Jazz\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p308848&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p308848\",\n\"subtext\" : \"Jazz\",\n\"genre_id\" : \"g11\",\n\"item\"
+        : \"show\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s32841q.png\",\n\"current_track\"
+        : \"Jazz\",\n\"preset_id\" : \"p308848\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"link\",\n\"text\" : \"KJV Cafe\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p3088195&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p3088195\",\n\"subtext\" : \"KJV Cafe is a daily 15-minute Bible study...\",\n\"genre_id\"
+        : \"g3428\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p3088195/images/logoq.png?t=1\",\n\"current_track\"
+        : \"KJV Cafe is a daily 15-minute Bible study...\",\n\"preset_id\" : \"p3088195\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"KYW
+        Newsradio\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s26713&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"64\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s26713\",\n\"subtext\"
+        : \"All News, and All that Matters to You\",\n\"genre_id\" : \"g3124\",\n\"formats\"
+        : \"aac,mp3,hls\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s26713/images/logoq.jpg?t=3\",\n\"now_playing_id\"
+        : \"s26713\",\n\"preset_id\" : \"s26713\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"K-Wave\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s26389&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"57\",\n\"reliability\" : \"97\",\n\"guide_id\" : \"s26389\",\n\"subtext\"
+        : \"Greg Laurie: A New Beginning\",\n\"genre_id\" : \"g271\",\n\"formats\"
+        : \"aac,mp3\",\n\"show_id\" : \"p47569\",\n\"item\" : \"station\",\n\"image\"
+        : \"http://cdn-radiotime-logos.tunein.com/s26389q.png\",\n\"current_track\"
+        : \"Greg Laurie: A New Beginning\",\n\"now_playing_id\" : \"s26389\",\n\"preset_id\"
+        : \"s26389\" },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\"
+        : \"El \\\"Chou\\\"\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p362954&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p362954\",\n\"subtext\" : \"Spanish Talk\",\n\"genre_id\" : \"g2679\",\n\"item\"
+        : \"show\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/p362954q.png\",\n\"current_track\"
+        : \"Spanish Talk\",\n\"preset_id\" : \"p362954\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"C95\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s24777&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"48\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s24777\",\n\"subtext\"
+        : \"Taylor Swift - The Fate of Ophelia\",\n\"genre_id\" : \"g61\",\n\"formats\"
+        : \"aac,mp3,hls\",\n\"playing\" : \"Taylor Swift - The Fate of Ophelia\",\n\"playing_image\"
+        : \"http://cdn-albums.tunein.com/gn/DKJVRJZWLBq.jpg\",\n\"item\" : \"station\",\n\"image\"
+        : \"http://cdn-radiotime-logos.tunein.com/s24777q.png\",\n\"now_playing_id\"
+        : \"s24777\",\n\"preset_id\" : \"s24777\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"K104.7\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s22926&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"134\",\n\"reliability\" : \"98\",\n\"guide_id\" : \"s22926\",\n\"subtext\"
+        : \"Olivia Rodrigo - drop dead\",\n\"genre_id\" : \"g61\",\n\"formats\" :
+        \"aac,mp3,hls\",\n\"playing\" : \"Olivia Rodrigo - drop dead\",\n\"playing_image\"
+        : \"http://cdn-albums.tunein.com/gn/N9CT7GTCVBq.jpg\",\n\"show_id\" : \"p61277\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s22926q.png\",\n\"current_track\"
+        : \"Scotty Mac\",\n\"now_playing_id\" : \"s22926\",\n\"preset_id\" : \"s22926\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"LA
+        Q\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s24529&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s24529\",\n\"subtext\"
+        : \"PURA M\xDASICA\",\n\"genre_id\" : \"g4156\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s24529/images/logoq.png?t=1695368618000\",\n\"now_playing_id\"
+        : \"s24529\",\n\"preset_id\" : \"s24529\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"link\",\n\"text\" : \"This Guy and That Guy\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p1283696&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p1283696\",\n\"subtext\" : \"A podcast about fantasy basketball, NBA G...\",\n\"genre_id\"
+        : \"g3403\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p1283696/images/logoq.png?t=2\",\n\"current_track\"
+        : \"A podcast about fantasy basketball, NBA G...\",\n\"preset_id\" : \"p1283696\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\" : \"Go Go
+        Go Joe!\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p2264831&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p2264831\",\n\"subtext\" : \"Listen to our descent into madness, as we
+        do a...\",\n\"genre_id\" : \"g3430\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\"
+        : \"http://cdn-profiles.tunein.com/p2264831/images/logoq.png?t=2\",\n\"current_track\"
+        : \"Listen to our descent into madness, as we do a...\",\n\"preset_id\" :
+        \"p2264831\" },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\"
+        : \"Q&A\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p52150&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p52150\",\n\"subtext\" : \"Intriguing hour-long conversations with people...\",\n\"genre_id\"
+        : \"g2737\",\n\"key\" : \"topics\",\n\"item\" : \"show\",\n\"image\" : \"http://cdn-profiles.tunein.com/p52150/images/logoq.png?t=157902\",\n\"current_track\"
+        : \"Intriguing hour-long conversations with people...\",\n\"preset_id\" :
+        \"p52150\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"C89.5\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s34296&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s34296\",\n\"subtext\"
+        : \"Drew Bailey in the Morning\",\n\"genre_id\" : \"g59\",\n\"formats\" :
+        \"mp3\",\n\"show_id\" : \"p728609\",\n\"item\" : \"station\",\n\"image\" :
+        \"http://cdn-profiles.tunein.com/s34296/images/logoq.jpg?t=1656444335000\",\n\"current_track\"
+        : \"Drew Bailey in the Morning\",\n\"now_playing_id\" : \"s34296\",\n\"preset_id\"
+        : \"s34296\" },\n { \"element\" : \"outline\",\n\"type\" : \"link\",\n\"text\"
+        : \"K95\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?c=pbrowse&id=p3928248&formats=mp3,aac,ogg,html,hls\",\n\"guide_id\"
+        : \"p3928248\",\n\"subtext\" : \"K95 - #1 for New Country\",\n\"item\" : \"show\",\n\"image\"
+        : \"http://cdn-profiles.tunein.com/s30191/images/logoq.png?t=1\",\n\"current_track\"
+        : \"K95 - #1 for New Country\",\n\"preset_id\" : \"p3928248\" },\n { \"element\"
+        : \"outline\",\n\"text\" : \"Search results (not playable)\", \n\"children\":
+        [\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Q107
+        - Not Supported\",\n\"URL\" : \"http://cdn-cms.tunein.com/service/Audio/georestricted.enUS.mp3\",\n\"guide_id\"
+        : \"s31188\",\n\"subtext\" : \"Not available in your country\",\n\"genre_id\"
+        : \"g54\",\n\"key\" : \"unavailable\",\n\"item\" : \"station\",\n\"image\"
+        : \"http://cdn-profiles.tunein.com/s31188/images/logoq.jpg?t=1\",\n\"preset_id\"
+        : \"s31188\" }\n] }\n] }"
+    headers:
+      CF-RAY:
+      - 9f815e18ecd7055d-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:12 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '25913'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=2H09XV6RSeTC9WfNS7KfDCMwRn089oei9UYs9YF_OGw-1778168892.3102639-1.0.1.1-QzlHQWjYN41Ysq0jrj1eSurNTg0ylYHR9riabRl0RYW48a80ISZRE5yVubErHw62vtx1X3rNru._Uc0oQDvkLURx8AbekkqOnDu0WyTN1G6VAE5GrwhxsCyo3l6.YAsE;
+        HttpOnly; Secure; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:12
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '78'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 1e81e36da424f4b1
+      x-tunein-trace-id:
+      - 72ab5f7d0e76cec6af12b507a2e24a63
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s35932&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://playerservices.streamtheworld.com/pls/KUOWFM_HIGH_MP3.pls?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5MiwiaXNzIjoidGlzcnYifQ.5BiRjMjRl83cVf9Vb19LwY0L71A4FqneuG2YY09anuU\",\n\"reliability\":
+        99,\n\"bitrate\": 96,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e165145444\",\n\"playlist_type\": \"pls\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }] }"
+    headers:
+      CF-RAY:
+      - 9f815e1acd19f77b-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:12 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '657'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=_SmARSrP_auAZmvR9Z_NlH.oJ50SRl..h1M9ZZUSJrQ-1778168892.6097047-1.0.1.1-0NlWfhaG8dHvhQRpqZtEA0_EtJdIlc.Ucb6hT.jeGeQBRRN8iWsVUHmUk9M8aGWNEIkM6zY31tv_GwGkAGxH4VcKg1uR37gOijonryyGSw68yYUafBRtAtSJ9oYPvOKn;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:12
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '5'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - cfb6013ffbad9a52
+      x-tunein-trace-id:
+      - 32f5b417a29697f18d6bd6d24410fca7
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Describe.ashx?id=s35932&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n{\"element\":\"station\",\"guide_id\":\"s35932\",\"preset_id\":\"s35932\",\"name\":\"KUOW-FM\",\"call_sign\":\"KUOW-FM\",\"slogan\":\"Seattle's
+        NPR News Station\",\"frequency\":\"94.9\",\"band\":\"FM\",\"url\":\"https://www.kuow.org/\",\"report_url\":\"\",\"detail_url\":\"http://tun.in/sesrC\",\"is_preset\":false,\"is_available\":true,\"is_music\":false,\"has_song\":false,\"has_schedule\":false,\"has_topics\":false,\"twitter_id\":\"\",\"logo\":\"https://cdn-profiles.tunein.com/s35932/images/logoq.jpg?t=636269127652070000\",\"location\":\"Seattle-Tacoma,
+        US\",\"current_song\":null,\"current_artist\":null,\"current_artist_id\":null,\"current_album\":null,\"current_artist_art\":null,\"current_album_art\":null,\"description\":\"KUOW
+        Puget Sound Public Radio (94.9 FM) is Seattle's NPR news station. We are an
+        independent, nonprofit news organization that produces award-winning journalism,
+        innovative podcasts, engaging community events, and more. Our work is about
+        truth. We were founded with the idea that everyone should have free access
+        to honest, fact-checked information - as well as stories that broaden conversations
+        and deepen understanding of the world around us. We work every day in service
+        of our mission to create and serve a more informed public, because we believe
+        an informed public is essential to a thriving community, a vibrant democracy,
+        and a better future. Listen live for trusted local, national and international
+        reporting here or at 94.9 FM Seattle.\",\"email\":\"\",\"phone\":\"206-221-2731\",\"mailing_address\":\"BOX
+        353750\\r\\nSeattle, WA 98195\",\"language\":\"English\",\"genre_id\":\"g3124\",\"genre_name\":\"US
+        News\",\"region_id\":\"r100014\",\"country_region_id\":100436,\"latlon\":null,\"tz\":\"Pacific\",\"tz_offset\":\"-420\",\"publish_song\":null,\"publish_song_url\":null,\"publish_song_rejection_reason\":null,\"now_playing_url\":null,\"external_key\":null,\"ad_eligible\":true,\"preroll_ad_eligible\":false,\"companion_ad_eligible\":false,\"video_preroll_ad_eligible\":false,\"fb_share\":true,\"twitter_share\":true,\"song_share\":true,\"donation_eligible\":null,\"donation_url\":null,\"donation_text\":null,\"donation_icon\":null,\"song_buy_eligible\":null,\"tunein_url\":\"http://tunein.com/station/?stationId=35932\",\"is_family_content\":false,\"is_mature_content\":false,\"is_event\":false,\"content_classification\":\"talk\",\"echoed_count\":null,\"favorited_count\":null,\"is_favorited\":null,\"is_favoritable\":null,\"has_profile\":\"true\",\"can_cast\":true,\"nielsen_eligible\":false,\"nielsen_provider\":null,\"nielsen_asset_id\":null,\"nowplaying_channel\":null,\"why_ads_text\":null,\"use_native_player\":false,\"live_seek_stream\":false,\"seek_disabled\":false}\n]
+        }"
+    headers:
+      CF-RAY:
+      - 9f815e1c0bc8587c-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:12 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '2566'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=Bz7q1eJKj9MuV2mvTuMnlfAxHtbri41ujeTnW0sUjjA-1778168892.8098228-1.0.1.1-wxa2cEaTdhi7qa9ZWUuAd8YrMKIYC5fSkD3bSeJjCwgnQNJ1lscAzbOoitbNa_CQCDCBqsNHI046BRyg1uUezX5idf8A4_TglEwc_ouZ2e6.hvXCuOxErBYz08.s3XRU;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:12
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '4'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - a0a4ff09e1ed6870
+      x-tunein-trace-id:
+      - 4ea5c37f5ca2efcfc07d88b54c352ac1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s26713&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://live.amperwave.net/manifest/audacy-kywamaac-llhlsc.m3u8?offset=30&oso=-21&source=TuneIn&gdpr=1\",\n\"reliability\":
+        100,\n\"bitrate\": 64,\n\"media_type\": \"hls\",\n\"position\": 0,\n\"player_width\":
+        1180,\n\"player_height\": 900,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e598859920\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e1d5e7141f6-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:13 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '441'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=GNs7NmdrblqOWohdcaQ0OAMYq6r7FR4b__SoEKgH.nM-1778168893.0191343-1.0.1.1-RUQ7MLcakir3xMGnopZRppNd47tEs5a8glq.TduUMEDQDnfziBFwTQkb5RrkT9g7CWMH_uERLe5OHlW0emrvpZ0jFgB4GKXLeVqtJbxH8NpcbN7KWb9kIzwZX5x2AptD;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:13
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '7'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 91709457981c9a15
+      x-tunein-trace-id:
+      - 47539a659a7a1a1bc19731ff61f5e321
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Describe.ashx?id=s26713&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n{\"element\":\"station\",\"guide_id\":\"s26713\",\"preset_id\":\"s26713\",\"name\":\"KYW
+        Newsradio\",\"call_sign\":\"KYW-AM\",\"slogan\":\"All News, and All that Matters
+        to You\",\"frequency\":\"1060\",\"band\":\"AM\",\"url\":\"https://www.audacy.com/kywnewsradio\",\"report_url\":\"\",\"detail_url\":\"http://tun.in/sep2V\",\"is_preset\":false,\"is_available\":false,\"is_music\":false,\"has_song\":false,\"has_schedule\":false,\"has_topics\":false,\"twitter_id\":\"kywnewsradio\",\"logo\":\"https://cdn-profiles.tunein.com/s26713/images/logoq.jpg?t=638530280320000000\",\"location\":\"Philadelphia,
+        US\",\"current_song\":null,\"current_artist\":null,\"current_artist_id\":null,\"current_album\":null,\"current_artist_art\":null,\"current_album_art\":null,\"description\":\"Breaking
+        news, original local reporting, traffic, weather, sports, and more for the
+        Philadelphia area from KYW Newsradio 103.9 FM and 1060 AM.\",\"email\":\"\",\"phone\":\"\",\"mailing_address\":\"\",\"language\":\"English\",\"genre_id\":\"g3124\",\"genre_name\":\"US
+        News\",\"region_id\":null,\"country_region_id\":100436,\"latlon\":null,\"tz\":\"Eastern\",\"tz_offset\":\"-240\",\"publish_song\":null,\"publish_song_url\":null,\"publish_song_rejection_reason\":null,\"now_playing_url\":null,\"external_key\":null,\"ad_eligible\":true,\"preroll_ad_eligible\":true,\"companion_ad_eligible\":false,\"video_preroll_ad_eligible\":false,\"fb_share\":true,\"twitter_share\":true,\"song_share\":true,\"donation_eligible\":null,\"donation_url\":null,\"donation_text\":null,\"donation_icon\":null,\"song_buy_eligible\":null,\"tunein_url\":\"http://tunein.com/station/?stationId=26713\",\"is_family_content\":false,\"is_mature_content\":false,\"is_event\":false,\"content_classification\":\"talk\",\"echoed_count\":null,\"favorited_count\":null,\"is_favorited\":null,\"is_favoritable\":null,\"has_profile\":\"true\",\"can_cast\":true,\"nielsen_eligible\":false,\"nielsen_provider\":null,\"nielsen_asset_id\":null,\"nowplaying_channel\":null,\"why_ads_text\":null,\"use_native_player\":false,\"live_seek_stream\":false,\"seek_disabled\":false}\n]
+        }"
+    headers:
+      CF-RAY:
+      - 9f815e1e9aed4892-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:13 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1953'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=fBsoMkD.DHHjSWVLqtVfKtBsQ_Smq9dLbRzyA4U_fTs-1778168893.2200897-1.0.1.1-R9ZPnWsGAWis_zpEjHKd_uI.AC.YCtU0_GOCWFv6cXnkbPAeGDdFXZNb2OyQsjX8L5A9Zi68kiG0V4wTNa3mEuzao9LsuYzRHXbxNljsVjrCHpLbRpGicQcgzk8Ufxag;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:13
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '5'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - a93c175359b0e05e
+      x-tunein-trace-id:
+      - 93435909ca0f6ca9593fab9beb652fc3
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s26389&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://playerservices.streamtheworld.com/pls/KWAVEFMAAC.pls?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5MywiaXNzIjoidGlzcnYifQ.9WlZjj_HLNaQPadfSwOF-i8aJofzbrEAbwyiZ2fFFng\",\n\"reliability\":
+        97,\n\"bitrate\": 57,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e479648033\",\n\"playlist_type\": \"pls\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }, { \"element\" : \"audio\", \n\"url\":
+        \"http://playerservices.streamtheworld.com/pls/KWAVEFMAAC.pls?tdtok=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImZTeXA4In0.eyJpc3MiOiJ0aXNydiIsInN1YiI6IjIxMDY0IiwiaWF0IjoxNzc4MTY4ODkzLCJ0ZC1yZWciOmZhbHNlfQ.uGj8J8ciVhEsQpkbRvXQ8uB8xS2ocvZbMYQiliQEgxc&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5MywiaXNzIjoidGlzcnYifQ.9WlZjj_HLNaQPadfSwOF-i8aJofzbrEAbwyiZ2fFFng\",\n\"reliability\":
+        97,\n\"bitrate\": 56,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e27123673\",\n\"playlist_type\": \"pls\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }, { \"element\" : \"audio\", \n\"url\":
+        \"https://playerservices.streamtheworld.com/pls/KWAVEFM.pls?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5MywiaXNzIjoidGlzcnYifQ.9WlZjj_HLNaQPadfSwOF-i8aJofzbrEAbwyiZ2fFFng\",\n\"reliability\":
+        76,\n\"bitrate\": 32,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e479647532\",\n\"playlist_type\": \"pls\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }, { \"element\" : \"audio\", \n\"url\":
+        \"http://playerservices.streamtheworld.com/pls/KWAVEFM.pls?tdtok=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImZTeXA4In0.eyJpc3MiOiJ0aXNydiIsInN1YiI6IjIxMDY0IiwiaWF0IjoxNzc4MTY4ODkzLCJ0ZC1yZWciOmZhbHNlfQ.uGj8J8ciVhEsQpkbRvXQ8uB8xS2ocvZbMYQiliQEgxc&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5MywiaXNzIjoidGlzcnYifQ.9WlZjj_HLNaQPadfSwOF-i8aJofzbrEAbwyiZ2fFFng\",\n\"reliability\":
+        30,\n\"bitrate\": 32,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e27123674\",\n\"playlist_type\": \"pls\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }] }"
+    headers:
+      CF-RAY:
+      - 9f815e1fe925cc49-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:13 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '2847'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=JTghrulVRU3Bd1_SOHD8kdvVpdHaTvdCd6Mqb2firxA-1778168893.426813-1.0.1.1-RXTv86Sd_pYKxYzlpdxr0BhZtfc74TCXf.khWZ46Rd9FaYP_UnBLM8Op9sISE3YddwyQWz6v.KSRAdL5L_MB7CZUE99YrJaa.P_lRL139XPEJh_bd6OgRRb_aDkdCLym;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:13
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '8'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 054a0df41b5746c8
+      x-tunein-trace-id:
+      - 28f779903e395696365ad343099cc0e7
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Describe.ashx?id=s26389&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n{\"element\":\"station\",\"guide_id\":\"s26389\",\"preset_id\":\"s26389\",\"name\":\"K-Wave\",\"call_sign\":\"KWVE-FM\",\"slogan\":\"The
+        Wave Of Living Water\",\"frequency\":\"107.9\",\"band\":\"FM\",\"url\":\"http://www.kwve.com/\",\"report_url\":\"\",\"detail_url\":\"http://tun.in/sepXH\",\"is_preset\":false,\"is_available\":true,\"is_music\":false,\"has_song\":false,\"has_schedule\":true,\"has_topics\":false,\"twitter_id\":\"kwve\",\"logo\":\"https://cdn-radiotime-logos.tunein.com/s26389q.png\",\"location\":\"San
+        Clemente, US\",\"current_song\":null,\"current_artist\":null,\"current_artist_id\":null,\"current_album\":null,\"current_artist_art\":null,\"current_album_art\":null,\"description\":\"K-Wave
+        features solid Biblical teaching programs, along with music of praise and
+        worship, combined to minister to the body of Christ in a style which is unique
+        to K-Wave. Broadcasting 24 hours a day, 7 days a week, K-Wave shares the love
+        of God throughout most of Southern California and Central Valley, and worldwide.\",\"email\":\"info@kwve.com\",\"phone\":\"866-999-5983\",\"mailing_address\":\"3000
+        W. MacArthur Blvd. Suite 500\\r\\nSanta Ana, CA 92704\",\"language\":\"English\",\"genre_id\":\"g271\",\"genre_name\":\"Christian
+        Talk\",\"region_id\":\"r100028\",\"country_region_id\":100436,\"latlon\":null,\"tz\":\"Pacific\",\"tz_offset\":\"-420\",\"publish_song\":null,\"publish_song_url\":null,\"publish_song_rejection_reason\":null,\"now_playing_url\":null,\"external_key\":null,\"ad_eligible\":true,\"preroll_ad_eligible\":true,\"companion_ad_eligible\":false,\"video_preroll_ad_eligible\":false,\"fb_share\":true,\"twitter_share\":true,\"song_share\":true,\"donation_eligible\":null,\"donation_url\":null,\"donation_text\":null,\"donation_icon\":null,\"song_buy_eligible\":null,\"tunein_url\":\"http://tunein.com/station/?stationId=26389\",\"is_family_content\":false,\"is_mature_content\":false,\"is_event\":false,\"content_classification\":\"talk\",\"echoed_count\":null,\"favorited_count\":null,\"is_favorited\":null,\"is_favoritable\":null,\"has_profile\":\"true\",\"can_cast\":true,\"nielsen_eligible\":false,\"nielsen_provider\":null,\"nielsen_asset_id\":null,\"nowplaying_channel\":null,\"why_ads_text\":null,\"use_native_player\":false,\"live_seek_stream\":false,\"seek_disabled\":false}\n]
+        }"
+    headers:
+      CF-RAY:
+      - 9f815e214d5d0b12-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:13 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '2152'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=ChGgtZ5JtgeOUbEZtvko9WhRgriVmowIeoCk2cmo8Ts-1778168893.6435509-1.0.1.1-LbQAZZsv6WfcdC7YhtkIVviDRhSfPzIinA7FMEYyiY1AJBx1T8nCdC2sNczcRBYURIgD7E9SCA4juJJLuerLd22npQmaboY_q0Nd_7aMxECEJqijc4XO_WuMKnEA2wva;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:13
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '5'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 43d75383fb42c75c
+      x-tunein-trace-id:
+      - 93852a5f75f501be9ea926865dc02b4f
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s24777&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://rawlco.leanstream.co/CFMCFM?args=tunein_02\",\n\"reliability\":
+        99,\n\"bitrate\": 32,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e81641863\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://rawlco.leanstream.co/CFMCFM?args=tunein_02\",\n\"reliability\":
+        81,\n\"bitrate\": 31,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e487182545\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://rawlco.leanstream.co/CFMCFM-MP3?args=tunein_01\",\n\"reliability\":
+        96,\n\"bitrate\": 48,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e81641864\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://rawlco.leanstream.co/CFMCFM-MP3?args=tunein_01\",\n\"reliability\":
+        95,\n\"bitrate\": 48,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e487182540\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://rawlco-hls.leanstream.co/rawlco/CFMCFM.stream/playlist.m3u8?args=tunein_03\",\n\"reliability\":
+        100,\n\"bitrate\": 32,\n\"media_type\": \"hls\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e81641865\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://rawlco-hls.leanstream.co/rawlco/CFMCFM.stream/playlist.m3u8?args=tunein_03\",\n\"reliability\":
+        100,\n\"bitrate\": 31,\n\"media_type\": \"hls\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e487182529\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e2298b30423-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:14 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '2175'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=cKJNABD5TiSke.DgW0fF.TWMQy1HZaAK9jVbs6iDPY8-1778168893.8548663-1.0.1.1-K7s260ltLIpriFz7DuBGuid_VbnkrKutLDd2.SppNZF1qZ2ugdIkM3xt7Uc93hU5EKdxkHfapYFjesuO_Zgmevvqktdy8H2HuD3eJ5J5UkHHhhq2JPLq7H02KxkPaUn6;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:14
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '5'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 8ed4d540c5d12da0
+      x-tunein-trace-id:
+      - a74aa93e4fbaf800dc0953c51296ab0a
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Describe.ashx?id=s24777&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n{\"element\":\"station\",\"guide_id\":\"s24777\",\"preset_id\":\"s24777\",\"name\":\"C95\",\"call_sign\":\"CFMC-FM\",\"slogan\":\"C95
+        - Saskatoon\u2019s #1 Hit Music Station!\",\"frequency\":\"95.1\",\"band\":\"FM\",\"url\":\"http://www.c95.com/\",\"report_url\":\"\",\"detail_url\":\"http://tun.in/sepxH\",\"is_preset\":false,\"is_available\":true,\"is_music\":true,\"has_song\":true,\"has_schedule\":false,\"has_topics\":false,\"twitter_id\":\"c95\",\"logo\":\"https://cdn-radiotime-logos.tunein.com/s24777q.png\",\"location\":\"Saskatoon,
+        Canada\",\"current_song\":\"The Fate of Ophelia\",\"current_artist\":\"Taylor
+        Swift\",\"current_artist_id\":\"m268737\",\"current_album\":\"\",\"current_artist_art\":null,\"current_album_art\":null,\"description\":\"Saskatoon\u2019s
+        #1 Hit Music Station!\",\"email\":\"rzimmerman@rawlco.com\",\"phone\":\"306-938-9595\",\"mailing_address\":\"715
+        Saskatchewan Crescent West\\r\\nSaskatoon, Saskatchewan\\r\\nS7M 5V7\",\"language\":\"English\",\"genre_id\":\"g61\",\"genre_name\":\"Top
+        40 & Pop Music\",\"region_id\":\"r101379\",\"country_region_id\":101227,\"latlon\":null,\"tz\":\"GMT
+        - 6 (Saskatchewan/C Am)\",\"tz_offset\":\"-360\",\"publish_song\":null,\"publish_song_url\":null,\"publish_song_rejection_reason\":null,\"now_playing_url\":null,\"external_key\":null,\"ad_eligible\":true,\"preroll_ad_eligible\":true,\"companion_ad_eligible\":false,\"video_preroll_ad_eligible\":false,\"fb_share\":true,\"twitter_share\":true,\"song_share\":true,\"donation_eligible\":null,\"donation_url\":null,\"donation_text\":null,\"donation_icon\":null,\"song_buy_eligible\":null,\"tunein_url\":\"http://tunein.com/station/?stationId=24777\",\"is_family_content\":false,\"is_mature_content\":false,\"is_event\":false,\"content_classification\":\"music\",\"echoed_count\":null,\"favorited_count\":null,\"is_favorited\":null,\"is_favoritable\":null,\"has_profile\":\"true\",\"can_cast\":true,\"nielsen_eligible\":false,\"nielsen_provider\":null,\"nielsen_asset_id\":null,\"nowplaying_channel\":null,\"why_ads_text\":null,\"use_native_player\":false,\"live_seek_stream\":false,\"seek_disabled\":false}\n]
+        }"
+    headers:
+      CF-RAY:
+      - 9f815e23dffd5e5a-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:14 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1954'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=MBbauGFsmjTxz3PSMDPI_mgw650kD7hmwn9PM85OwCY-1778168894.0542278-1.0.1.1-Wx6XTMA.tQ0.AYVKx_cil4Slufxoa1qtt3EeP4ws5Dy7gQJLfsQ3kNXE6AytDhxEhDgHcjFZLaanZeGa2Ot3xw5kE8S7RVh..KjnSr2.bYvQ0WL.5OaNjIzqy7.678St;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:14
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '4'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 599e1a4cc37f4f55
+      x-tunein-trace-id:
+      - 6a7526a40feab3b4db68aee614460b4c
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s22926&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://ais-sa1.streamon.fm/7835_128k.aac?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5NCwiaXNzIjoidGlzcnYifQ.UiTy_ef2a7mQtkh1uZfmZpvc9-szVT2cpCyJ10HwoTs\",\n\"reliability\":
+        87,\n\"bitrate\": 127,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e336014719\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://ais-sa1.streamon.fm/7835_128k.mp3?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5NCwiaXNzIjoidGlzcnYifQ.UiTy_ef2a7mQtkh1uZfmZpvc9-szVT2cpCyJ10HwoTs\",\n\"reliability\":
+        97,\n\"bitrate\": 134,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e336014720\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://ais-sa1.streamon.fm/7835_128k.aac/playlist.m3u8?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5NCwiaXNzIjoidGlzcnYifQ.UiTy_ef2a7mQtkh1uZfmZpvc9-szVT2cpCyJ10HwoTs\",\n\"reliability\":
+        98,\n\"bitrate\": 127,\n\"media_type\": \"hls\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e336014717\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://playerservices.streamtheworld.com/pls/WSPKFMAAC.pls?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5NCwiaXNzIjoidGlzcnYifQ.UiTy_ef2a7mQtkh1uZfmZpvc9-szVT2cpCyJ10HwoTs\",\n\"reliability\":
+        10,\n\"bitrate\": 56,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e163020178\",\n\"playlist_type\": \"pls\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }, { \"element\" : \"audio\", \n\"url\":
+        \"http://playerservices.streamtheworld.com/pls/WSPKFM.pls?tdtok=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImZTeXA4In0.eyJpc3MiOiJ0aXNydiIsInN1YiI6IjIxMDY0IiwiaWF0IjoxNzc4MTY4ODk0LCJ0ZC1yZWciOmZhbHNlfQ.6_LUWQ3dFOV6s8CJs_zMhQZkfJe-Eoon5uFypAgDPYo&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5NCwiaXNzIjoidGlzcnYifQ.UiTy_ef2a7mQtkh1uZfmZpvc9-szVT2cpCyJ10HwoTs\",\n\"reliability\":
+        10,\n\"bitrate\": 64,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e163020179\",\n\"playlist_type\": \"pls\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": false }] }"
+    headers:
+      CF-RAY:
+      - 9f815e254d835030-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:14 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '3153'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=Hy2.LBZFEgx7X.7mx9UYyQAmblBHkqEbICBKm1e37GU-1778168894.2903857-1.0.1.1-GwFFNyMcXR4BtLKBoOA5QiG3TzeLIB8w4EoSdwIwGsIW3x87MOKQYT2of7S2p43oTyrM8WfFqi6E9uVRaDdCmF4CYJzpgVt91gJAMnIOsfUZR772OkamedwWowvfr8j4;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:14
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 6f3e6f19988ed4a3
+      x-tunein-trace-id:
+      - 94e429d8cb3a171a2ed564c38cd3b645
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Describe.ashx?id=s22926&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n{\"element\":\"station\",\"guide_id\":\"s22926\",\"preset_id\":\"s22926\",\"name\":\"K104.7\",\"call_sign\":\"WSPK\",\"slogan\":\"Today's
+        Hit Music, K104!\",\"frequency\":\"104.7\",\"band\":\"FM\",\"url\":\"https://www.k104online.com/\",\"report_url\":\"\",\"detail_url\":\"http://tun.in/seo3Q\",\"is_preset\":false,\"is_available\":true,\"is_music\":true,\"has_song\":true,\"has_schedule\":true,\"has_topics\":false,\"twitter_id\":\"k1047\",\"logo\":\"https://cdn-radiotime-logos.tunein.com/s22926q.png\",\"location\":\"Poughkeepsie,
+        US\",\"current_song\":\"drop dead\",\"current_artist\":\"Olivia Rodrigo\",\"current_artist_id\":\"m1542620\",\"current_album\":\"\",\"current_artist_art\":null,\"current_album_art\":null,\"description\":\"Today's
+        Hit Music, K104.7 is a 50,000 Watt market leading radio station in the Hudson
+        Valley, New York!\",\"email\":\"jimmy@k104online.com\",\"phone\":\"1-877-465-1047\",\"mailing_address\":\"P.O.
+        Box 310  Beacon, NY 12508\",\"language\":\"English\",\"genre_id\":\"g61\",\"genre_name\":\"Top
+        40 & Pop Music\",\"region_id\":null,\"country_region_id\":100436,\"latlon\":null,\"tz\":\"Eastern\",\"tz_offset\":\"-240\",\"publish_song\":null,\"publish_song_url\":null,\"publish_song_rejection_reason\":null,\"now_playing_url\":null,\"external_key\":null,\"ad_eligible\":true,\"preroll_ad_eligible\":true,\"companion_ad_eligible\":false,\"video_preroll_ad_eligible\":false,\"fb_share\":true,\"twitter_share\":true,\"song_share\":true,\"donation_eligible\":null,\"donation_url\":null,\"donation_text\":null,\"donation_icon\":null,\"song_buy_eligible\":null,\"tunein_url\":\"http://tunein.com/station/?stationId=22926\",\"is_family_content\":false,\"is_mature_content\":false,\"is_event\":false,\"content_classification\":\"music\",\"echoed_count\":null,\"favorited_count\":null,\"is_favorited\":null,\"is_favoritable\":null,\"has_profile\":\"true\",\"can_cast\":true,\"nielsen_eligible\":false,\"nielsen_provider\":null,\"nielsen_asset_id\":null,\"nowplaying_channel\":null,\"why_ads_text\":null,\"use_native_player\":false,\"live_seek_stream\":false,\"seek_disabled\":false}\n]
+        }"
+    headers:
+      CF-RAY:
+      - 9f815e26ca805030-MAD
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:14 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1945'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=rYm4bhAYFYyrMQKNuV42HXSIWDqiTEK1x1xtVG4BQxw-1778168894.5217075-1.0.1.1-mMx3D_kN_BBfe6sx3r2l3JJVx0eQO_qCtr1Pkxr2Pr2ivqQqdbrlvmhekX7EYPswLoGJXyEPtk.4suMf.sAAbFJL.GtOd_41ua_2KTgtwNI0C2bB3.okwp0Ffm5odtnz;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:14
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '4'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - f07c20c46b948076
+      x-tunein-trace-id:
+      - 7c0284138dbd8f4cee4ffd53aa9ba63e
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s24529&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME.mp3?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=1&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc3ODE2ODg5NCwiaXNzIjoidGlzcnYifQ.UiTy_ef2a7mQtkh1uZfmZpvc9-szVT2cpCyJ10HwoTs\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e485518287\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e2808ea785f-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:14 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '644'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=YmDynREL4BMUHGx9emW7uYWaZnif1RnbEEr0qn4TUpU-1778168894.730505-1.0.1.1-unVNozHf4W9rGYXRWIJyLlcD5OOpUsC.m4_YMvzkTxC4eKprUWlaawN08Hl58ORKWP7KVJMDGsoxtbxasOCdUb0KqF6Mk9F3QKtkkId5VjOQSQDyJGmeUUa54ZL9YzD_;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:14
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '6'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 7610ac7a5ea66624
+      x-tunein-trace-id:
+      - c931b6cbcd84000610db63e5ea187fcd
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Describe.ashx?id=s24529&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n{\"element\":\"station\",\"guide_id\":\"s24529\",\"preset_id\":\"s24529\",\"name\":\"LA
+        Q\",\"call_sign\":\"XEQ-AM\",\"slogan\":\"PURA M\xDASICA\",\"frequency\":\"940\",\"band\":\"AM\",\"url\":\"http://laq940.com.mx\",\"report_url\":\"\",\"detail_url\":\"http://tun.in/septH\",\"is_preset\":false,\"is_available\":true,\"is_music\":true,\"has_song\":false,\"has_schedule\":true,\"has_topics\":false,\"twitter_id\":\"laqmexico\",\"logo\":\"https://cdn-profiles.tunein.com/s24529/images/logoq.png?t=638309654180000000\",\"location\":\"Mexico
+        City, Mexico\",\"current_song\":null,\"current_artist\":null,\"current_artist_id\":null,\"current_album\":null,\"current_artist_art\":null,\"current_album_art\":null,\"description\":\"Somos
+        la marca de musica regional mexicana enfocada a los \xE9xitos del ayer, nuestra
+        programaci\xF3n es con base en \xE9xitos de los 2000, 90 y un poco de los
+        80 y 70s\",\"email\":\"laq@radiopolis.com.mx\",\"phone\":\"+55 51668940\",\"mailing_address\":\"Calzada
+        de Tlalpan # 3000 Colonia Espartaco CP 04980 Coyoacan CDMX, Mexico\",\"language\":\"Spanish\",\"genre_id\":\"g4156\",\"genre_name\":\"Tropical/Tropical
+        Cumbia/Meren\",\"region_id\":null,\"country_region_id\":101271,\"latlon\":null,\"tz\":\"Mexico\",\"tz_offset\":\"-360\",\"publish_song\":null,\"publish_song_url\":null,\"publish_song_rejection_reason\":null,\"now_playing_url\":null,\"external_key\":null,\"ad_eligible\":true,\"preroll_ad_eligible\":true,\"companion_ad_eligible\":false,\"video_preroll_ad_eligible\":false,\"fb_share\":true,\"twitter_share\":true,\"song_share\":true,\"donation_eligible\":null,\"donation_url\":null,\"donation_text\":null,\"donation_icon\":null,\"song_buy_eligible\":null,\"tunein_url\":\"http://tunein.com/station/?stationId=24529\",\"is_family_content\":false,\"is_mature_content\":false,\"is_event\":false,\"content_classification\":\"music\",\"echoed_count\":null,\"favorited_count\":null,\"is_favorited\":null,\"is_favoritable\":null,\"has_profile\":\"true\",\"can_cast\":true,\"nielsen_eligible\":false,\"nielsen_provider\":null,\"nielsen_asset_id\":null,\"nowplaying_channel\":null,\"why_ads_text\":null,\"use_native_player\":false,\"live_seek_stream\":false,\"seek_disabled\":false}\n]
+        }"
+    headers:
+      CF-RAY:
+      - 9f815e294c4a4813-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:15 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '2050'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=rumuIw2tDI3IWPCsICKS_aprCICSJQ5B.D8n8kydgC8-1778168894.9329278-1.0.1.1-o.eDBnwCiOQNiF0GN86zsSl.gI2o4UKRmQ3sXRTG.YEIjrlI9IkH18C2fRPhaprr0Vptf.RXj.35MuWv1XMDGQtuhX6w2dZOWWwJ90tXVi15_MRxNcQepGVI8_JiAUN6;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:15
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '7'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 37ea88c47a66c661
+      x-tunein-trace-id:
+      - 2c939f60ecd1fdc2004c2754b385917d
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Tune.ashx?id=s34296&formats=mp3,aac,ogg,html,hls&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
+        \"audio\", \n\"url\": \"http://knhc-ice.streamguys1.com/live\",\n\"reliability\":
+        99,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e78794981\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://knhc-ice.streamguys1.com/live\",\n\"reliability\":
+        96,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e476432444\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://knhc-ice.streamguys1.com/live-low\",\n\"reliability\":
+        98,\n\"bitrate\": 32,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e78794982\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"https://knhc-ice.streamguys1.com/live-low\",\n\"reliability\":
+        90,\n\"bitrate\": 32,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
+        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
+        \"false\",\n\"guide_id\": \"e476432446\",\n\"is_ad_clipped_content_enabled\":
+        \"false\",\n\"is_direct\": true }] }"
+    headers:
+      CF-RAY:
+      - 9f815e2adc30e3d1-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:15 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1373'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=NoJaCxlg8UmmbMCZo8K_kXZM6.Vo6Hd4RCBJX3JWsSw-1778168895.1712098-1.0.1.1-H5tGKtN2eg3m_Ir7EPwoKRRPfREPKpZb6xv85rJDvTd5CdGOomCfPNWMOsdgmm2slaCpr_feSN9063mCs7fzpwsVTgumEBQqYIsALm.zBi1gcRX64womgb2FtOWl6FfP;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:15
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '9'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 54b868c8df9114e2
+      x-tunein-trace-id:
+      - 7588b7a6ae41732fe6b25ee37d7c39c9
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+    method: GET
+    uri: http://opml.radiotime.com/Describe.ashx?id=s34296&render=json
+  response:
+    body:
+      string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n{\"element\":\"station\",\"guide_id\":\"s34296\",\"preset_id\":\"s34296\",\"name\":\"C89.5\",\"call_sign\":\"KNHC\",\"slogan\":\"Seattle's
+        Home for Dance\",\"frequency\":\"89.5\",\"band\":\"FM\",\"url\":\"http://www.c895.org/\",\"report_url\":\"\",\"detail_url\":\"http://tun.in/ser1e\",\"is_preset\":false,\"is_available\":true,\"is_music\":true,\"has_song\":false,\"has_schedule\":true,\"has_topics\":false,\"twitter_id\":\"c895radio\",\"logo\":\"https://cdn-profiles.tunein.com/s34296/images/logoq.jpg?t=637920411350000000\",\"location\":\"Seattle-Tacoma,
+        US\",\"current_song\":null,\"current_artist\":null,\"current_artist_id\":null,\"current_album\":null,\"current_artist_art\":null,\"current_album_art\":null,\"description\":\"The
+        U.S.'s longest running dance station. C89.5 is a listener-supported public
+        radio station run by students and volunteers at Nathan Hale High School in
+        Seattle.\",\"email\":\"\",\"phone\":\"206-421-8989\",\"mailing_address\":\"10750
+        30th Ave N.E.\\r\\nSeattle, WA 98125\",\"language\":\"English\",\"genre_id\":\"g59\",\"genre_name\":\"Dance
+        & Electronic\",\"region_id\":\"r100014\",\"country_region_id\":100436,\"latlon\":null,\"tz\":\"Pacific\",\"tz_offset\":\"-420\",\"publish_song\":null,\"publish_song_url\":null,\"publish_song_rejection_reason\":null,\"now_playing_url\":null,\"external_key\":null,\"ad_eligible\":true,\"preroll_ad_eligible\":true,\"companion_ad_eligible\":false,\"video_preroll_ad_eligible\":false,\"fb_share\":true,\"twitter_share\":true,\"song_share\":true,\"donation_eligible\":null,\"donation_url\":null,\"donation_text\":null,\"donation_icon\":null,\"song_buy_eligible\":null,\"tunein_url\":\"http://tunein.com/station/?stationId=34296\",\"is_family_content\":false,\"is_mature_content\":false,\"is_event\":false,\"content_classification\":\"music\",\"echoed_count\":null,\"favorited_count\":null,\"is_favorited\":null,\"is_favoritable\":null,\"has_profile\":\"true\",\"can_cast\":true,\"nielsen_eligible\":false,\"nielsen_provider\":null,\"nielsen_asset_id\":null,\"nowplaying_channel\":null,\"why_ads_text\":null,\"use_native_player\":false,\"live_seek_stream\":false,\"seek_disabled\":false}\n]
+        }"
+    headers:
+      CF-RAY:
+      - 9f815e2c09877859-LIS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 07 May 2026 15:48:15 GMT
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1998'
+      server:
+      - cloudflare
+      set-cookie:
+      - __cf_bm=_Ipyl4jV85lfig_mcIjryWPAMgdT8.DfknkdxkAFcMk-1778168895.370559-1.0.1.1-cMIiuMBKdzVzBXNBvcZUm9B9nblWceNDP7w4fHbaiUWLaeuvoQMufvNH4dL9qXmGnKAWd7oCGpHEAJWGfmd4k5AKMk7wQpr76Y7PZTODc4KpKPvvS39zpKKQ_xJZTj9C;
+        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:15
+        GMT
+      vary:
+      - Accept-Encoding
+      x-envoy-upstream-service-time:
+      - '4'
+      x-tunein-dc:
+      - us-west-2
+      x-tunein-span-id:
+      - 2c09a1d2697effae
+      x-tunein-trace-id:
+      - ac47fca41dea4a30ff6eee6dd41bda5b
+    status:
+      code: 200
+      message: OK
+version: 1

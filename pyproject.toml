@@ -19,7 +19,7 @@ Homepage = "https://github.com/OpenJarbas/tunein"
 tunein = "tunein.cli:main"
 
 [project.optional-dependencies]
-test = ["pytest"]
+test = ["pytest", "vcrpy", "pytest-vcr"]
 
 [tool.setuptools.dynamic]
 version = {attr = "tunein.version.__version__"}
