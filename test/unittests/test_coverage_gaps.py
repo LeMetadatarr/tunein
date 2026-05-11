@@ -200,7 +200,7 @@ class TestTuneInStation:
             "regions_available": ["US", "CA"],
         })
         rel = st.to_release()
-        assert rel.work.country == "US"
+        assert rel.work.broadcaster_country == "US"
         assert rel.work.language == "en"
         assert "KYYY" in rel.work.aka
         assert "Radio Y Official" in rel.work.aka
@@ -220,7 +220,7 @@ class TestTuneInStation:
             "stream": "http://s",
         })
         rel = st.to_release()
-        assert rel.work.country == "PT"
+        assert rel.work.broadcaster_country == "PT"
 
     def test_resolve_media_type_tv_kind(self):
         from mediavocab import MediaType

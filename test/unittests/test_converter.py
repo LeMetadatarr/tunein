@@ -82,7 +82,7 @@ def test_to_release_explicit_station_id_wins():
 def test_to_release_country_and_language_when_known():
     s = _station(country="GB", language="en")
     rel = s.to_release()
-    assert rel.work.country == "GB"
+    assert rel.work.broadcaster_country == "GB"
     assert rel.work.language == "en"
 
 
@@ -119,8 +119,8 @@ def test_to_release_logo_url_in_external_ids():
 def test_to_release_genre_mapping_news():
     s = _station(genre_name="News")
     rel = s.to_release()
-    from mediavocab.taxonomy.genre import GENRE_NEWS
-    assert GENRE_NEWS in rel.work.content_genres
+    
+    assert "news" in rel.work.content_genres
 
 
 def test_to_release_genre_mapping_jazz():
@@ -139,19 +139,19 @@ def test_to_release_genre_unknown_label_preserved():
 def test_to_release_country_from_location_uk():
     s = _station(location="London, UK")
     rel = s.to_release()
-    assert rel.work.country == "GB"
+    assert rel.work.broadcaster_country == "GB"
 
 
 def test_to_release_country_from_us_state_code():
     s = _station(location="Seattle, WA")
     rel = s.to_release()
-    assert rel.work.country == "US"
+    assert rel.work.broadcaster_country == "US"
 
 
 def test_to_release_explicit_country_wins_over_location():
     s = _station(country="FR", location="London, UK")
     rel = s.to_release()
-    assert rel.work.country == "FR"
+    assert rel.work.broadcaster_country == "FR"
 
 
 def test_to_release_language_iso_mapping():

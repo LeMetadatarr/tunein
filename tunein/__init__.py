@@ -43,13 +43,13 @@ def _map_tunein_genre(label: str) -> str:
 
     norm = label.strip().lower()
     table = {
-        "news": G.GENRE_NEWS,
-        "news/talk": G.GENRE_NEWS,
-        "talk": G.GENRE_TALK_SHOW,
-        "talk show": G.GENRE_TALK_SHOW,
-        "talk radio": G.GENRE_TALK_SHOW,
-        "sports": G.GENRE_SPORTS,
-        "sport": G.GENRE_SPORTS,
+        "news": "news",
+        "news/talk": "news",
+        "talk": "talk_show",
+        "talk show": "talk_show",
+        "talk radio": "talk_show",
+        "sports": "sports",
+        "sport": "sports",
         "comedy": G.GENRE_COMEDY,
         "classical": G.GENRE_CLASSICAL,
         "classical music": G.GENRE_CLASSICAL,
@@ -340,7 +340,7 @@ class TuneInStation:
         work = Work(
             title=self.title,
             media_type=self._resolve_media_type(),
-            country=country,
+            broadcaster_country=country,
             language=language,
             content_genres=content_genres,
             aka=aka,
