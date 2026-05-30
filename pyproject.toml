@@ -23,6 +23,7 @@ Homepage = "https://github.com/OpenJarbas/tunein"
 tunein = "tunein.cli:main"
 
 [project.optional-dependencies]
+anon = ["anon_requests"]
 test = ["pytest", "vcrpy", "pytest-vcr"]
 stealth = ["curl-cffi", "unblock_requests"]
 
