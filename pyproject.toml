@@ -8,7 +8,7 @@ dynamic = ["version"]
 description = "TuneIn radio api"
 dependencies = [
     "requests",
-    "mediavocab>=0.1.0",
+    "mediavocab>=1.0.0",
 ]
 license = {text = "Apache-2.0"}
 authors = [{name = "JarbasAI", email = "jarbasai@mailfence.com"}]

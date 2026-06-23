@@ -116,11 +116,21 @@ def test_to_release_logo_url_in_external_ids():
         "https://example.com/r4.png"
 
 
-def test_to_release_genre_mapping_news():
+def test_to_release_news_maps_to_programme_format():
+    """News / talk / sports are broadcast formats, not genres (T1): they
+    land on Work.programme_format, never content_genres."""
+    from mediavocab.taxonomy import ProgrammeFormat
     s = _station(genre_name="News")
     rel = s.to_release()
-    from mediavocab.taxonomy.genre import GENRE_NEWS
-    assert GENRE_NEWS in rel.work.content_genres
+    assert rel.work.programme_format == ProgrammeFormat.NEWS
+    assert rel.work.content_genres == []
+
+
+def test_to_release_talk_maps_to_programme_format():
+    from mediavocab.taxonomy import ProgrammeFormat
+    s = _station(genre_name="Talk")
+    rel = s.to_release()
+    assert rel.work.programme_format == ProgrammeFormat.TALK_SHOW
 
 
 def test_to_release_genre_mapping_jazz():
@@ -133,7 +143,8 @@ def test_to_release_genre_mapping_jazz():
 def test_to_release_genre_unknown_label_preserved():
     s = _station(genre_name="Polka Hour")
     rel = s.to_release()
-    assert "Polka Hour" in rel.work.content_genres
+    # Work normalises content_genres to lowercase; the label survives.
+    assert "polka hour" in rel.work.content_genres
 
 
 def test_to_release_country_from_location_uk():

@@ -30,6 +30,31 @@ def _get_session(session=None):
 # but the values cluster around a small set of recognisable buckets. Map
 # the common ones to mediavocab taxonomy constants; anything unknown is
 # preserved verbatim so downstream consumers can still see the raw label.
+#
+# News / talk / sports are *programme formats*, not genres (T1) — they map
+# to `ProgrammeFormat` via `_map_tunein_format` and land on
+# `Work.programme_format`, never `content_genres`.
+def _map_tunein_format(label: str):
+    """Return a ``mediavocab.taxonomy.ProgrammeFormat`` when the TuneIn
+    label names a non-fiction broadcast format, else ``None``.
+    """
+    if not label:
+        return None
+    try:
+        from mediavocab.taxonomy import ProgrammeFormat as PF
+    except Exception:
+        return None
+    return {
+        "news": PF.NEWS,
+        "news/talk": PF.NEWS,
+        "talk": PF.TALK_SHOW,
+        "talk show": PF.TALK_SHOW,
+        "talk radio": PF.TALK_SHOW,
+        "sports": PF.SPORTS,
+        "sport": PF.SPORTS,
+    }.get(label.strip().lower())
+
+
 def _map_tunein_genre(label: str) -> str:
     """Return a ``mediavocab.taxonomy.genre.GENRE_*`` value when the
     TuneIn label is recognisable; otherwise return the raw label.
@@ -43,13 +68,6 @@ def _map_tunein_genre(label: str) -> str:
 
     norm = label.strip().lower()
     table = {
-        "news": G.GENRE_NEWS,
-        "news/talk": G.GENRE_NEWS,
-        "talk": G.GENRE_TALK_SHOW,
-        "talk show": G.GENRE_TALK_SHOW,
-        "talk radio": G.GENRE_TALK_SHOW,
-        "sports": G.GENRE_SPORTS,
-        "sport": G.GENRE_SPORTS,
         "comedy": G.GENRE_COMEDY,
         "classical": G.GENRE_CLASSICAL,
         "classical music": G.GENRE_CLASSICAL,
@@ -81,7 +99,7 @@ def _map_tunein_genre(label: str) -> str:
         "reggae": G.GENRE_REGGAE,
         "latin": G.GENRE_LATIN,
         "ambient": G.GENRE_AMBIENT,
-        "religious": "religious",  # no mediavocab constant; keep raw
+        "religious": getattr(G, "GENRE_RELIGIOUS", "religious"),
     }
     return table.get(norm, label)
 
@@ -320,11 +338,17 @@ class TuneInStation:
             if alt and alt != self.title and alt not in aka:
                 aka.append(alt)
 
-        # `content_genres` — map TuneIn genre_name to mediavocab constants.
+        # `content_genres` / `programme_format` — TuneIn's single genre_name
+        # may name an aesthetic genre (jazz) or a broadcast format (talk). A
+        # format goes on programme_format (T1); only real genres go in
+        # content_genres.
         content_genres: list[str] = []
+        programme_format = None
         gname = (self.raw.get("genre_name") or "").strip()
         if gname:
-            content_genres.append(_map_tunein_genre(gname))
+            programme_format = _map_tunein_format(gname)
+            if programme_format is None:
+                content_genres.append(_map_tunein_genre(gname))
 
         # `country` — prefer explicit raw country, fall back to parsing
         # the location string.
@@ -337,15 +361,25 @@ class TuneInStation:
         lang_raw = str(self.raw.get("language") or "")
         language = _language_to_iso(lang_raw) if lang_raw else ""
 
+        # Country lives in the per-MediaType slot (broadcaster_country for
+        # RADIO/TV), not a flat `country` field — route it there.
+        media_type = self._resolve_media_type()
+        country_kwargs: dict[str, str] = {}
+        if country:
+            from mediavocab.models.work import COUNTRY_SLOT_FOR
+            slot = COUNTRY_SLOT_FOR.get(media_type, "broadcaster_country")
+            country_kwargs[slot] = country
+
         work = Work(
             title=self.title,
-            media_type=self._resolve_media_type(),
-            country=country,
+            media_type=media_type,
             language=language,
             content_genres=content_genres,
+            programme_format=programme_format,
             aka=aka,
             external_ids=dict(external_ids),
             extra=extra,
+            **country_kwargs,
         )
 
         # --- Release fields -------------------------------------------
