@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1a1](https://github.com/TigreGotico/tunein/tree/0.1.1a1) (2026-06-23)
+
+[Full Changelog](https://github.com/TigreGotico/tunein/compare/0.1.0a1...0.1.1a1)
+
+**Merged pull requests:**
+
+- fix: route news/talk/sports to programme\_format, country to its slot [\#19](https://github.com/TigreGotico/tunein/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.0a1](https://github.com/TigreGotico/tunein/tree/0.1.0a1) (2026-05-07)
 
 [Full Changelog](https://github.com/TigreGotico/tunein/compare/V0.0.4a3...0.1.0a1)
