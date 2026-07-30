@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1a2](https://github.com/TigreGotico/tunein/tree/0.1.1a2) (2026-07-30)
+
+[Full Changelog](https://github.com/TigreGotico/tunein/compare/0.1.1a1...0.1.1a2)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#23](https://github.com/TigreGotico/tunein/pull/23) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.1a1](https://github.com/TigreGotico/tunein/tree/0.1.1a1) (2026-06-23)
 
 [Full Changelog](https://github.com/TigreGotico/tunein/compare/0.1.0a1...0.1.1a1)
