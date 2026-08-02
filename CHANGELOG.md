@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1a4](https://github.com/LeMetadatarr/tunein/tree/0.1.1a4) (2026-08-02)
+
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a3...0.1.1a4)
+
+**Merged pull requests:**
+
+- fix: pin mediavocab\>=2.0.0a0 \(2.x prerelease has the API tunein targets\) [\#26](https://github.com/LeMetadatarr/tunein/pull/26) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.1a3](https://github.com/LeMetadatarr/tunein/tree/0.1.1a3) (2026-08-02)
 
 [Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a2...0.1.1a3)
