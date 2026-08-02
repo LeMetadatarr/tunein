@@ -1,7 +1,7 @@
 # TuneIn
 
 TuneIn is an unofficial Python client for the TuneIn radio API. It integrates
-with [mediavocab](https://github.com/JarbasAl/mediavocab) so callers get
+with [mediavocab](https://github.com/TigreGotico/mediavocab) so callers get
 typed, canonical media objects instead of raw API responses.
 
 ## Install
@@ -121,8 +121,11 @@ a `session=` keyword for one-shot calls that skip creating a client.
 
 ## Related projects
 
-- [mediavocab](https://github.com/JarbasAl/mediavocab) — the shared media
+- [mediavocab](https://github.com/TigreGotico/mediavocab) — the shared media
   vocabulary this client emits data into.
+- [audiobooker](https://github.com/LeMetadatarr/audiobooker) — sibling
+  LeMetadatarr client that emits mediavocab `Release` objects for
+  public-domain audiobooks.
 
 ## License
 
