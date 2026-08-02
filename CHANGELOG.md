@@ -1,53 +1,61 @@
 # Changelog
 
-## [0.1.1a2](https://github.com/TigreGotico/tunein/tree/0.1.1a2) (2026-07-30)
+## [0.1.1a3](https://github.com/LeMetadatarr/tunein/tree/0.1.1a3) (2026-08-02)
 
-[Full Changelog](https://github.com/TigreGotico/tunein/compare/0.1.1a1...0.1.1a2)
-
-**Merged pull requests:**
-
-- docs: rewrite README in Simplified Technical English [\#23](https://github.com/TigreGotico/tunein/pull/23) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.1.1a1](https://github.com/TigreGotico/tunein/tree/0.1.1a1) (2026-06-23)
-
-[Full Changelog](https://github.com/TigreGotico/tunein/compare/0.1.0a1...0.1.1a1)
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a2...0.1.1a3)
 
 **Merged pull requests:**
 
-- fix: route news/talk/sports to programme\_format, country to its slot [\#19](https://github.com/TigreGotico/tunein/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+- docs: QA pass — accuracy, org-move URLs, related projects [\#25](https://github.com/LeMetadatarr/tunein/pull/25) ([JarbasAl](https://github.com/JarbasAl))
 
-## [0.1.0a1](https://github.com/TigreGotico/tunein/tree/0.1.0a1) (2026-05-07)
+## [0.1.1a2](https://github.com/LeMetadatarr/tunein/tree/0.1.1a2) (2026-07-30)
 
-[Full Changelog](https://github.com/TigreGotico/tunein/compare/V0.0.4a3...0.1.0a1)
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a1...0.1.1a2)
 
 **Merged pull requests:**
 
-- feat: TuneInStation.to\_release + mediavocab dep [\#15](https://github.com/TigreGotico/tunein/pull/15) ([JarbasAl](https://github.com/JarbasAl))
-- chore: Configure Renovate [\#8](https://github.com/TigreGotico/tunein/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+- docs: rewrite README in Simplified Technical English [\#23](https://github.com/LeMetadatarr/tunein/pull/23) ([JarbasAl](https://github.com/JarbasAl))
 
-## [V0.0.4a3](https://github.com/TigreGotico/tunein/tree/V0.0.4a3) (2024-05-28)
+## [0.1.1a1](https://github.com/LeMetadatarr/tunein/tree/0.1.1a1) (2026-06-23)
 
-[Full Changelog](https://github.com/TigreGotico/tunein/compare/V0.0.4a2...V0.0.4a3)
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.0a1...0.1.1a1)
+
+**Merged pull requests:**
+
+- fix: route news/talk/sports to programme\_format, country to its slot [\#19](https://github.com/LeMetadatarr/tunein/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.0a1](https://github.com/LeMetadatarr/tunein/tree/0.1.0a1) (2026-05-07)
+
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/V0.0.4a3...0.1.0a1)
+
+**Merged pull requests:**
+
+- feat: TuneInStation.to\_release + mediavocab dep [\#15](https://github.com/LeMetadatarr/tunein/pull/15) ([JarbasAl](https://github.com/JarbasAl))
+- chore: Configure Renovate [\#8](https://github.com/LeMetadatarr/tunein/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [V0.0.4a3](https://github.com/LeMetadatarr/tunein/tree/V0.0.4a3) (2024-05-28)
+
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/V0.0.4a2...V0.0.4a3)
 
 **Implemented enhancements:**
 
-- Add multi stream support [\#6](https://github.com/TigreGotico/tunein/pull/6) ([cidrblock](https://github.com/cidrblock))
+- Add multi stream support [\#6](https://github.com/LeMetadatarr/tunein/pull/6) ([cidrblock](https://github.com/cidrblock))
 
-## [V0.0.4a2](https://github.com/TigreGotico/tunein/tree/V0.0.4a2) (2023-11-16)
+## [V0.0.4a2](https://github.com/LeMetadatarr/tunein/tree/V0.0.4a2) (2023-11-16)
 
-[Full Changelog](https://github.com/TigreGotico/tunein/compare/V0.0.4a1...V0.0.4a2)
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/V0.0.4a1...V0.0.4a2)
 
 **Implemented enhancements:**
 
-- Add a basic CLI [\#5](https://github.com/TigreGotico/tunein/pull/5) ([cidrblock](https://github.com/cidrblock))
+- Add a basic CLI [\#5](https://github.com/LeMetadatarr/tunein/pull/5) ([cidrblock](https://github.com/cidrblock))
 
-## [V0.0.4a1](https://github.com/TigreGotico/tunein/tree/V0.0.4a1) (2023-09-05)
+## [V0.0.4a1](https://github.com/LeMetadatarr/tunein/tree/V0.0.4a1) (2023-09-05)
 
-[Full Changelog](https://github.com/TigreGotico/tunein/compare/V0.0.3...V0.0.4a1)
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/V0.0.3...V0.0.4a1)
 
 **Fixed bugs:**
 
-- use lists [\#4](https://github.com/TigreGotico/tunein/pull/4) ([JarbasAl](https://github.com/JarbasAl))
+- use lists [\#4](https://github.com/LeMetadatarr/tunein/pull/4) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
