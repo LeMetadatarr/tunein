@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1a5](https://github.com/LeMetadatarr/tunein/tree/0.1.1a5) (2026-08-03)
+
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a4...0.1.1a5)
+
+**Merged pull requests:**
+
+- ci: grant conventional-label workflow write permissions [\#27](https://github.com/LeMetadatarr/tunein/pull/27) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.1a4](https://github.com/LeMetadatarr/tunein/tree/0.1.1a4) (2026-08-02)
 
 [Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a3...0.1.1a4)
