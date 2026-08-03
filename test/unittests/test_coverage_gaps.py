@@ -251,66 +251,30 @@ class TestGetStreamUrls:
             out = TuneIn.get_stream_urls("http://opml?id=s1")
         assert out == []
 
-    def test_pls_fallback_extracts_file1(self):
-        # First call: returns body with .pls station; second call fetches pls.
+    def test_pls_url_returned_verbatim(self):
+        # The client returns upstream results as-is: a .pls playlist URL
+        # is passed straight through (resolving it to a direct stream is a
+        # consumer concern). Only one upstream call is made — the client
+        # never fetches the .pls itself. The URL below is the real shape
+        # TuneIn returns for KUOW (s35932), query string and all.
+        pls_url = ("https://playerservices.streamtheworld.com/pls/"
+                   "KUOWFM_HIGH_MP3.pls?DIST=TuneIn&TGT=TuneIn&"
+                   "partnertok=abc.def.ghi")
         ok_json = MagicMock()
         ok_json.raise_for_status.return_value = None
         ok_json.json.return_value = {"body": [
-            {"url": "http://x/playlist.pls", "bitrate": 128, "media_type": "mp3"},
+            {"url": pls_url, "bitrate": 96, "media_type": "mp3"},
         ]}
-        pls = MagicMock()
-        pls.text = "[playlist]\nFile1=http://stream.example/audio.mp3\nLength1=-1\n"
 
         calls = {"n": 0}
         def fake_get(url, *a, **kw):
             calls["n"] += 1
-            if calls["n"] == 1:
-                return ok_json
-            return pls
+            return ok_json
 
         with patch("tunein.requests.get", side_effect=fake_get):
-            out = TuneIn.get_stream_urls("http://opml?id=s1")
-        assert out[0]["url"] == "http://stream.example/audio.mp3"
-
-    def test_pls_fallback_extracts_file1_with_query_string(self):
-        # Regression: TuneIn's real .pls URLs carry a query string
-        # (e.g. "...foo.pls?DIST=TuneIn&partnertok=..."), so a naive
-        # ``url.endswith(".pls")`` check never matches — verified
-        # against a live Tune.ashx response for KUOW (s35932), which
-        # returns exactly this shape.
-        ok_json = MagicMock()
-        ok_json.raise_for_status.return_value = None
-        ok_json.json.return_value = {"body": [
-            {"url": "https://playerservices.streamtheworld.com/pls/"
-                     "KUOWFM_HIGH_MP3.pls?DIST=TuneIn&TGT=TuneIn&"
-                     "partnertok=abc.def.ghi",
-             "bitrate": 96, "media_type": "mp3"},
-        ]}
-        pls = MagicMock()
-        pls.text = ("[playlist]\nFile1=https://18373.live.streamtheworld.com"
-                    ":443/KUOWFM_HIGH_MP3_SC?TGT=TuneIn\nLength1=-1\n")
-
-        with patch("tunein.requests.get",
-                   side_effect=[ok_json, pls]):
             out = TuneIn.get_stream_urls("http://opml?id=s35932")
-        assert out[0]["url"] == (
-            "https://18373.live.streamtheworld.com:443/"
-            "KUOWFM_HIGH_MP3_SC?TGT=TuneIn"
-        )
-
-    def test_pls_no_file1_keeps_url(self):
-        ok_json = MagicMock()
-        ok_json.raise_for_status.return_value = None
-        ok_json.json.return_value = {"body": [
-            {"url": "http://x/playlist.pls", "bitrate": 64, "media_type": "mp3"},
-        ]}
-        pls = MagicMock()
-        pls.text = "[playlist]\nNumberOfEntries=0\n"
-
-        seq = [ok_json, pls]
-        with patch("tunein.requests.get", side_effect=lambda *a, **kw: seq.pop(0)):
-            out = TuneIn.get_stream_urls("http://opml?id=s1")
-        assert out[0]["url"] == "http://x/playlist.pls"
+        assert out[0]["url"] == pls_url
+        assert calls["n"] == 1  # no extra fetch to unwrap the .pls
 
 
 # --- TuneIn.search / featured / _get_stations branches --------------------

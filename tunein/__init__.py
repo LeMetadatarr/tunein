@@ -478,17 +478,9 @@ class TuneIn:
         if not isinstance(stations, list):
             return []
 
-        for station in stations:
-            if urlparse(station.get("url", "")).path.endswith(".pls"):
-                try:
-                    res = sess.get(station["url"], timeout=10)
-                    res.raise_for_status()
-                except requests.exceptions.RequestException:
-                    continue
-                file1 = [line for line in res.text.split("\n") if line.startswith("File1=")]
-                if file1:
-                    station["url"] = file1[0].split("File1=")[1]
-
+        # Return upstream URLs verbatim. A .pls (or .m3u) URL is a playlist
+        # container; resolving it to a direct stream is a consumer concern,
+        # not this client's — callers decide whether to unwrap it.
         return stations
 
     @classmethod
