@@ -13,6 +13,7 @@ from __future__ import annotations
 import copy
 import re
 from pathlib import Path
+from urllib.parse import unquote
 
 import pytest
 
@@ -37,6 +38,32 @@ def _scrub_body(text: str) -> str:
     text = _JWT_RE.sub("<JWT>", text)
     text = _CF_BM_RE.sub("__cf_bm=<CF_BM>", text)
     return text
+
+
+def _scrub_request(request):
+    """VCR before_record_request hook — redact tokens from the stored
+    request URI so cassettes never persist live credentials, mirroring
+    ``_scrub_body`` for response bodies."""
+    request.uri = _scrub_body(request.uri)
+    return request
+
+
+def _query_ignoring_tokens(r1, r2):
+    """Custom VCR query matcher.
+
+    TuneIn mints a fresh ``partnertok``/``tdtok`` per request (a
+    short-lived JWT), so the query string differs on every real HTTP
+    call even for the "same" logical request (e.g. following a
+    ``.pls`` playlist URL parsed out of a scrubbed cassette body).
+    Compare queries with those volatile params scrubbed instead of
+    matching them verbatim.
+    """
+    # Unquote first: a scrubbed placeholder re-embedded into a URL by a
+    # fresh request gets percent-encoded (``%3CPARTNER_TOKEN%3E``) while
+    # the same placeholder written into the cassette by a raw string
+    # substitution stays literal (``<PARTNER_TOKEN>``) -- normalise
+    # before comparing so both forms match.
+    return _scrub_body(unquote(r1.uri)) == _scrub_body(unquote(r2.uri))
 
 
 def _scrub_response(response):
@@ -72,7 +99,21 @@ def vcr_config():
         "decode_compressed_response": True,
         "record_mode": "none",
         "before_record_response": _scrub_response,
+        "before_record_request": _scrub_request,
+        "match_on": ["method", "scheme", "host", "port", "path",
+                     "query_ignoring_tokens"],
     }
+
+
+@pytest.fixture(scope="module", autouse=True)
+def _register_token_agnostic_matcher(vcr):
+    """Register the custom query matcher on the module's VCR instance.
+
+    ``vcr_config``'s ``match_on`` can only reference matchers by name,
+    so the callable has to be registered on the ``vcr`` fixture (from
+    ``pytest-vcr``) before any cassette is used.
+    """
+    vcr.register_matcher("query_ignoring_tokens", _query_ignoring_tokens)
 
 
 @pytest.fixture(scope="module")

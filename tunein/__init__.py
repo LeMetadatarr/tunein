@@ -140,7 +140,15 @@ def _country_from_location(location: str) -> str:
         return ""
     if tail in _US_STATES:
         return "US"
-    return _LOCATION_TAIL_TO_ISO.get(tail, "")
+    if tail in _LOCATION_TAIL_TO_ISO:
+        return _LOCATION_TAIL_TO_ISO[tail]
+    # Describe.ashx also returns bare ISO-3166-1 alpha-2 codes directly
+    # (e.g. "Seattle-Tacoma, US"), distinct from the full country names
+    # used elsewhere ("Köln, Germany"). A two-letter tail that isn't a US
+    # state is already the country code -- just normalise the case.
+    if len(tail) == 2 and tail.isalpha():
+        return tail.upper()
+    return ""
 
 
 # --- Language name -> ISO-639-1 ----------------------------------------
@@ -471,7 +479,7 @@ class TuneIn:
             return []
 
         for station in stations:
-            if station.get("url", "").endswith(".pls"):
+            if urlparse(station.get("url", "")).path.endswith(".pls"):
                 try:
                     res = sess.get(station["url"], timeout=10)
                     res.raise_for_status()
