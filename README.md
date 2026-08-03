@@ -33,6 +33,24 @@ for station in TuneIn.search("BBC Radio 4"):
     print(station.title, station.stream, station.bit_rate)
 ```
 
+### Featured stations and single-station enrichment
+
+`TuneIn.featured()` returns the local stations TuneIn would show on its home
+page for the caller's IP. `TuneInStation.enrich()` fetches `Describe.ashx`
+for one already-fetched station and merges the richer fields into it
+in place, without re-running a search:
+
+```python
+from tunein import TuneIn
+
+for station in TuneIn.featured():
+    print(station.title, station.stream)
+
+station = TuneIn.search("BBC Radio 4")[0]
+station.enrich()  # mutates station.raw; returns station for chaining
+print(station.raw.get("genre_name"), station.raw.get("location"))
+```
+
 ### mediavocab integration
 
 `TuneInStation.to_release()` returns a canonical `mediavocab.Release`. This

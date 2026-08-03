@@ -5,7 +5,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
       Content-Length:
@@ -22,11 +22,10 @@ interactions:
         : \"audio\",\n\"text\" : \"Antena Minho 106.0 (Sports Talk & News)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s25767&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"160\",\n\"reliability\" : \"83\",\n\"guide_id\" : \"s25767\",\n\"subtext\"
-        : \"Manuela Barros\",\n\"genre_id\" : \"g2723\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p270973\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s25767q.png\",\n\"current_track\"
-        : \"Manuela Barros\",\n\"now_playing_id\" : \"s25767\",\n\"preset_id\" : \"s25767\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Beat
-        PT (Dance & Electronic)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s263406&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"A R\xE1dio De Braga\",\n\"genre_id\" : \"g2723\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s25767q.png\",\n\"now_playing_id\"
+        : \"s25767\",\n\"preset_id\" : \"s25767\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Beat PT (Dance & Electronic)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s263406&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"192\",\n\"reliability\" : \"98\",\n\"guide_id\" : \"s263406\",\n\"subtext\"
         : \"The best dance music mix\",\n\"genre_id\" : \"g59\",\n\"formats\" : \"mp3\",\n\"item\"
         : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s263406q.png\",\n\"now_playing_id\"
@@ -75,11 +74,11 @@ interactions:
         : \"s278383\",\n\"preset_id\" : \"s278383\" },\n { \"element\" : \"outline\",\n\"type\"
         : \"audio\",\n\"text\" : \"Geice FM 90.8 (80's)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s84208&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"320\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84208\",\n\"subtext\"
-        : \"Music Box\",\n\"genre_id\" : \"g42\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p763027\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s84208/images/logoq.jpg?t=161850\",\n\"current_track\"
-        : \"Music Box\",\n\"now_playing_id\" : \"s84208\",\n\"preset_id\" : \"s84208\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Golo
-        FM 94.8 (Portuguese Talk)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s231300&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"M\xFAsica Variada\",\n\"genre_id\" : \"g42\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p763042\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s84208/images/logoq.jpg?t=161850\",\n\"current_track\"
+        : \"M\xFAsica Variada\",\n\"now_playing_id\" : \"s84208\",\n\"preset_id\"
+        : \"s84208\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"Golo FM 94.8 (Portuguese Talk)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s231300&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"192\",\n\"reliability\" : \"97\",\n\"guide_id\" : \"s231300\",\n\"subtext\"
         : \"A Primeira R\xE1dio Desporto\",\n\"genre_id\" : \"g368\",\n\"formats\"
         : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s231300/images/logoq.jpg?t=1659715641000\",\n\"now_playing_id\"
@@ -91,8 +90,8 @@ interactions:
         : \"s172138\",\n\"preset_id\" : \"s172138\" },\n { \"element\" : \"outline\",\n\"type\"
         : \"audio\",\n\"text\" : \"PT Radio (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s206204&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s206204\",\n\"subtext\"
-        : \"Musica Portuguesa 24/7\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\"
-        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s206204/images/logoq.png?t=2\",\n\"now_playing_id\"
+        : \"Leo Leandro - Pode Parar\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"playing\"
+        : \"Leo Leandro - Pode Parar\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s206204/images/logoq.png?t=2\",\n\"now_playing_id\"
         : \"s206204\",\n\"preset_id\" : \"s206204\" },\n { \"element\" : \"outline\",\n\"type\"
         : \"audio\",\n\"text\" : \"Radio 4 Continentes (Portuguese Music)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s296419&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
@@ -131,28 +130,29 @@ interactions:
         : \"s48688\",\n\"preset_id\" : \"s48688\" },\n { \"element\" : \"outline\",\n\"type\"
         : \"audio\",\n\"text\" : \"Radio Barca 99.6 (Local Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s48695&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s48695\",\n\"subtext\"
-        : \"Tardes da FM\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p137710\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s48695q.png\",\n\"current_track\"
-        : \"Tardes da FM\",\n\"now_playing_id\" : \"s48695\",\n\"preset_id\" : \"s48695\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
-        Barcelos 91.9 (Sports Talk & News)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s82123&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"A R\xE1dio Barca \xE9 uma r\xE1dio...\",\n\"genre_id\" : \"g154\",\n\"formats\"
+        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s48695q.png\",\n\"now_playing_id\"
+        : \"s48695\",\n\"preset_id\" : \"s48695\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Barcelos 91.9 (Sports Talk & News)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s82123&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s82123\",\n\"subtext\"
-        : \"Barcelos ao Vivo\",\n\"genre_id\" : \"g2723\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p449223\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s82123q.png\",\n\"current_track\"
-        : \"Barcelos ao Vivo\",\n\"now_playing_id\" : \"s82123\",\n\"preset_id\" :
-        \"s82123\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
-        : \"Radio Breca (Arts & Culture)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s227870&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
-        : \"320\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s227870\",\n\"subtext\"
-        : \"We are R\xE1dio Breca from Portugal\",\n\"genre_id\" : \"g2737\",\n\"formats\"
-        : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s227870/images/logoq.png?t=156476\",\n\"now_playing_id\"
+        : \"Ao Ritmo Da Sua Vida...\",\n\"genre_id\" : \"g2723\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s82123q.png\",\n\"now_playing_id\"
+        : \"s82123\",\n\"preset_id\" : \"s82123\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Breca from Portugal (House)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s227870&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"256\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s227870\",\n\"subtext\"
+        : \"Temudo - A1\",\n\"genre_id\" : \"g2757\",\n\"formats\" : \"mp3\",\n\"playing\"
+        : \"Temudo - A1\",\n\"playing_image\" : \"http://cdn-albums.tunein.com/gn/K852PNJ6L2q.jpg\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s227870/images/logoq.jpg?t=156477\",\n\"now_playing_id\"
         : \"s227870\",\n\"preset_id\" : \"s227870\" },\n { \"element\" : \"outline\",\n\"type\"
         : \"audio\",\n\"text\" : \"Radio Caima FM 97.1 (90's)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s48711&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s48711\",\n\"subtext\"
-        : \"Sem Fronteiras\",\n\"genre_id\" : \"g2677\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p268420\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s48711/images/logoq.jpg?t=1667349628000\",\n\"current_track\"
-        : \"Sem Fronteiras\",\n\"now_playing_id\" : \"s48711\",\n\"preset_id\" : \"s48711\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
-        Cidade Hoje 94.0 (Brazilian Popular)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s82196&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Emiss\xE3o Nocturna\",\n\"genre_id\" : \"g2677\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p268424\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s48711/images/logoq.jpg?t=1667349628000\",\n\"current_track\"
+        : \"Emiss\xE3o Nocturna\",\n\"now_playing_id\" : \"s48711\",\n\"preset_id\"
+        : \"s48711\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"Radio Cidade Hoje 94.0 (Brazilian Popular)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s82196&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"192\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s82196\",\n\"subtext\"
         : \"R\xE1dio e Jornal\",\n\"genre_id\" : \"g3165\",\n\"formats\" : \"mp3\",\n\"item\"
         : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s82196q.png\",\n\"now_playing_id\"
@@ -160,18 +160,17 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Clube Da Feira 104.7 (Variety)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s82199&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s82199\",\n\"subtext\"
-        : \"Tardes da RCF\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p423863\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s82199q.png\",\n\"current_track\"
-        : \"Tardes da RCF\",\n\"now_playing_id\" : \"s82199\",\n\"preset_id\" : \"s82199\"
+        : \"RCF Brasil\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p423856\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s82199q.png\",\n\"current_track\"
+        : \"RCF Brasil\",\n\"now_playing_id\" : \"s82199\",\n\"preset_id\" : \"s82199\"
         },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
-        Clube de Lamego 97.0 (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s1515&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        Clube de Lamego 97 (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s1515&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s1515\",\n\"subtext\"
-        : \"Discos Pedidos\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3,aac\",\n\"show_id\"
-        : \"p273361\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s1515/images/logoq.png?t=1649273326000\",\n\"current_track\"
-        : \"Discos Pedidos\",\n\"now_playing_id\" : \"s1515\",\n\"preset_id\" : \"s1515\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
-        Clube de Pa\xE7os de Ferreira 101.8 FM | (Portuguese Music)\",\n\"URL\" :
-        \"http://opml.radiotime.com/Tune.ashx?id=s84095&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"A Mais Ouvida\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s1515/images/logoq.png?t=1\",\n\"now_playing_id\"
+        : \"s1515\",\n\"preset_id\" : \"s1515\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Clube de Pa\xE7os de Ferreira 101.8 FM
+        | (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s84095&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84095\",\n\"subtext\"
         : \"A Mais Ouvida do Vale do Sousa\",\n\"genre_id\" : \"g158\",\n\"formats\"
         : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s84095/images/logoq.png?t=164779\",\n\"now_playing_id\"
@@ -179,11 +178,11 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Clube Penafiel 91.8 (Adult Hits)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s84110&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84110\",\n\"subtext\"
-        : \"Sess\xE3o da Tarde\",\n\"genre_id\" : \"g3\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p269830\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84110q.png\",\n\"current_track\"
-        : \"Sess\xE3o da Tarde\",\n\"now_playing_id\" : \"s84110\",\n\"preset_id\"
-        : \"s84110\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
-        : \"Radio Clube Santa Marta (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s154438&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Madrugada\",\n\"genre_id\" : \"g3\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p269823\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84110q.png\",\n\"current_track\"
+        : \"Madrugada\",\n\"now_playing_id\" : \"s84110\",\n\"preset_id\" : \"s84110\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
+        Clube Santa Marta (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s154438&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"93\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s154438\",\n\"subtext\"
         : \"24 horas Consigo\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"aac\",\n\"item\"
         : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s154438/images/logoq.png?t=156681\",\n\"now_playing_id\"
@@ -220,11 +219,11 @@ interactions:
         : \"audio\",\n\"text\" : \"R\xE1dio Funda\xE7\xE3o 95.8 (Variety)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s107275&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"64\",\n\"reliability\" : \"80\",\n\"guide_id\" : \"s107275\",\n\"subtext\"
-        : \"Mais Tarde\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p1089997\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s107275q.png\",\n\"current_track\"
-        : \"Mais Tarde\",\n\"now_playing_id\" : \"s107275\",\n\"preset_id\" : \"s107275\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
-        Gondomar Mix (Music Podcasts)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s189282&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"M\xFAsica na Madrugada\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p651024\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s107275q.png\",\n\"current_track\"
+        : \"M\xFAsica na Madrugada\",\n\"now_playing_id\" : \"s107275\",\n\"preset_id\"
+        : \"s107275\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"R\xE1dio Gondomar Mix (Music Podcasts)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s189282&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"192\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s189282\",\n\"subtext\"
         : \"A sua Radio 24 Horas Sempre Com boa musica\",\n\"genre_id\" : \"g3414\",\n\"formats\"
         : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s189282/images/logoq.png?t=152345\",\n\"now_playing_id\"
@@ -232,20 +231,20 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Graciosa 107.9 (Top 40 & Pop Music)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s16047&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s16047\",\n\"subtext\"
-        : \"Portuguese\",\n\"genre_id\" : \"g61\",\n\"formats\" : \"mp3\",\n\"item\"
-        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s16047q.png\",\n\"now_playing_id\"
-        : \"s16047\",\n\"preset_id\" : \"s16047\" },\n { \"element\" : \"outline\",\n\"type\"
-        : \"audio\",\n\"text\" : \"Radio Horizonte Algarve 96.9-106.8 (Top 40 & Pop
-        Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s1653&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Musica variada\",\n\"genre_id\" : \"g61\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p270240\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s16047q.png\",\n\"current_track\"
+        : \"Musica variada\",\n\"now_playing_id\" : \"s16047\",\n\"preset_id\" : \"s16047\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
+        Horizonte Algarve 96.9-106.8 (Top 40 & Pop Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s1653&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"93\",\n\"guide_id\" : \"s1653\",\n\"subtext\"
         : \"Desde Tavira para todo o Mundo !\",\n\"genre_id\" : \"g61\",\n\"formats\"
         : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s1653/images/logoq.jpg?t=1663085725000\",\n\"now_playing_id\"
         : \"s1653\",\n\"preset_id\" : \"s1653\" },\n { \"element\" : \"outline\",\n\"type\"
         : \"audio\",\n\"text\" : \"R\xE1dio JM (Variety)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s281342&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s281342\",\n\"subtext\"
-        : \"Companhia JM\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p1101294\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s281342/images/logoq.png?t=162508\",\n\"current_track\"
-        : \"Companhia JM\",\n\"now_playing_id\" : \"s281342\",\n\"preset_id\" : \"s281342\"
+        : \"Madrugadas JM\",\n\"genre_id\" : \"g88\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p967097\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s281342/images/logoq.png?t=162508\",\n\"current_track\"
+        : \"Madrugadas JM\",\n\"now_playing_id\" : \"s281342\",\n\"preset_id\" : \"s281342\"
         },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
         Junior (Classic Hits)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s329927&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s329927\",\n\"subtext\"
@@ -279,39 +278,38 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Marcoense 93.3 (World Music)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s107264&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s107264\",\n\"subtext\"
-        : \"Turma Dos Repetentes\",\n\"genre_id\" : \"g22\",\n\"formats\" : \"mp3,html\",\n\"show_id\"
-        : \"p428856\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s107264q.png\",\n\"current_track\"
-        : \"Turma Dos Repetentes\",\n\"now_playing_id\" : \"s107264\",\n\"preset_id\"
+        : \"Noite De Estrelas\",\n\"genre_id\" : \"g22\",\n\"formats\" : \"mp3,html\",\n\"show_id\"
+        : \"p428804\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s107264q.png\",\n\"current_track\"
+        : \"Noite De Estrelas\",\n\"now_playing_id\" : \"s107264\",\n\"preset_id\"
         : \"s107264\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
         : \"R\xE1dio Melodias de Amor (Ambient Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s262906&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"192\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s262906\",\n\"subtext\"
         : \"A radio que toca em seu cora\xE7\xE3o\",\n\"genre_id\" : \"g2804\",\n\"formats\"
         : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s0q.png\",\n\"now_playing_id\"
         : \"s262906\",\n\"preset_id\" : \"s262906\" },\n { \"element\" : \"outline\",\n\"type\"
-        : \"audio\",\n\"text\" : \"R\xE1dio Noar 107.8 (Portuguese Music)\",\n\"URL\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Noar 107 (Portuguese Music)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s107133&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"90\",\n\"guide_id\" : \"s107133\",\n\"subtext\"
-        : \"A R\xE1dio da nossa gente, sempre!\",\n\"genre_id\" : \"g158\",\n\"formats\"
+        : \"Mais que uma R\xE1dio, Uma Fam\xEDlia!\",\n\"genre_id\" : \"g158\",\n\"formats\"
         : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s107133/images/logoq.png?t=156140\",\n\"now_playing_id\"
         : \"s107133\",\n\"preset_id\" : \"s107133\" },\n { \"element\" : \"outline\",\n\"type\"
         : \"audio\",\n\"text\" : \"R\xE1dio Nova 98.9 (Soul)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s9317&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"80\",\n\"guide_id\" : \"s9317\",\n\"subtext\"
-        : \"Night & Day\",\n\"genre_id\" : \"g18\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p405724\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s9317q.png\",\n\"current_track\"
-        : \"Night & Day\",\n\"now_playing_id\" : \"s9317\",\n\"preset_id\" : \"s9317\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
-        Nova Era 100.1 (Top 40 & Pop Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s25161&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Sou Todo Ouvidos\",\n\"genre_id\" : \"g18\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s9317q.png\",\n\"now_playing_id\"
+        : \"s9317\",\n\"preset_id\" : \"s9317\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"Radio Nova Era 100.1 (Top 40 & Pop Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s25161&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s25161\",\n\"subtext\"
-        : \"Daniel Oliveira\",\n\"genre_id\" : \"g61\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p920231\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s25161q.png\",\n\"current_track\"
-        : \"Daniel Oliveira\",\n\"now_playing_id\" : \"s25161\",\n\"preset_id\" :
-        \"s25161\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
-        : \"R\xE1dio Nove3cinco (Top 40 & Pop Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s83746&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Playlist\",\n\"genre_id\" : \"g61\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p409766\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s25161q.png\",\n\"current_track\"
+        : \"Playlist\",\n\"now_playing_id\" : \"s25161\",\n\"preset_id\" : \"s25161\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
+        Nove3cinco (Top 40 & Pop Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s83746&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s83746\",\n\"subtext\"
-        : \"In\xE8s Cordeiro e Hugo Sim\xF5es\",\n\"genre_id\" : \"g61\",\n\"formats\"
-        : \"mp3\",\n\"show_id\" : \"p1041845\",\n\"item\" : \"station\",\n\"image\"
-        : \"http://cdn-profiles.tunein.com/s83746/images/logoq.png?t=636415\",\n\"current_track\"
-        : \"In\xE8s Cordeiro e Hugo Sim\xF5es\",\n\"now_playing_id\" : \"s83746\",\n\"preset_id\"
+        : \"A melhor m\xFAsica\",\n\"genre_id\" : \"g61\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p1000940\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s83746/images/logoq.png?t=636415\",\n\"current_track\"
+        : \"A melhor m\xFAsica\",\n\"now_playing_id\" : \"s83746\",\n\"preset_id\"
         : \"s83746\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
         : \"R\xE1dio Onda Lusa (Adult Hits)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s226260&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s226260\",\n\"subtext\"
@@ -321,11 +319,11 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Onda Viva 96.1 (World News)\",\n\"URL\" :
         \"http://opml.radiotime.com/Tune.ashx?id=s84142&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s84142\",\n\"subtext\"
-        : \"Nova Dimens\xE3o\",\n\"genre_id\" : \"g3125\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p260232\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84142q.png\",\n\"current_track\"
-        : \"Nova Dimens\xE3o\",\n\"now_playing_id\" : \"s84142\",\n\"preset_id\" :
-        \"s84142\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
-        : \"Radio Ondas Cabreira (World Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s259792&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Dama De Copas\",\n\"genre_id\" : \"g3125\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p260236\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84142q.png\",\n\"current_track\"
+        : \"Dama De Copas\",\n\"now_playing_id\" : \"s84142\",\n\"preset_id\" : \"s84142\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
+        Ondas Cabreira (World Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s259792&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s259792\",\n\"subtext\"
         : \"A Sua Melhor Companhia\",\n\"genre_id\" : \"g22\",\n\"formats\" : \"mp3\",\n\"item\"
         : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s259792/images/logoq.png?t=157662\",\n\"now_playing_id\"
@@ -333,10 +331,10 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Ondas Do Lima 95.0 (Public Radio)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s48681&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s48681\",\n\"subtext\"
-        : \"Mais Vale Tarde\",\n\"genre_id\" : \"g266\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p137061\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s48681q.png\",\n\"current_track\"
-        : \"Mais Vale Tarde\",\n\"now_playing_id\" : \"s48681\",\n\"preset_id\" :
-        \"s48681\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"No Calor Da Noite\",\n\"genre_id\" : \"g266\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p137065\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s48681q.png\",\n\"current_track\"
+        : \"No Calor Da Noite\",\n\"now_playing_id\" : \"s48681\",\n\"preset_id\"
+        : \"s48681\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
         : \"Radio ovos moles (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s200707&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"89\",\n\"guide_id\" : \"s200707\",\n\"subtext\"
         : \"De Aveiro para o mundo inteiro\",\n\"genre_id\" : \"g158\",\n\"formats\"
@@ -344,17 +342,17 @@ interactions:
         : \"s200707\",\n\"preset_id\" : \"s200707\" },\n { \"element\" : \"outline\",\n\"type\"
         : \"audio\",\n\"text\" : \"Radio Pico 100.2 (Local Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s81795&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s81795\",\n\"subtext\"
-        : \"Backstage\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p423453\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s81795q.png\",\n\"current_track\"
-        : \"Backstage\",\n\"now_playing_id\" : \"s81795\",\n\"preset_id\" : \"s81795\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Radio
-        Popular Afifense 87.6 (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s84209&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Noites da R\xE1dio Pico\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p423439\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s81795q.png\",\n\"current_track\"
+        : \"Noites da R\xE1dio Pico\",\n\"now_playing_id\" : \"s81795\",\n\"preset_id\"
+        : \"s81795\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"Radio Popular Afifense 87.6 (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s84209&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84209\",\n\"subtext\"
-        : \"Tardes D' Afifense\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p262365\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84209q.png\",\n\"current_track\"
-        : \"Tardes D' Afifense\",\n\"now_playing_id\" : \"s84209\",\n\"preset_id\"
-        : \"s84209\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
-        : \"R\xE1dio Portuense (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s226263&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Portuguese\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84209q.png\",\n\"now_playing_id\"
+        : \"s84209\",\n\"preset_id\" : \"s84209\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Portuense (Portuguese Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s226263&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s226263\",\n\"subtext\"
         : \"A Voz da Invicta\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"item\"
         : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s226263/images/logoq.jpg?t=159016\",\n\"now_playing_id\"
@@ -368,11 +366,11 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Santiago 98.0 (Local Music)\",\n\"URL\" :
         \"http://opml.radiotime.com/Tune.ashx?id=s16346&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"127\",\n\"reliability\" : \"98\",\n\"guide_id\" : \"s16346\",\n\"subtext\"
-        : \"A tarde \xE9 nossa\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"aac\",\n\"show_id\"
-        : \"p257842\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s16346q.png\",\n\"current_track\"
-        : \"A tarde \xE9 nossa\",\n\"now_playing_id\" : \"s16346\",\n\"preset_id\"
-        : \"s16346\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
-        : \"R\xE1dio Toca a Dan\xE7ar (Brazilian Popular)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s219263&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"Madrugadas\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"aac\",\n\"show_id\"
+        : \"p271005\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s16346q.png\",\n\"current_track\"
+        : \"Madrugadas\",\n\"now_playing_id\" : \"s16346\",\n\"preset_id\" : \"s16346\"
+        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
+        Toca a Dan\xE7ar (Brazilian Popular)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s219263&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"192\",\n\"reliability\" : \"99\",\n\"guide_id\" : \"s219263\",\n\"subtext\"
         : \"A r\xE1dio de m\xFAsica de dan\xE7a\",\n\"genre_id\" : \"g3165\",\n\"formats\"
         : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s219263/images/logoq.png?t=159042\",\n\"now_playing_id\"
@@ -385,11 +383,11 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Valdevez 100.8 (Local Music)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s84205&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s84205\",\n\"subtext\"
-        : \"CRAVO E CANELA\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p4639723\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84205q.png\",\n\"current_track\"
-        : \"CRAVO E CANELA\",\n\"now_playing_id\" : \"s84205\",\n\"preset_id\" : \"s84205\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
-        Viva Portugal Albergaria (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s235749&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"M\xDASICA SELECIONADA\",\n\"genre_id\" : \"g154\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p4639719\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s84205q.png\",\n\"current_track\"
+        : \"M\xDASICA SELECIONADA\",\n\"now_playing_id\" : \"s84205\",\n\"preset_id\"
+        : \"s84205\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
+        : \"R\xE1dio Viva Portugal Albergaria (Portuguese Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s235749&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"192\",\n\"reliability\" : \"98\",\n\"guide_id\" : \"s235749\",\n\"subtext\"
         : \"A boa m\xFAsica passa aqui na sua r\xE1dio\",\n\"genre_id\" : \"g158\",\n\"formats\"
         : \"mp3\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s235749/images/logoq.png?t=1\",\n\"now_playing_id\"
@@ -397,9 +395,9 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Voz Da Ria 90.2 (Portuguese Music)\",\n\"URL\"
         : \"http://opml.radiotime.com/Tune.ashx?id=s7600&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"92\",\n\"guide_id\" : \"s7600\",\n\"subtext\"
-        : \"Notici\xE1rio RVR\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p147239\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s7600q.png\",\n\"current_track\"
-        : \"Notici\xE1rio RVR\",\n\"now_playing_id\" : \"s7600\",\n\"preset_id\" :
+        : \"Notici\xE1rio TSF\",\n\"genre_id\" : \"g158\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p147232\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s7600q.png\",\n\"current_track\"
+        : \"Notici\xE1rio TSF\",\n\"now_playing_id\" : \"s7600\",\n\"preset_id\" :
         \"s7600\" },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\"
         : \"R\xE1dio Voz De Basto 100.6 (Adult Hits)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s107337&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"24\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s107337\",\n\"subtext\"
@@ -409,11 +407,11 @@ interactions:
         : \"audio\",\n\"text\" : \"Radio Voz De Esmoriz 93.1 (Media & Entertainment
         Podcasts)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s1469&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"320\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s1469\",\n\"subtext\"
-        : \"Em Rodagem\",\n\"genre_id\" : \"g3416\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p272500\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s1469q.png\",\n\"current_track\"
-        : \"Em Rodagem\",\n\"now_playing_id\" : \"s1469\",\n\"preset_id\" : \"s1469\"
-        },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"R\xE1dio
-        Voz do Mar\xE3o 96.3 (Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s337359&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
+        : \"La Que Pega Con Todo\",\n\"genre_id\" : \"g3416\",\n\"formats\" : \"mp3\",\n\"item\"
+        : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s1469q.png\",\n\"now_playing_id\"
+        : \"s1469\",\n\"preset_id\" : \"s1469\" },\n { \"element\" : \"outline\",\n\"type\"
+        : \"audio\",\n\"text\" : \"R\xE1dio Voz do Mar\xE3o 96.3 (Music)\",\n\"URL\"
+        : \"http://opml.radiotime.com/Tune.ashx?id=s337359&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s337359\",\n\"subtext\"
         : \"Emissora de r\xE1dio em Vila Real\",\n\"genre_id\" : \"g1\",\n\"formats\"
         : \"html\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-profiles.tunein.com/s337359/images/logoq.png?t=1\",\n\"now_playing_id\"
@@ -449,9 +447,9 @@ interactions:
         : \"audio\",\n\"text\" : \"RUM - R\xE1dio Universit\xE1ria do Minho 97.5 (Indie
         Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s3095&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"192\",\n\"reliability\" : \"97\",\n\"guide_id\" : \"s3095\",\n\"subtext\"
-        : \"Sara Pereira\",\n\"genre_id\" : \"g2748\",\n\"formats\" : \"mp3\",\n\"show_id\"
-        : \"p867106\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s3095q.png\",\n\"current_track\"
-        : \"Sara Pereira\",\n\"now_playing_id\" : \"s3095\",\n\"preset_id\" : \"s3095\"
+        : \"Music HAL\",\n\"genre_id\" : \"g2748\",\n\"formats\" : \"mp3\",\n\"show_id\"
+        : \"p867095\",\n\"item\" : \"station\",\n\"image\" : \"http://cdn-radiotime-logos.tunein.com/s3095q.png\",\n\"current_track\"
+        : \"Music HAL\",\n\"now_playing_id\" : \"s3095\",\n\"preset_id\" : \"s3095\"
         },\n { \"element\" : \"outline\",\n\"type\" : \"audio\",\n\"text\" : \"Top
         FM - Portugal 106.6 (Top 40 & Pop Music)\",\n\"URL\" : \"http://opml.radiotime.com/Tune.ashx?id=s129939&formats=mp3,aac,ogg,html,hls\",\n\"bitrate\"
         : \"128\",\n\"reliability\" : \"100\",\n\"guide_id\" : \"s129939\",\n\"subtext\"
@@ -470,33 +468,25 @@ interactions:
         : \"s107023\",\n\"preset_id\" : \"s107023\" }\n] }\n] }"
     headers:
       CF-RAY:
-      - 9f815e2d5f7bf437-LIS
+      - a2518c556e91e3b0-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:15 GMT
+      - Mon, 03 Aug 2026 01:28:53 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
-      - '37732'
+      - '37514'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:15
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '14'
+      - '31'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -506,7 +496,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -521,33 +511,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e2ebceb4e84-MAD
+      - a2518c56de7c26d6-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:15 GMT
+      - Mon, 03 Aug 2026 01:28:53 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '366'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:15
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '17'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -557,7 +539,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -572,33 +554,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e301e81e32c-LIS
+      - a2518c581c72ff4e-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:16 GMT
+      - Mon, 03 Aug 2026 01:28:53 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '390'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:16
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -608,7 +582,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -623,33 +597,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e317e815816-LIS
+      - a2518c596e718e38-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:16 GMT
+      - Mon, 03 Aug 2026 01:28:54 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '381'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:16
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '14'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -659,7 +625,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -678,33 +644,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e32ddafa10f-LIS
+      - a2518c5a9820e3d0-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:16 GMT
+      - Mon, 03 Aug 2026 01:28:54 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '718'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:16
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '10'
+      - '11'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -714,7 +672,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -729,33 +687,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e66a90fe32c-LIS
+      - a2518c5be91531f1-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:24 GMT
+      - Mon, 03 Aug 2026 01:28:54 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '374'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:24
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -765,7 +715,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -780,33 +730,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e680cd5cbbe-MAD
+      - a2518c5d2b5dcc1e-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:25 GMT
+      - Mon, 03 Aug 2026 01:28:54 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '377'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '6'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -816,7 +758,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -831,33 +773,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e697e270b12-LIS
+      - a2518c5e5b29e3bd-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:25 GMT
+      - Mon, 03 Aug 2026 01:28:54 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '374'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '13'
+      - '10'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -867,7 +801,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -882,33 +816,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e6ac9b9b17c-LIS
+      - a2518c5f9c5a4891-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:25 GMT
+      - Mon, 03 Aug 2026 01:28:55 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '376'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '10'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -918,7 +844,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -933,33 +859,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e6c0a17f55c-LIS
+      - a2518c60eaddab0d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:25 GMT
+      - Mon, 03 Aug 2026 01:28:55 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '380'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -969,7 +887,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -988,33 +906,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e6d5c79f91f-MAD
+      - a2518c6229297072-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:25 GMT
+      - Mon, 03 Aug 2026 01:28:55 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '714'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:25
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '16'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1024,7 +934,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1039,33 +949,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e6eba90b835-MAD
+      - a2518c637e4b4842-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:26 GMT
+      - Mon, 03 Aug 2026 01:28:55 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '376'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:26
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '11'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1075,7 +977,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1090,33 +992,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e70294e547f-LIS
+      - a2518c64bd551245-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:26 GMT
+      - Mon, 03 Aug 2026 01:28:55 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '369'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:26
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '6'
+      - '10'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1126,7 +1020,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1145,33 +1039,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e7169bac554-LIS
+      - a2518c660e3748a4-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:26 GMT
+      - Mon, 03 Aug 2026 01:28:56 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '704'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:26
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1181,7 +1067,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1200,33 +1086,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e72abfa58fc-LIS
+      - a2518c68ad23750d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:26 GMT
+      - Mon, 03 Aug 2026 01:28:56 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '689'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:26
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '11'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1236,7 +1114,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1251,33 +1129,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e73efb3692c-LIS
+      - a2518c69ea1b4813-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:27 GMT
+      - Mon, 03 Aug 2026 01:28:56 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '376'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:27
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '10'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1287,7 +1157,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1306,33 +1176,25 @@ interactions:
         \"false\",\n\"is_direct\": false }] }"
     headers:
       CF-RAY:
-      - 9f815e752d3a4610-LIS
+      - a2518c6b2fdac19d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:27 GMT
+      - Mon, 03 Aug 2026 01:28:57 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '763'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:27
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '16'
+      - '13'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1342,7 +1204,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1361,33 +1223,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e770c04979a-LIS
+      - a2518c6c7f28f368-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:27 GMT
+      - Mon, 03 Aug 2026 01:28:57 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '698'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:27
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '18'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1397,7 +1251,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1416,33 +1270,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e786f93e3bd-LIS
+      - a2518c6dbafce3c8-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:27 GMT
+      - Mon, 03 Aug 2026 01:28:57 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '718'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:27
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1452,7 +1298,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1471,33 +1317,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e7b181f0325-MAD
+      - a2518c6efec8118a-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:28 GMT
+      - Mon, 03 Aug 2026 01:28:57 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '713'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:28
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '7'
+      - '11'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1507,7 +1345,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1526,33 +1364,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e7c693dcbb8-MAD
+      - a2518c704c445910-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:28 GMT
+      - Mon, 03 Aug 2026 01:28:57 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '697'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:28
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '10'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1562,7 +1392,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1581,33 +1411,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e7dcfc7c6ea-LIS
+      - a2518c717fcf7078-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:28 GMT
+      - Mon, 03 Aug 2026 01:28:58 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '703'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:28
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1617,7 +1439,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1626,39 +1448,31 @@ interactions:
     body:
       string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
         \"audio\", \n\"url\": \"https://radiobreca.com/live\",\n\"reliability\": 100,\n\"bitrate\":
-        320,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
+        256,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
         480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
         \"e632626567\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
         true }] }"
     headers:
       CF-RAY:
-      - 9f815e7f19c31a82-MAD
+      - a2518c72ba8f547f-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:28 GMT
+      - Mon, 03 Aug 2026 01:28:58 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '366'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:28
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '18'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1668,7 +1482,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1687,33 +1501,25 @@ interactions:
         \"false\",\n\"is_direct\": false }] }"
     headers:
       CF-RAY:
-      - 9f815e81fa4131f1-LIS
+      - a2518c73ff35e3d1-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:29 GMT
+      - Mon, 03 Aug 2026 01:28:58 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '718'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:29
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1723,7 +1529,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1742,33 +1548,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e83595b52b5-MAD
+      - a2518c753aa911e6-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:29 GMT
+      - Mon, 03 Aug 2026 01:28:58 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '708'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:29
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '11'
+      - '10'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1778,7 +1576,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1797,33 +1595,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e84ab0e7cec-MAD
+      - a2518c769acec156-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:29 GMT
+      - Mon, 03 Aug 2026 01:28:58 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '703'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:29
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '10'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1833,7 +1623,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1841,48 +1631,32 @@ interactions:
   response:
     body:
       string: " { \"head\": {\t\"status\": \"200\"}, \"body\": [\n { \"element\" :
-        \"audio\", \n\"url\": \"http://109.71.41.6:8110/\",\n\"reliability\": 100,\n\"bitrate\":
-        128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\": 640,\n\"player_height\":
-        480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\": \"false\",\n\"guide_id\":
-        \"e392088935\",\n\"is_ad_clipped_content_enabled\": \"false\",\n\"is_direct\":
-        true }, { \"element\" : \"audio\", \n\"url\": \"http://62.210.99.19:7044/\",\n\"reliability\":
-        95,\n\"bitrate\": 32,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
-        640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
-        \"false\",\n\"guide_id\": \"e392089172\",\n\"is_ad_clipped_content_enabled\":
-        \"false\",\n\"is_direct\": true }, { \"element\" : \"audio\", \n\"url\": \"http://62.210.99.19:7044/stream\",\n\"reliability\":
-        100,\n\"bitrate\": 32,\n\"media_type\": \"aac\",\n\"position\": 0,\n\"player_width\":
+        \"audio\", \n\"url\": \"https://stream.zeno.fm/9prct7k8h0hvv\",\n\"reliability\":
+        100,\n\"bitrate\": 128,\n\"media_type\": \"mp3\",\n\"position\": 0,\n\"player_width\":
         640,\n\"player_height\": 480,\n\"is_hls_advanced\": \"false\",\n\"live_seek_stream\":
         \"false\",\n\"guide_id\": \"e392135935\",\n\"is_ad_clipped_content_enabled\":
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e862a2bcc43-MAD
+      - a2518c77ead86936-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:29 GMT
+      - Mon, 03 Aug 2026 01:28:59 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
-      - '1008'
+      - '375'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:29
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1892,7 +1666,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1907,33 +1681,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e878837b17c-LIS
+      - a2518c793d628c92-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:30 GMT
+      - Mon, 03 Aug 2026 01:28:59 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '382'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:30
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1943,7 +1709,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -1962,33 +1728,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e88e8bb040e-MAD
+      - a2518c7a7e491df8-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:30 GMT
+      - Mon, 03 Aug 2026 01:28:59 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '719'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:30
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '6'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -1998,7 +1756,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2013,33 +1771,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e8a6ac3cc54-MAD
+      - a2518c7bbfaf7078-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:30 GMT
+      - Mon, 03 Aug 2026 01:28:59 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '369'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:30
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2049,7 +1799,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2064,33 +1814,25 @@ interactions:
         true }] }"
     headers:
       CF-RAY:
-      - 9f815e8bd8732b3a-MAD
+      - a2518c7cf9a9df91-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:30 GMT
+      - Mon, 03 Aug 2026 01:28:59 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '365'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:30
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2100,7 +1842,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2115,33 +1857,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e8e09530061-MAD
+      - a2518c7e4eb1f55c-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:31 GMT
+      - Mon, 03 Aug 2026 01:29:00 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '382'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:31
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2151,7 +1885,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2174,33 +1908,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e8feb1b48ab-LIS
+      - a2518c7f892deeea-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:31 GMT
+      - Mon, 03 Aug 2026 01:29:00 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '1022'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:31
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '11'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2210,7 +1936,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2225,33 +1951,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e91ed38df91-LIS
+      - a2518c80cec5e3c0-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:31 GMT
+      - Mon, 03 Aug 2026 01:29:00 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '370'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:31
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '12'
+      - '18'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2261,7 +1979,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2276,33 +1994,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e932b58d92d-LIS
+      - a2518c8219cbc534-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:32 GMT
+      - Mon, 03 Aug 2026 01:29:00 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '384'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:32
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '14'
+      - '3'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2312,7 +2022,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2327,33 +2037,25 @@ interactions:
         true }] }"
     headers:
       CF-RAY:
-      - 9f815e948dd9ec92-MAD
+      - a2518c834d63e6fd-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:32 GMT
+      - Mon, 03 Aug 2026 01:29:00 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '363'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:32
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '18'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2363,7 +2065,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2382,33 +2084,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815e95cb0b4892-LIS
+      - a2518c848b69af6f-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:32 GMT
+      - Mon, 03 Aug 2026 01:29:01 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '691'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:32
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '24'
+      - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2418,7 +2112,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2433,33 +2127,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eb09db44894-LIS
+      - a2518c85cb8a547f-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:36 GMT
+      - Mon, 03 Aug 2026 01:29:01 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '370'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:36
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '7'
+      - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2469,7 +2155,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2488,33 +2174,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eb1faacf529-MAD
+      - a2518c870db90b12-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:36 GMT
+      - Mon, 03 Aug 2026 01:29:01 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '719'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:36
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '14'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2524,7 +2202,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2539,33 +2217,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eb35c98b275-LIS
+      - a2518c885b06e3bd-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:37 GMT
+      - Mon, 03 Aug 2026 01:29:01 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '378'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:37
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2575,7 +2245,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2590,33 +2260,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eb4ac5fa0ad-MAD
+      - a2518c89980816a5-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:37 GMT
+      - Mon, 03 Aug 2026 01:29:01 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '389'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:37
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2626,7 +2288,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2645,33 +2307,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eb60e0931f1-LIS
+      - a2518c8ade3de3bd-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:37 GMT
+      - Mon, 03 Aug 2026 01:29:02 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '701'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:37
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '4'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2681,7 +2335,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2696,33 +2350,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815ee9ca3e780f-MAD
+      - a2518c8c1a998df4-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:45 GMT
+      - Mon, 03 Aug 2026 01:29:02 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '376'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:45
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2732,7 +2378,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2747,33 +2393,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eeb1bd50665-LIS
+      - a2518c8d4e3941b1-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:46 GMT
+      - Mon, 03 Aug 2026 01:29:02 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '375'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:46
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '11'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2783,7 +2421,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2806,33 +2444,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eeca933e3b8-LIS
+      - a2518c8e9eb562e8-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:46 GMT
+      - Mon, 03 Aug 2026 01:29:02 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '1045'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:46
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2842,7 +2472,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2861,33 +2491,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eedeea30b12-LIS
+      - a2518c8fd97318ee-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:46 GMT
+      - Mon, 03 Aug 2026 01:29:02 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '737'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:46
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '30'
+      - '5'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2897,7 +2519,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2912,33 +2534,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815eef5cfe4813-LIS
+      - a2518c910ba0ab0d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:46 GMT
+      - Mon, 03 Aug 2026 01:29:03 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '374'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:46
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2948,7 +2562,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -2963,33 +2577,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815ef0add60d76-MAD
+      - a2518c925a818e38-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:47 GMT
+      - Mon, 03 Aug 2026 01:29:03 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '369'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '6'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -2999,7 +2605,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3014,33 +2620,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815ef21f1894ad-LIS
+      - a2518c9399c50fee-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:47 GMT
+      - Mon, 03 Aug 2026 01:29:03 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '366'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '10'
+      - '4'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3050,7 +2648,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3073,33 +2671,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815ef35b18e3b5-LIS
+      - a2518c94cce6e3d1-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:47 GMT
+      - Mon, 03 Aug 2026 01:29:03 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '1048'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3109,7 +2699,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3124,33 +2714,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815ef4a959cbce-MAD
+      - a2518c960e82e3d1-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:47 GMT
+      - Mon, 03 Aug 2026 01:29:03 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '387'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '12'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3160,7 +2742,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3179,33 +2761,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815ef5e972e3b8-LIS
+      - a2518c975b6c5e8d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:47 GMT
+      - Mon, 03 Aug 2026 01:29:04 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '694'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:47
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '10'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3215,7 +2789,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3234,33 +2808,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815ef75935ec99-MAD
+      - a2518c98f8d9055d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:48 GMT
+      - Mon, 03 Aug 2026 01:29:04 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '703'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '10'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3270,7 +2836,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3285,33 +2851,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815ef8eaf10349-MAD
+      - a2518c9a39bfe3b5-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:48 GMT
+      - Mon, 03 Aug 2026 01:29:04 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '367'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3321,7 +2879,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3340,33 +2898,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815efa2b94f437-LIS
+      - a2518c9b6babe3bd-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:48 GMT
+      - Mon, 03 Aug 2026 01:29:04 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '709'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '7'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3376,7 +2926,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3391,33 +2941,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815efb7ab9aa05-MAD
+      - a2518c9caea3aa28-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:48 GMT
+      - Mon, 03 Aug 2026 01:29:04 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '370'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '14'
+      - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3427,7 +2969,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3446,33 +2988,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815efcf9790665-LIS
+      - a2518c9dde638df7-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:48 GMT
+      - Mon, 03 Aug 2026 01:29:05 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '687'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:48
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3482,7 +3016,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3501,33 +3035,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815efeac9c587c-MAD
+      - a2518c9f19503b82-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:49 GMT
+      - Mon, 03 Aug 2026 01:29:05 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '719'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:49
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '10'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3537,7 +3063,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3552,33 +3078,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f001ef1a986-MAD
+      - a2518ca068fff368-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:49 GMT
+      - Mon, 03 Aug 2026 01:29:05 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '376'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:49
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3588,7 +3106,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3603,33 +3121,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f016eda6dc0-MAD
+      - a2518ca1af16de22-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:49 GMT
+      - Mon, 03 Aug 2026 01:29:05 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '377'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:49
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3639,7 +3149,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3666,33 +3176,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f02c894f53d-LIS
+      - a2518ca2fa90e3d1-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:49 GMT
+      - Mon, 03 Aug 2026 01:29:05 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '1409'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:49
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3702,7 +3204,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3717,33 +3219,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f042fbc03cb-MAD
+      - a2518ca42ed6f368-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:50 GMT
+      - Mon, 03 Aug 2026 01:29:06 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '375'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:50
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '6'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3753,7 +3247,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3772,33 +3266,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f05acc1e8a1-MAD
+      - a2518ca5790848a4-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:50 GMT
+      - Mon, 03 Aug 2026 01:29:06 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '686'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:50
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3808,7 +3294,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3827,33 +3313,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f072981035e-MAD
+      - a2518ca6b91ce3c0-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:50 GMT
+      - Mon, 03 Aug 2026 01:29:06 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '705'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:50
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '10'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3863,7 +3341,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3878,33 +3356,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f088e3c0c00-LIS
+      - a2518ca7fbe07078-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:50 GMT
+      - Mon, 03 Aug 2026 01:29:06 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '375'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:50
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '7'
+      - '5'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3914,7 +3384,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3933,33 +3403,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f0a2ca5d665-LIS
+      - a2518ca93e51e3b5-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:51 GMT
+      - Mon, 03 Aug 2026 01:29:06 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '693'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:51
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '14'
+      - '12'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -3969,7 +3431,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -3988,33 +3450,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f0b6bc4e3cd-LIS
+      - a2518caa9f6e0b12-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:51 GMT
+      - Mon, 03 Aug 2026 01:29:07 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '680'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:51
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '10'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4024,7 +3478,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4047,33 +3501,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f0cde6bdb84-MAD
+      - a2518cabde8a5e8d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:51 GMT
+      - Mon, 03 Aug 2026 01:29:07 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '1045'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:51
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4083,7 +3529,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4098,33 +3544,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f0ea927f528-MAD
+      - a2518cad2c4031f1-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:51 GMT
+      - Mon, 03 Aug 2026 01:29:07 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '377'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:51
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '11'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4134,7 +3572,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4149,33 +3587,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f101eafcbea-MAD
+      - a2518cae6912055d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:52 GMT
+      - Mon, 03 Aug 2026 01:29:07 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '375'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '6'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4185,7 +3615,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4200,33 +3630,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f11793be3c8-LIS
+      - a2518cafbe54b3a4-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:52 GMT
+      - Mon, 03 Aug 2026 01:29:07 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '370'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
       - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4236,7 +3658,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4251,33 +3673,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f12cac84813-LIS
+      - a2518cb10a18ab0d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:52 GMT
+      - Mon, 03 Aug 2026 01:29:08 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '369'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '11'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4287,7 +3701,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4302,33 +3716,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f145b3a41f6-LIS
+      - a2518cb24a9958fc-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:52 GMT
+      - Mon, 03 Aug 2026 01:29:08 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '371'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '11'
+      - '10'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4338,7 +3744,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4357,33 +3763,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f15ae7ec534-LIS
+      - a2518cb38bbbe3b5-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:52 GMT
+      - Mon, 03 Aug 2026 01:29:08 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '713'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:52
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '8'
+      - '9'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4393,7 +3791,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4412,33 +3810,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f170a75ba1f-MAD
+      - a2518cb4cb81f368-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:53 GMT
+      - Mon, 03 Aug 2026 01:29:08 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '683'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:53
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '10'
+      - '7'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4448,7 +3838,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4471,33 +3861,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f19ff9df40c-MAD
+      - a2518cb60eddff4e-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:53 GMT
+      - Mon, 03 Aug 2026 01:29:08 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '1022'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:53
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '9'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4507,7 +3889,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4522,33 +3904,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f1b8f36750d-LIS
+      - a2518cb74cc2750d-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:53 GMT
+      - Mon, 03 Aug 2026 01:29:09 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '374'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:53
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '14'
+      - '8'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
@@ -4558,7 +3932,7 @@ interactions:
       Accept:
       - '*/*'
       Accept-Encoding:
-      - gzip, deflate, br
+      - gzip, deflate
       Connection:
       - keep-alive
     method: GET
@@ -4577,33 +3951,25 @@ interactions:
         \"false\",\n\"is_direct\": true }] }"
     headers:
       CF-RAY:
-      - 9f815f1d3b3513a4-MAD
+      - a2518cb899b816a5-LIS
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Thu, 07 May 2026 15:48:54 GMT
+      - Mon, 03 Aug 2026 01:29:09 GMT
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '695'
       server:
       - cloudflare
-      set-cookie:
-      - __cf_bm=<CF_BM>
-        HttpOnly; Path=/; Domain=radiotime.com; Expires=Thu, 07 May 2026 16:18:54
-        GMT
       vary:
       - Accept-Encoding
       x-envoy-upstream-service-time:
-      - '11'
+      - '6'
       x-tunein-dc:
       - us-west-2
-      x-tunein-span-id:
-      - <REDACTED>
-      x-tunein-trace-id:
-      - <REDACTED>
     status:
       code: 200
       message: OK
