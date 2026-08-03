@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a1](https://github.com/LeMetadatarr/tunein/tree/0.1.2a1) (2026-08-03)
+
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a6...0.1.2a1)
+
+**Merged pull requests:**
+
+- fix: return TuneIn stream URLs verbatim, don't resolve .pls [\#29](https://github.com/LeMetadatarr/tunein/pull/29) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.1a6](https://github.com/LeMetadatarr/tunein/tree/0.1.1a6) (2026-08-03)
 
 [Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a5...0.1.1a6)
