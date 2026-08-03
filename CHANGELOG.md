@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1a6](https://github.com/LeMetadatarr/tunein/tree/0.1.1a6) (2026-08-03)
+
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a5...0.1.1a6)
+
+**Merged pull requests:**
+
+- deep: bugs, real-fixture tests, docs/examples [\#28](https://github.com/LeMetadatarr/tunein/pull/28) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.1a5](https://github.com/LeMetadatarr/tunein/tree/0.1.1a5) (2026-08-03)
 
 [Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a4...0.1.1a5)
