@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a2](https://github.com/LeMetadatarr/tunein/tree/0.1.2a2) (2026-08-14)
+
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.2a1...0.1.2a2)
+
+**Merged pull requests:**
+
+- docs: add dataset documentation [\#30](https://github.com/LeMetadatarr/tunein/pull/30) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.2a1](https://github.com/LeMetadatarr/tunein/tree/0.1.2a1) (2026-08-03)
 
 [Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.1a6...0.1.2a1)
