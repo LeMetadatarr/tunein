@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a3](https://github.com/LeMetadatarr/tunein/tree/0.1.2a3) (2026-09-01)
+
+[Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.2a2...0.1.2a3)
+
+**Merged pull requests:**
+
+- Update actions/setup-python action to v7 [\#22](https://github.com/LeMetadatarr/tunein/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.1.2a2](https://github.com/LeMetadatarr/tunein/tree/0.1.2a2) (2026-08-14)
 
 [Full Changelog](https://github.com/LeMetadatarr/tunein/compare/0.1.2a1...0.1.2a2)
