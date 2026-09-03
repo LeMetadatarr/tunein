@@ -23,8 +23,9 @@ Homepage = "https://github.com/LeMetadatarr/tunein"
 tunein = "tunein.cli:main"
 
 [project.optional-dependencies]
+anon = ["anon_requests"]
 test = ["pytest", "vcrpy", "pytest-vcr"]
-stealth = ["curl-cffi"]
+stealth = ["curl-cffi", "unblock_requests"]
 
 [tool.setuptools.dynamic]
 version = {attr = "tunein.version.__version__"}

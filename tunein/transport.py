@@ -32,5 +32,10 @@ def default_session():
             return curl_requests.Session(impersonate="chrome")
         except ImportError:
             pass
+    try:
+        from unblock_requests import CloudflareSession
+        return CloudflareSession(env_prefix="TUNEIN", wayback_fallback=True)
+    except Exception:
+        pass
     import requests
     return requests.Session()
